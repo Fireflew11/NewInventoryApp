@@ -8,17 +8,26 @@ using Android.Content;
 
 namespace NewInventoryApp
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "tusik", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity, View.IOnClickListener
     {
-        Button btnSignIn;
+        Button btnSize, btnCompany;
 
         public void OnClick(View v)
         {
 
-            if(v == btnSignIn)
+            if(v == btnSize)
             {
-                btnSignIn.SetTextColor(Android.Graphics.Color.Black);
+                btnSize.SetTextColor(Android.Graphics.Color.Black);
+                Intent intentEasy = new Intent(this, typeof(CompanyActivity));
+•               //intentEasy.PutExtra(Constants.GAME_COLS_KEY, 7);
+•               //intentEasy.PutExtra(Constants.GAME_ROWS_KEY, 14);
+•               StartActivity(intentEasy);
+            }
+
+            if (v == btnCompany)
+            {
+                btnSize.SetTextColor(Android.Graphics.Color.Black);
             }
 
 
@@ -30,11 +39,13 @@ namespace NewInventoryApp
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.ButtonXml);
+            SetContentView(Resource.Layout.MainScreen);
 
 
-            btnSignIn = (Button)FindViewById(Resource.Id.buttonSignIn);
-            btnSignIn.SetOnClickListener(this);
+            btnSize = (Button)FindViewById(Resource.Id.mispar1);
+            btnSize.SetOnClickListener(this);
+            btnCompany = (Button)FindViewById(Resource.Id.mispar2);
+            btnCompany.SetOnClickListener(this);
 
 
         }

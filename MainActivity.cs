@@ -5,6 +5,8 @@ using AndroidX.AppCompat.App;
 using Android.Views;
 using Android.Widget;
 using Android.Content;
+using static Android.Manifest;
+using Android;
 
 namespace NewInventoryApp
 {
@@ -12,11 +14,16 @@ namespace NewInventoryApp
     public class MainActivity : AppCompatActivity, View.IOnClickListener
     {
         Button btnSize, btnCompany, btnNewShoe;
-
+        readonly string[] permissionGroup =
+       {
+            Manifest.Permission.ReadExternalStorage,
+            Manifest.Permission.WriteExternalStorage,
+            Manifest.Permission.Camera
+        };
         public void OnClick(View v)
         {
-
-            if(v == btnSize)
+           
+            if (v == btnSize)
             {
                 btnSize.SetTextColor(Android.Graphics.Color.Black);
                 Intent intentEasy = new Intent(this, typeof(CompanyActivity));
@@ -54,6 +61,7 @@ namespace NewInventoryApp
             btnNewShoe = (Button)FindViewById(Resource.Id.BtnAddShoe);
             btnNewShoe.SetOnClickListener(this);
 
+            RequestPermissions(permissionGroup, 0);
 
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

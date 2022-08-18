@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "RU/I4UGRq9kpHiCeOFLBTGruqy3Yx/YMUHsLqY5hfpxLDz3vNBHPSHFDAEJzJa8ip8cTR7KFav29uTW7xXGJdQ==",
+  "dgSpecHash": "Bnu0KIOxhykscPR9hMrJLK3NJGjgWwtmtcdKARNWbN8iZWi9paXDpXSAbT8pE2mRh6l5p6fCba8gFysViMoh+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tom\\source\\repos\\NewInventoryApp\\NewInventoryApp\\NewInventoryApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tom\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Tom\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\Tom\\.nuget\\packages\\xamarin.androidx.activity\\1.1.0.3\\xamarin.androidx.activity.1.1.0.3.nupkg.sha512",
     "C:\\Users\\Tom\\.nuget\\packages\\xamarin.androidx.annotation\\1.1.0.7\\xamarin.androidx.annotation.1.1.0.7.nupkg.sha512",
     "C:\\Users\\Tom\\.nuget\\packages\\xamarin.androidx.appcompat\\1.2.0.5\\xamarin.androidx.appcompat.1.2.0.5.nupkg.sha512",

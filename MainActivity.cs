@@ -11,7 +11,7 @@ namespace NewInventoryApp
     [Activity(Label = "tusik", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity, View.IOnClickListener
     {
-        Button btnSize, btnCompany;
+        Button btnSize, btnCompany, btnNewShoe;
 
         public void OnClick(View v)
         {
@@ -20,14 +20,19 @@ namespace NewInventoryApp
             {
                 btnSize.SetTextColor(Android.Graphics.Color.Black);
                 Intent intentEasy = new Intent(this, typeof(CompanyActivity));
-•               //intentEasy.PutExtra(Constants.GAME_COLS_KEY, 7);
-•               //intentEasy.PutExtra(Constants.GAME_ROWS_KEY, 14);
-•               StartActivity(intentEasy);
+                //intentEasy.PutExtra(Constants.GAME_COLS_KEY, 7);
+                //intentEasy.PutExtra(Constants.GAME_ROWS_KEY, 14);
+                StartActivity(intentEasy);
             }
 
             if (v == btnCompany)
             {
                 btnSize.SetTextColor(Android.Graphics.Color.Black);
+            }
+            if(v == btnNewShoe)
+            {
+                Intent newShowIntent = new Intent(this, typeof(Activities.NewShoeActivity));
+                StartActivity((newShowIntent));
             }
 
 
@@ -46,6 +51,8 @@ namespace NewInventoryApp
             btnSize.SetOnClickListener(this);
             btnCompany = (Button)FindViewById(Resource.Id.mispar2);
             btnCompany.SetOnClickListener(this);
+            btnNewShoe = (Button)FindViewById(Resource.Id.BtnAddShoe);
+            btnNewShoe.SetOnClickListener(this);
 
 
         }

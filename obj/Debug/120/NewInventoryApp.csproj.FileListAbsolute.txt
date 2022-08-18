@@ -33,7 +33,6 @@ C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\android\
 C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\android\bin\base.zip
 C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\android\bin\com.companyname.newinventoryapp.aab
 C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\android\bin\com.companyname.newinventoryapp.apks
-C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\res\layout\activity_main.xml
 C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\res\values\colors.xml
 C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\res\values\ic_launcher_background.xml
 C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\res\values\strings.xml
@@ -55,7 +54,6 @@ C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\res\mipm
 C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\res\mipmap-xxxhdpi\ic_launcher.png
 C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\res\mipmap-xxxhdpi\ic_launcher_foreground.png
 C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\res\mipmap-xxxhdpi\ic_launcher_round.png
-C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\res\layout\buttonxml.xml
 C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\uploadflags.txt
 C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\resolvedassemblies.hash
 C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\android\assets\Java.Interop.dll
@@ -619,3 +617,7 @@ C:\Users\Itay\source\repos\BroideApp\NewInventoryApp\obj\Debug\120\stamp\_Conver
 C:\Users\Itay\source\repos\BroideApp\NewInventoryApp\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Users\Itay\source\repos\BroideApp\NewInventoryApp\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Itay\source\repos\BroideApp\NewInventoryApp\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\res\layout\mainscreen.xml
+C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\android\src\crc641738bf085b7f28f2\CompanyActivity.java
+C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\res\layout\newshoescreen.xml
+C:\Users\Tom\source\repos\NewInventoryApp\NewInventoryApp\obj\Debug\120\android\src\crc642bfae57149d3bbf7\NewShoeActivity.java

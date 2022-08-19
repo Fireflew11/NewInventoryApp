@@ -54,7 +54,7 @@ namespace NewInventoryApp
 
             SearchSize = (EditText)FindViewById(Resource.Id.SearchSize);
             SearchSize.SetOnClickListener(this);
-            SearchCompany = (EditText)FindViewById(Resource.Id.SearchCompany);
+            SearchCompany = (EditText)FindViewById(Resource.Id.SearchCompanyg);
             SearchCompany.SetOnClickListener(this);
             btnNewShoe = (Button)FindViewById(Resource.Id.BtnAddShoe);
             btnNewShoe.SetOnClickListener(this);

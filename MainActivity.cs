@@ -13,7 +13,8 @@ namespace NewInventoryApp
     [Activity(Label = "tusik", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity, View.IOnClickListener
     {
-        Button btnSize, btnCompany, btnNewShoe;
+        Button btnNewShoe;
+        EditText SearchCompany, SearchSize;
         readonly string[] permissionGroup =
        {
             Manifest.Permission.ReadExternalStorage,
@@ -22,21 +23,18 @@ namespace NewInventoryApp
         };
         public void OnClick(View v)
         {
-           
-            if (v == btnSize)
+
+            if (v == SearchSize)
             {
-                btnSize.SetTextColor(Android.Graphics.Color.Black);
-                Intent intentEasy = new Intent(this, typeof(CompanyActivity));
-                //intentEasy.PutExtra(Constants.GAME_COLS_KEY, 7);
-                //intentEasy.PutExtra(Constants.GAME_ROWS_KEY, 14);
-                StartActivity(intentEasy);
+                SearchSize.SetTextColor(Android.Graphics.Color.Black);
             }
 
-            if (v == btnCompany)
+            if (v == SearchCompany)
             {
-                btnSize.SetTextColor(Android.Graphics.Color.Black);
+                SearchCompany.SetTextColor(Android.Graphics.Color.Black);
             }
-            if(v == btnNewShoe)
+
+            if (v == btnNewShoe)
             {
                 Intent newShowIntent = new Intent(this, typeof(Activities.NewShoeActivity));
                 StartActivity((newShowIntent));
@@ -54,10 +52,10 @@ namespace NewInventoryApp
             SetContentView(Resource.Layout.MainScreen);
 
 
-            btnSize = (Button)FindViewById(Resource.Id.mispar1);
-            btnSize.SetOnClickListener(this);
-            btnCompany = (Button)FindViewById(Resource.Id.mispar2);
-            btnCompany.SetOnClickListener(this);
+            SearchSize = (EditText)FindViewById(Resource.Id.SearchSize);
+            SearchSize.SetOnClickListener(this);
+            SearchCompany = (EditText)FindViewById(Resource.Id.SearchCompany);
+            SearchCompany.SetOnClickListener(this);
             btnNewShoe = (Button)FindViewById(Resource.Id.BtnAddShoe);
             btnNewShoe.SetOnClickListener(this);
 

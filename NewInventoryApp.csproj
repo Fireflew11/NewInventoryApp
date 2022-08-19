@@ -62,9 +62,9 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\CompanyActivity.cs" />
     <Compile Include="Activities\NewShoeActivity.cs" />
     <Compile Include="Classes\Shoe.cs" />
-    <Compile Include="CompanyActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

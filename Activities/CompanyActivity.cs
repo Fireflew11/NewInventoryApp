@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace NewInventoryApp
+namespace NewInventoryApp.Activities
 {
     [Activity(Label = "CompanyActivity")]
     public class CompanyActivity : Activity

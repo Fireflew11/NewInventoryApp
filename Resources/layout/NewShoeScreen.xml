@@ -60,7 +60,8 @@
             <Button
             android:layout_width="200px"
             android:layout_height="match_parent"
-            android:text="Save"/>
+            android:text="Save"
+            android:id="@+id/saveBtn"/>
             
                     
              

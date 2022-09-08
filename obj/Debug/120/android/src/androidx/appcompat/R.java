@@ -666,7 +666,7 @@ public final class R {
 		public static final int unchecked = 0x7f0801d9;
 		public static final int uniform = 0x7f0801da;
 		public static final int up = 0x7f0801dc;
-		public static final int wrap_content = 0x7f0801eb;
+		public static final int wrap_content = 0x7f0801ec;
 	}
 	public static final class integer {
 		public static final int abc_config_activityDefaultDur = 0x7f090000;

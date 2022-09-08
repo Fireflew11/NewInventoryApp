@@ -1,9 +1,9 @@
-NewInventoryApp.CompanyActivity, NewInventoryApp;crc641738bf085b7f28f2.CompanyActivity
-NewInventoryApp.CompanyActivity;crc641738bf085b7f28f2.CompanyActivity
-newinventoryapp.CompanyActivity;crc641738bf085b7f28f2.CompanyActivity
 NewInventoryApp.MainActivity, NewInventoryApp;crc641738bf085b7f28f2.MainActivity
 NewInventoryApp.MainActivity;crc641738bf085b7f28f2.MainActivity
 newinventoryapp.MainActivity;crc641738bf085b7f28f2.MainActivity
+NewInventoryApp.Activities.CompanyActivity, NewInventoryApp;crc642bfae57149d3bbf7.CompanyActivity
+NewInventoryApp.Activities.CompanyActivity;crc642bfae57149d3bbf7.CompanyActivity
+newinventoryapp.activities.CompanyActivity;crc642bfae57149d3bbf7.CompanyActivity
 NewInventoryApp.Activities.NewShoeActivity, NewInventoryApp;crc642bfae57149d3bbf7.NewShoeActivity
 NewInventoryApp.Activities.NewShoeActivity;crc642bfae57149d3bbf7.NewShoeActivity
 newinventoryapp.activities.NewShoeActivity;crc642bfae57149d3bbf7.NewShoeActivity
@@ -76,6 +76,9 @@ androidx.annotation.ColorRes;androidx.annotation.ColorRes
 AndroidX.Annotations.IContentView, Xamarin.AndroidX.Annotation;androidx.annotation.ContentView
 AndroidX.Annotations.IContentView;androidx.annotation.ContentView
 androidx.annotation.ContentView;androidx.annotation.ContentView
+AndroidX.Annotations.IDeprecatedSinceApi, Xamarin.AndroidX.Annotation;androidx.annotation.DeprecatedSinceApi
+AndroidX.Annotations.IDeprecatedSinceApi;androidx.annotation.DeprecatedSinceApi
+androidx.annotation.DeprecatedSinceApi;androidx.annotation.DeprecatedSinceApi
 AndroidX.Annotations.IDimenRes, Xamarin.AndroidX.Annotation;androidx.annotation.DimenRes
 AndroidX.Annotations.IDimenRes;androidx.annotation.DimenRes
 androidx.annotation.DimenRes;androidx.annotation.DimenRes
@@ -94,6 +97,9 @@ androidx.annotation.DoNotInline;androidx.annotation.DoNotInline
 AndroidX.Annotations.IDrawableRes, Xamarin.AndroidX.Annotation;androidx.annotation.DrawableRes
 AndroidX.Annotations.IDrawableRes;androidx.annotation.DrawableRes
 androidx.annotation.DrawableRes;androidx.annotation.DrawableRes
+AndroidX.Annotations.IEmptySuper, Xamarin.AndroidX.Annotation;androidx.annotation.EmptySuper
+AndroidX.Annotations.IEmptySuper;androidx.annotation.EmptySuper
+androidx.annotation.EmptySuper;androidx.annotation.EmptySuper
 AndroidX.Annotations.IFloatRange, Xamarin.AndroidX.Annotation;androidx.annotation.FloatRange
 AndroidX.Annotations.IFloatRange;androidx.annotation.FloatRange
 androidx.annotation.FloatRange;androidx.annotation.FloatRange
@@ -163,6 +169,9 @@ androidx.annotation.NonUiContext;androidx.annotation.NonUiContext
 AndroidX.Annotations.INullable, Xamarin.AndroidX.Annotation;androidx.annotation.Nullable
 AndroidX.Annotations.INullable;androidx.annotation.Nullable
 androidx.annotation.Nullable;androidx.annotation.Nullable
+AndroidX.Annotations.IOpenForTesting, Xamarin.AndroidX.Annotation;androidx.annotation.OpenForTesting
+AndroidX.Annotations.IOpenForTesting;androidx.annotation.OpenForTesting
+androidx.annotation.OpenForTesting;androidx.annotation.OpenForTesting
 AndroidX.Annotations.IPluralsRes, Xamarin.AndroidX.Annotation;androidx.annotation.PluralsRes
 AndroidX.Annotations.IPluralsRes;androidx.annotation.PluralsRes
 androidx.annotation.PluralsRes;androidx.annotation.PluralsRes
@@ -190,6 +199,9 @@ androidx.annotation.RequiresPermission;androidx.annotation.RequiresPermission
 AndroidX.Annotations.IRestrictTo, Xamarin.AndroidX.Annotation;androidx.annotation.RestrictTo
 AndroidX.Annotations.IRestrictTo;androidx.annotation.RestrictTo
 androidx.annotation.RestrictTo;androidx.annotation.RestrictTo
+AndroidX.Annotations.IReturnThis, Xamarin.AndroidX.Annotation;androidx.annotation.ReturnThis
+AndroidX.Annotations.IReturnThis;androidx.annotation.ReturnThis
+androidx.annotation.ReturnThis;androidx.annotation.ReturnThis
 AndroidX.Annotations.ISize, Xamarin.AndroidX.Annotation;androidx.annotation.Size
 AndroidX.Annotations.ISize;androidx.annotation.Size
 androidx.annotation.Size;androidx.annotation.Size
@@ -1051,6 +1063,12 @@ androidx.lifecycle.ViewModelStoreOwner;androidx.lifecycle.ViewModelStoreOwner
 AndroidX.Lifecycle.ViewModelProvider+IFactory, Xamarin.AndroidX.Lifecycle.ViewModel;androidx.lifecycle.ViewModelProvider$Factory
 AndroidX.Lifecycle.ViewModelProvider.IFactory;androidx.lifecycle.ViewModelProvider$Factory
 androidx.lifecycle.ViewModelProvider$Factory;androidx.lifecycle.ViewModelProvider$Factory
+AndroidX.Lifecycle.ViewModels.CreationExtras+IKey, Xamarin.AndroidX.Lifecycle.ViewModel;androidx.lifecycle.viewmodel.CreationExtras$Key
+AndroidX.Lifecycle.ViewModels.CreationExtras.IKey;androidx.lifecycle.viewmodel.CreationExtras$Key
+androidx.lifecycle.viewmodel.CreationExtras$Key;androidx.lifecycle.viewmodel.CreationExtras$Key
+AndroidX.Lifecycle.ViewModels.IViewModelFactoryDsl, Xamarin.AndroidX.Lifecycle.ViewModel;androidx.lifecycle.viewmodel.ViewModelFactoryDsl
+AndroidX.Lifecycle.ViewModels.IViewModelFactoryDsl;androidx.lifecycle.viewmodel.ViewModelFactoryDsl
+androidx.lifecycle.viewmodel.ViewModelFactoryDsl;androidx.lifecycle.viewmodel.ViewModelFactoryDsl
 AndroidX.Loader.Content.Loader+IOnLoadCanceledListener, Xamarin.AndroidX.Loader;androidx.loader.content.Loader$OnLoadCanceledListener
 AndroidX.Loader.Content.Loader.IOnLoadCanceledListener;androidx.loader.content.Loader$OnLoadCanceledListener
 androidx.loader.content.Loader$OnLoadCanceledListener;androidx.loader.content.Loader$OnLoadCanceledListener
@@ -1870,6 +1888,9 @@ kotlin.UseExperimental;kotlin.UseExperimental
 Kotlin.Time.IExperimentalTime, Xamarin.Kotlin.StdLib;kotlin.time.ExperimentalTime
 Kotlin.Time.IExperimentalTime;kotlin.time.ExperimentalTime
 kotlin.time.ExperimentalTime;kotlin.time.ExperimentalTime
+Kotlin.Time.ITimeMark, Xamarin.Kotlin.StdLib;kotlin.time.TimeMark
+Kotlin.Time.ITimeMark;kotlin.time.TimeMark
+kotlin.time.TimeMark;kotlin.time.TimeMark
 Kotlin.Time.ITimeSource, Xamarin.Kotlin.StdLib;kotlin.time.TimeSource
 Kotlin.Time.ITimeSource;kotlin.time.TimeSource
 kotlin.time.TimeSource;kotlin.time.TimeSource
@@ -2218,3 +2239,72 @@ kotlin.ranges.ClosedRange;kotlin.ranges.ClosedRange
 Kotlin.Collections.IGrouping, Xamarin.Kotlin.StdLib;kotlin.collections.Grouping
 Kotlin.Collections.IGrouping;kotlin.collections.Grouping
 kotlin.collections.Grouping;kotlin.collections.Grouping
+Kotlin.IO.Path.IExperimentalPathApi, Xamarin.Kotlin.StdLib.Jdk7;kotlin.io.path.ExperimentalPathApi
+Kotlin.IO.Path.IExperimentalPathApi;kotlin.io.path.ExperimentalPathApi
+kotlin.io.path.ExperimentalPathApi;kotlin.io.path.ExperimentalPathApi
+Xamarin.KotlinX.Coroutines.ICancellableContinuation, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.CancellableContinuation
+Xamarin.KotlinX.Coroutines.ICancellableContinuation;kotlinx.coroutines.CancellableContinuation
+kotlinx.coroutines.CancellableContinuation;kotlinx.coroutines.CancellableContinuation
+Xamarin.KotlinX.Coroutines.ICopyableThreadContextElement, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.CopyableThreadContextElement
+Xamarin.KotlinX.Coroutines.ICopyableThreadContextElement;kotlinx.coroutines.CopyableThreadContextElement
+kotlinx.coroutines.CopyableThreadContextElement;kotlinx.coroutines.CopyableThreadContextElement
+Xamarin.KotlinX.Coroutines.ICopyableThrowable, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.CopyableThrowable
+Xamarin.KotlinX.Coroutines.ICopyableThrowable;kotlinx.coroutines.CopyableThrowable
+kotlinx.coroutines.CopyableThrowable;kotlinx.coroutines.CopyableThrowable
+Xamarin.KotlinX.Coroutines.ICoroutineExceptionHandler, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.CoroutineExceptionHandler
+Xamarin.KotlinX.Coroutines.ICoroutineExceptionHandler;kotlinx.coroutines.CoroutineExceptionHandler
+kotlinx.coroutines.CoroutineExceptionHandler;kotlinx.coroutines.CoroutineExceptionHandler
+Xamarin.KotlinX.Coroutines.ICoroutineScope, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.CoroutineScope
+Xamarin.KotlinX.Coroutines.ICoroutineScope;kotlinx.coroutines.CoroutineScope
+kotlinx.coroutines.CoroutineScope;kotlinx.coroutines.CoroutineScope
+Xamarin.KotlinX.Coroutines.IDelay, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.Delay
+Xamarin.KotlinX.Coroutines.IDelay;kotlinx.coroutines.Delay
+kotlinx.coroutines.Delay;kotlinx.coroutines.Delay
+Xamarin.KotlinX.Coroutines.IDelicateCoroutinesApi, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.DelicateCoroutinesApi
+Xamarin.KotlinX.Coroutines.IDelicateCoroutinesApi;kotlinx.coroutines.DelicateCoroutinesApi
+kotlinx.coroutines.DelicateCoroutinesApi;kotlinx.coroutines.DelicateCoroutinesApi
+Xamarin.KotlinX.Coroutines.IDisposableHandle, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.DisposableHandle
+Xamarin.KotlinX.Coroutines.IDisposableHandle;kotlinx.coroutines.DisposableHandle
+kotlinx.coroutines.DisposableHandle;kotlinx.coroutines.DisposableHandle
+Xamarin.KotlinX.Coroutines.IExperimentalCoroutinesApi, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.ExperimentalCoroutinesApi
+Xamarin.KotlinX.Coroutines.IExperimentalCoroutinesApi;kotlinx.coroutines.ExperimentalCoroutinesApi
+kotlinx.coroutines.ExperimentalCoroutinesApi;kotlinx.coroutines.ExperimentalCoroutinesApi
+Xamarin.KotlinX.Coroutines.IFlowPreview, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.FlowPreview
+Xamarin.KotlinX.Coroutines.IFlowPreview;kotlinx.coroutines.FlowPreview
+kotlinx.coroutines.FlowPreview;kotlinx.coroutines.FlowPreview
+Xamarin.KotlinX.Coroutines.IInternalCoroutinesApi, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.InternalCoroutinesApi
+Xamarin.KotlinX.Coroutines.IInternalCoroutinesApi;kotlinx.coroutines.InternalCoroutinesApi
+kotlinx.coroutines.InternalCoroutinesApi;kotlinx.coroutines.InternalCoroutinesApi
+Xamarin.KotlinX.Coroutines.IObsoleteCoroutinesApi, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.ObsoleteCoroutinesApi
+Xamarin.KotlinX.Coroutines.IObsoleteCoroutinesApi;kotlinx.coroutines.ObsoleteCoroutinesApi
+kotlinx.coroutines.ObsoleteCoroutinesApi;kotlinx.coroutines.ObsoleteCoroutinesApi
+Xamarin.KotlinX.Coroutines.IThreadContextElement, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.ThreadContextElement
+Xamarin.KotlinX.Coroutines.IThreadContextElement;kotlinx.coroutines.ThreadContextElement
+kotlinx.coroutines.ThreadContextElement;kotlinx.coroutines.ThreadContextElement
+Xamarin.KotlinX.Coroutines.Sync.ISemaphore, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.sync.Semaphore
+Xamarin.KotlinX.Coroutines.Sync.ISemaphore;kotlinx.coroutines.sync.Semaphore
+kotlinx.coroutines.sync.Semaphore;kotlinx.coroutines.sync.Semaphore
+Xamarin.KotlinX.Coroutines.Flow.IFlow, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.flow.Flow
+Xamarin.KotlinX.Coroutines.Flow.IFlow;kotlinx.coroutines.flow.Flow
+kotlinx.coroutines.flow.Flow;kotlinx.coroutines.flow.Flow
+Xamarin.KotlinX.Coroutines.Flow.IFlowCollector, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.flow.FlowCollector
+Xamarin.KotlinX.Coroutines.Flow.IFlowCollector;kotlinx.coroutines.flow.FlowCollector
+kotlinx.coroutines.flow.FlowCollector;kotlinx.coroutines.flow.FlowCollector
+Xamarin.KotlinX.Coroutines.Flow.IMutableSharedFlow, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.flow.MutableSharedFlow
+Xamarin.KotlinX.Coroutines.Flow.IMutableSharedFlow;kotlinx.coroutines.flow.MutableSharedFlow
+kotlinx.coroutines.flow.MutableSharedFlow;kotlinx.coroutines.flow.MutableSharedFlow
+Xamarin.KotlinX.Coroutines.Flow.IMutableStateFlow, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.flow.MutableStateFlow
+Xamarin.KotlinX.Coroutines.Flow.IMutableStateFlow;kotlinx.coroutines.flow.MutableStateFlow
+kotlinx.coroutines.flow.MutableStateFlow;kotlinx.coroutines.flow.MutableStateFlow
+Xamarin.KotlinX.Coroutines.Flow.ISharedFlow, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.flow.SharedFlow
+Xamarin.KotlinX.Coroutines.Flow.ISharedFlow;kotlinx.coroutines.flow.SharedFlow
+kotlinx.coroutines.flow.SharedFlow;kotlinx.coroutines.flow.SharedFlow
+Xamarin.KotlinX.Coroutines.Flow.ISharingStarted, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.flow.SharingStarted
+Xamarin.KotlinX.Coroutines.Flow.ISharingStarted;kotlinx.coroutines.flow.SharingStarted
+kotlinx.coroutines.flow.SharingStarted;kotlinx.coroutines.flow.SharingStarted
+Xamarin.KotlinX.Coroutines.Flow.IStateFlow, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.flow.StateFlow
+Xamarin.KotlinX.Coroutines.Flow.IStateFlow;kotlinx.coroutines.flow.StateFlow
+kotlinx.coroutines.flow.StateFlow;kotlinx.coroutines.flow.StateFlow
+Xamarin.KotlinX.Coroutines.Channels.IChannelIterator, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.channels.ChannelIterator
+Xamarin.KotlinX.Coroutines.Channels.IChannelIterator;kotlinx.coroutines.channels.ChannelIterator
+kotlinx.coroutines.channels.ChannelIterator;kotlinx.coroutines.channels.ChannelIterator

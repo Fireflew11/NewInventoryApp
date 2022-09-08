@@ -89,7 +89,6 @@ public final class R {
      */
     public static final int SharedValueId=0x7f030001;
     /**
-     * Custom divider drawable to use for elements in the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -97,7 +96,6 @@ public final class R {
      */
     public static final int actionBarDivider=0x7f030002;
     /**
-     * Custom item state list drawable background for action bar items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -105,8 +103,6 @@ public final class R {
      */
     public static final int actionBarItemBackground=0x7f030003;
     /**
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -114,8 +110,6 @@ public final class R {
      */
     public static final int actionBarPopupTheme=0x7f030004;
     /**
-     * Size of the Action Bar, including the contextual
-     * bar used to present Action Modes.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -132,10 +126,6 @@ public final class R {
      */
     public static final int actionBarSize=0x7f030005;
     /**
-     * Reference to a style for the split Action Bar. This style
-     * controls the split component that holds the menu/action
-     * buttons. actionBarStyle is still used for the primary
-     * bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -143,7 +133,6 @@ public final class R {
      */
     public static final int actionBarSplitStyle=0x7f030006;
     /**
-     * Reference to a style for the Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -158,7 +147,6 @@ public final class R {
      */
     public static final int actionBarTabBarStyle=0x7f030008;
     /**
-     * Default style for tabs within an action bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -173,9 +161,6 @@ public final class R {
      */
     public static final int actionBarTabTextStyle=0x7f03000a;
     /**
-     * Reference to a theme that should be used to inflate the
-     * action bar. This will be inherited by any widget inflated
-     * into the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -183,13 +168,6 @@ public final class R {
      */
     public static final int actionBarTheme=0x7f03000b;
     /**
-     * Reference to a theme that should be used to inflate widgets
-     * and layouts destined for the action bar. Most of the time
-     * this will be a reference to the current theme, but when
-     * the action bar has a significantly different contrast
-     * profile than the rest of the activity the difference
-     * can become important. If this is set to @null the current
-     * theme will be used.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -197,7 +175,6 @@ public final class R {
      */
     public static final int actionBarWidgetTheme=0x7f03000c;
     /**
-     * Default action button style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -205,7 +182,6 @@ public final class R {
      */
     public static final int actionButtonStyle=0x7f03000d;
     /**
-     * Default ActionBar dropdown style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -213,9 +189,6 @@ public final class R {
      */
     public static final int actionDropDownStyle=0x7f03000e;
     /**
-     * An optional layout to be used as an action view.
-     * See {@link android.view.MenuItem#setActionView(android.view.View)}
-     * for more info.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -223,8 +196,6 @@ public final class R {
      */
     public static final int actionLayout=0x7f03000f;
     /**
-     * TextAppearance style that will be applied to text that
-     * appears within action menu items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -232,7 +203,6 @@ public final class R {
      */
     public static final int actionMenuTextAppearance=0x7f030010;
     /**
-     * Color for text that appears within action menu items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -243,7 +213,6 @@ public final class R {
      */
     public static final int actionMenuTextColor=0x7f030011;
     /**
-     * Background drawable to use for action mode UI
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -258,13 +227,11 @@ public final class R {
      */
     public static final int actionModeCloseButtonStyle=0x7f030013;
     /**
-     * Content description to use for the close action mode button
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int actionModeCloseContentDescription=0x7f030014;
     /**
-     * Drawable to use for the close action mode button
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -272,7 +239,6 @@ public final class R {
      */
     public static final int actionModeCloseDrawable=0x7f030015;
     /**
-     * Drawable to use for the Copy action button in Contextual Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -280,7 +246,6 @@ public final class R {
      */
     public static final int actionModeCopyDrawable=0x7f030016;
     /**
-     * Drawable to use for the Cut action button in Contextual Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -288,7 +253,6 @@ public final class R {
      */
     public static final int actionModeCutDrawable=0x7f030017;
     /**
-     * Drawable to use for the Find action button in WebView selection action modes
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -296,7 +260,6 @@ public final class R {
      */
     public static final int actionModeFindDrawable=0x7f030018;
     /**
-     * Drawable to use for the Paste action button in Contextual Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -304,7 +267,6 @@ public final class R {
      */
     public static final int actionModePasteDrawable=0x7f030019;
     /**
-     * PopupWindow style to use for action modes when showing as a window overlay.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -312,7 +274,6 @@ public final class R {
      */
     public static final int actionModePopupWindowStyle=0x7f03001a;
     /**
-     * Drawable to use for the Select all action button in Contextual Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -320,7 +281,6 @@ public final class R {
      */
     public static final int actionModeSelectAllDrawable=0x7f03001b;
     /**
-     * Drawable to use for the Share action button in WebView selection action modes
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -328,7 +288,6 @@ public final class R {
      */
     public static final int actionModeShareDrawable=0x7f03001c;
     /**
-     * Background drawable to use for action mode UI in the lower split bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -343,9 +302,6 @@ public final class R {
      */
     public static final int actionModeStyle=0x7f03001e;
     /**
-     * Reference to a theme that should be used to inflate the
-     * action bar in action mode. This will be inherited by any widget inflated
-     * into the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -353,7 +309,6 @@ public final class R {
      */
     public static final int actionModeTheme=0x7f03001f;
     /**
-     * Drawable to use for the Web Search action button in WebView selection action modes
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -375,10 +330,6 @@ public final class R {
      */
     public static final int actionOverflowMenuStyle=0x7f030022;
     /**
-     * The name of an optional ActionProvider class to instantiate an action view
-     * and perform operations such as default action for that menu item.
-     * See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
-     * for more info.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -390,15 +341,11 @@ public final class R {
      */
     public static final int actionTextColorAlpha=0x7f030024;
     /**
-     * The name of an optional View class to instantiate and use as an
-     * action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
-     * for more info.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int actionViewClass=0x7f030025;
     /**
-     * Default ActivityChooserView style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -425,7 +372,6 @@ public final class R {
      */
     public static final int alertDialogStyle=0x7f030029;
     /**
-     * Theme to use for alert dialogs spawned from this theme.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -433,8 +379,6 @@ public final class R {
      */
     public static final int alertDialogTheme=0x7f03002a;
     /**
-     * Whether to automatically stack the buttons when there is not
-     * enough space to lay them out side-by-side.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -444,8 +388,6 @@ public final class R {
      */
     public static final int alpha=0x7f03002c;
     /**
-     * The alphabetic modifier key. This is the modifier when using a keyboard
-     * with alphabetic keys. The values should be kept in sync with KeyEvent
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -529,7 +471,6 @@ public final class R {
      */
     public static final int arcMode=0x7f030034;
     /**
-     * The length of the arrow head when formed to make an arrow
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -538,7 +479,6 @@ public final class R {
      */
     public static final int arrowHeadLength=0x7f030035;
     /**
-     * The length of the shaft when formed to make an arrow
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -564,7 +504,6 @@ public final class R {
      */
     public static final int autoCompleteMode=0x7f030038;
     /**
-     * Default AutoCompleteTextView style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -572,7 +511,6 @@ public final class R {
      */
     public static final int autoCompleteTextViewStyle=0x7f030039;
     /**
-     * The maximum text size constraint to be used when auto-sizing text.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -581,7 +519,6 @@ public final class R {
      */
     public static final int autoSizeMaxTextSize=0x7f03003a;
     /**
-     * The minimum text size constraint to be used when auto-sizing text.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -590,9 +527,6 @@ public final class R {
      */
     public static final int autoSizeMinTextSize=0x7f03003b;
     /**
-     * Resource array of dimensions to be used in conjunction with
-     * <code>autoSizeTextType</code> set to <code>uniform</code>. Overrides
-     * <code>autoSizeStepGranularity</code> if set.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -600,9 +534,6 @@ public final class R {
      */
     public static final int autoSizePresetSizes=0x7f03003c;
     /**
-     * Specify the auto-size step size if <code>autoSizeTextType</code> is set to
-     * <code>uniform</code>. The default is 1px. Overwrites
-     * <code>autoSizePresetSizes</code> if set.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -611,8 +542,6 @@ public final class R {
      */
     public static final int autoSizeStepGranularity=0x7f03003d;
     /**
-     * Specify the type of auto-size. Note that this feature is not supported by EditText,
-     * works only for TextView.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -641,7 +570,6 @@ public final class R {
      */
     public static final int autoTransition=0x7f03003f;
     /**
-     * Specifies a background drawable for the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -693,7 +621,6 @@ public final class R {
      */
     public static final int backgroundOverlayColorAlpha=0x7f030046;
     /**
-     * Specifies a background drawable for the bottom component of a split action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -704,7 +631,6 @@ public final class R {
      */
     public static final int backgroundSplit=0x7f030047;
     /**
-     * Specifies a background drawable for a second stacked row of the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -721,7 +647,6 @@ public final class R {
      */
     public static final int backgroundTint=0x7f030049;
     /**
-     * Blending mode used to apply the background tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -797,7 +722,6 @@ public final class R {
      */
     public static final int badgeWithTextRadius=0x7f030050;
     /**
-     * The length of the bars when they are parallel to each other
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -972,7 +896,6 @@ public final class R {
      */
     public static final int borderWidth=0x7f030063;
     /**
-     * Style for buttons without an explicit border, often used in groups.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1123,7 +1046,6 @@ public final class R {
      */
     public static final int brightness=0x7f030075;
     /**
-     * Style for buttons within button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1131,7 +1053,6 @@ public final class R {
      */
     public static final int buttonBarButtonStyle=0x7f030076;
     /**
-     * Style for the "negative" buttons within button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1139,7 +1060,6 @@ public final class R {
      */
     public static final int buttonBarNegativeButtonStyle=0x7f030077;
     /**
-     * Style for the "neutral" buttons within button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1147,7 +1067,6 @@ public final class R {
      */
     public static final int buttonBarNeutralButtonStyle=0x7f030078;
     /**
-     * Style for the "positive" buttons within button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1155,7 +1074,6 @@ public final class R {
      */
     public static final int buttonBarPositiveButtonStyle=0x7f030079;
     /**
-     * Style for button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1163,7 +1081,6 @@ public final class R {
      */
     public static final int buttonBarStyle=0x7f03007a;
     /**
-     * Compat attr to load backported drawable types
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1199,7 +1116,6 @@ public final class R {
      */
     public static final int buttonPanelSideLayout=0x7f03007e;
     /**
-     * Normal Button style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1207,7 +1123,6 @@ public final class R {
      */
     public static final int buttonStyle=0x7f03007f;
     /**
-     * Small Button style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1215,14 +1130,12 @@ public final class R {
      */
     public static final int buttonStyleSmall=0x7f030080;
     /**
-     * Tint to apply to the button drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int buttonTint=0x7f030081;
     /**
-     * Blending mode used to apply the button tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -1388,7 +1301,6 @@ public final class R {
      */
     public static final int chainUseRtl=0x7f030096;
     /**
-     * Compat attr to load backported drawable types
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1396,14 +1308,12 @@ public final class R {
      */
     public static final int checkMarkCompat=0x7f030097;
     /**
-     * Tint to apply to the check mark drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int checkMarkTint=0x7f030098;
     /**
-     * Blending mode used to apply the check mark tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -1425,7 +1335,6 @@ public final class R {
      */
     public static final int checkMarkTintMode=0x7f030099;
     /**
-     * Default Checkbox style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1507,7 +1416,6 @@ public final class R {
      */
     public static final int checkedIconVisible=0x7f0300a3;
     /**
-     * Default CheckedTextView style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1820,7 +1728,6 @@ public final class R {
      */
     public static final int closeIconVisible=0x7f0300cc;
     /**
-     * Specifies a layout to use for the "close" item at the starting edge.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1828,13 +1735,11 @@ public final class R {
      */
     public static final int closeItemLayout=0x7f0300cd;
     /**
-     * Text to set as the content description for the collapse button.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int collapseContentDescription=0x7f0300ce;
     /**
-     * Icon drawable to use for the collapse button.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1928,29 +1833,24 @@ public final class R {
      */
     public static final int collapsingToolbarLayoutStyle=0x7f0300d8;
     /**
-     * The drawing color for the bars
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int color=0x7f0300d9;
     /**
-     * Bright complement to the primary branding color. By default, this is the color applied
-     * to framework controls (via colorControlActivated).
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorAccent=0x7f0300da;
     /**
-     * Default color of background imagery for floating components, ex. dialogs, popups, and cards.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorBackgroundFloating=0x7f0300db;
     /**
-     * The color applied to framework buttons in their normal state.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
@@ -1963,29 +1863,24 @@ public final class R {
      */
     public static final int colorContainer=0x7f0300dd;
     /**
-     * The color applied to framework controls in their activated (ex. checked) state.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorControlActivated=0x7f0300de;
     /**
-     * The color applied to framework control highlights (ex. ripples, list selectors).
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorControlHighlight=0x7f0300df;
     /**
-     * The color applied to framework controls in their normal state.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorControlNormal=0x7f0300e0;
     /**
-     * Color used for error states and things that need to be drawn to
-     * the user's attention.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2111,8 +2006,6 @@ public final class R {
      */
     public static final int colorOutline=0x7f0300f1;
     /**
-     * The primary branding color for the app. By default, this is the color applied to the
-     * action bar background.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
@@ -2125,8 +2018,6 @@ public final class R {
      */
     public static final int colorPrimaryContainer=0x7f0300f3;
     /**
-     * Dark variant of the primary branding color. By default, this is the color applied to
-     * the status bar (via statusBarColor) and navigation bar (via navigationBarColor).
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
@@ -2187,7 +2078,6 @@ public final class R {
      */
     public static final int colorSurfaceVariant=0x7f0300fd;
     /**
-     * The color applied to framework switch thumbs in their normal state.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
@@ -2206,7 +2096,6 @@ public final class R {
      */
     public static final int colorTertiaryContainer=0x7f030100;
     /**
-     * Commit icon shown in the query suggestion row
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2274,14 +2163,11 @@ public final class R {
      */
     public static final int content=0x7f030109;
     /**
-     * The content description associated with the item.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int contentDescription=0x7f03010a;
     /**
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2290,8 +2176,6 @@ public final class R {
      */
     public static final int contentInsetEnd=0x7f03010b;
     /**
-     * Minimum inset for content views within a bar when actions from a menu
-     * are present. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2300,8 +2184,6 @@ public final class R {
      */
     public static final int contentInsetEndWithActions=0x7f03010c;
     /**
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2310,8 +2192,6 @@ public final class R {
      */
     public static final int contentInsetLeft=0x7f03010d;
     /**
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2320,8 +2200,6 @@ public final class R {
      */
     public static final int contentInsetRight=0x7f03010e;
     /**
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2330,8 +2208,6 @@ public final class R {
      */
     public static final int contentInsetStart=0x7f03010f;
     /**
-     * Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2413,7 +2289,6 @@ public final class R {
      */
     public static final int contrast=0x7f030119;
     /**
-     * The background used by framework controls.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2668,7 +2543,6 @@ public final class R {
      */
     public static final int customIntegerValue=0x7f030135;
     /**
-     * Specifies a layout for custom navigation. Overrides navigationMode.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2728,8 +2602,6 @@ public final class R {
      */
     public static final int defaultDuration=0x7f03013e;
     /**
-     * Default query hint used when {@code queryHint} is undefined and
-     * the search view's {@code SearchableInfo} does not provide a hint.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -2757,7 +2629,6 @@ public final class R {
      */
     public static final int deriveConstraintsFrom=0x7f030143;
     /**
-     * Preferred corner radius of dialogs.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2766,7 +2637,6 @@ public final class R {
      */
     public static final int dialogCornerRadius=0x7f030144;
     /**
-     * Preferred padding for dialog content.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2775,7 +2645,6 @@ public final class R {
      */
     public static final int dialogPreferredPadding=0x7f030145;
     /**
-     * Theme to use for dialogs spawned from this theme.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2783,7 +2652,6 @@ public final class R {
      */
     public static final int dialogTheme=0x7f030146;
     /**
-     * Options affecting how the action bar is displayed.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -2801,7 +2669,6 @@ public final class R {
      */
     public static final int displayOptions=0x7f030147;
     /**
-     * Specifies the drawable used for item dividers.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2820,7 +2687,6 @@ public final class R {
      */
     public static final int dividerColor=0x7f030149;
     /**
-     * A drawable that may be used as a horizontal divider between visual elements.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2844,7 +2710,6 @@ public final class R {
      */
     public static final int dividerInsetStart=0x7f03014c;
     /**
-     * Size of padding on either end of a divider.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2862,7 +2727,6 @@ public final class R {
      */
     public static final int dividerThickness=0x7f03014e;
     /**
-     * A drawable that may be used as a vertical divider between visual elements.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2926,8 +2790,6 @@ public final class R {
      */
     public static final int drawableEndCompat=0x7f030155;
     /**
-     * Compound drawables allowing the use of vector drawable when running on older versions
-     * of the platform.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2942,7 +2804,6 @@ public final class R {
      */
     public static final int drawableRightCompat=0x7f030157;
     /**
-     * The total size of the drawable
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2958,14 +2819,12 @@ public final class R {
      */
     public static final int drawableStartCompat=0x7f030159;
     /**
-     * Tint to apply to the compound (left, top, etc.) drawables.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int drawableTint=0x7f03015a;
     /**
-     * Blending mode used to apply the compound (left, top, etc.) drawables tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -3018,7 +2877,6 @@ public final class R {
      */
     public static final int drawerLayoutStyle=0x7f03015f;
     /**
-     * ListPopupWindow compatibility
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3026,7 +2884,6 @@ public final class R {
      */
     public static final int dropDownListViewStyle=0x7f030160;
     /**
-     * The preferred item height for dropdown lists.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3046,7 +2903,6 @@ public final class R {
      */
     public static final int dynamicColorThemeOverlay=0x7f030163;
     /**
-     * EditText background drawable.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3054,7 +2910,6 @@ public final class R {
      */
     public static final int editTextBackground=0x7f030164;
     /**
-     * EditText text foreground color.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3065,7 +2920,6 @@ public final class R {
      */
     public static final int editTextColor=0x7f030165;
     /**
-     * Default EditText style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3073,7 +2927,6 @@ public final class R {
      */
     public static final int editTextStyle=0x7f030166;
     /**
-     * Elevation for the action bar itself
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3099,7 +2952,6 @@ public final class R {
      */
     public static final int elevationOverlayEnabled=0x7f03016a;
     /**
-     * Display the emoji if emojicompat has this character for emoji not on the system
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -3264,11 +3116,6 @@ public final class R {
      */
     public static final int errorTextColor=0x7f03017c;
     /**
-     * The drawable to show in the button for expanding the activities overflow popup.
-     * <strong>Note:</strong> Clients would like to set this drawable
-     * as a clue about the action the chosen activity will perform. For
-     * example, if share activity is to be chosen the drawable should
-     * give a clue that sharing is to be performed.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3541,8 +3388,6 @@ public final class R {
      */
     public static final int fastScrollVerticalTrackDrawable=0x7f03019a;
     /**
-     * Distance from the top of the TextView to the first text baseline. If set, this
-     * overrides the value set for paddingTop.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3799,7 +3644,6 @@ public final class R {
      */
     public static final int font=0x7f0301b9;
     /**
-     * The attribute for the font family.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -3877,7 +3721,6 @@ public final class R {
      */
     public static final int fontStyle=0x7f0301c2;
     /**
-     * OpenType font variation settings, available after api 26.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -3904,7 +3747,6 @@ public final class R {
      */
     public static final int framePosition=0x7f0301c7;
     /**
-     * The max gap between the bars when they are parallel to each other
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3920,7 +3762,6 @@ public final class R {
      */
     public static final int gestureInsetBottomIgnored=0x7f0301c9;
     /**
-     * Go button icon
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4015,7 +3856,6 @@ public final class R {
      */
     public static final int hideMotionSpec=0x7f0301d5;
     /**
-     * Set true to hide the action bar on a vertical nested scroll of content.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -4055,7 +3895,6 @@ public final class R {
      */
     public static final int hintTextColor=0x7f0301db;
     /**
-     * Specifies a drawable to use for the 'home as up' indicator.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4063,7 +3902,6 @@ public final class R {
      */
     public static final int homeAsUpIndicator=0x7f0301dc;
     /**
-     * Specifies a layout to use for the "home" section of the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4172,7 +4010,6 @@ public final class R {
      */
     public static final int iconTint=0x7f0301e7;
     /**
-     * Blending mode used to apply the icon tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -4194,8 +4031,6 @@ public final class R {
      */
     public static final int iconTintMode=0x7f0301e8;
     /**
-     * The default state of the SearchView. If true, it will be iconified when not in
-     * use and expanded when clicked.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -4215,7 +4050,6 @@ public final class R {
      */
     public static final int ifTagSet=0x7f0301eb;
     /**
-     * ImageButton background drawable.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4254,7 +4088,6 @@ public final class R {
      */
     public static final int indeterminateAnimationType=0x7f0301f1;
     /**
-     * Specifies a style resource to use for an indeterminate progress spinner.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4329,7 +4162,6 @@ public final class R {
      */
     public static final int indicatorSize=0x7f0301f7;
     /**
-     * The maximal number of items initially shown in the activity list.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -4436,8 +4268,6 @@ public final class R {
      */
     public static final int itemMinHeight=0x7f030206;
     /**
-     * Specifies padding that should be applied to the left and right sides of
-     * system-provided items in the bar.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4678,8 +4508,6 @@ public final class R {
      */
     public static final int labelVisibilityMode=0x7f030220;
     /**
-     * Distance from the bottom of the TextView to the last text baseline. If set, this
-     * overrides the value set for paddingBottom.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4695,7 +4523,6 @@ public final class R {
      */
     public static final int lastItemDecorated=0x7f030222;
     /**
-     * The layout to use for the search view.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5557,7 +5384,6 @@ public final class R {
      */
     public static final int linearProgressIndicatorStyle=0x7f030271;
     /**
-     * Drawable used as a background for selected list items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5565,7 +5391,6 @@ public final class R {
      */
     public static final int listChoiceBackgroundIndicator=0x7f030272;
     /**
-     * Animated Drawable to use for multiple choice indicators.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5573,7 +5398,6 @@ public final class R {
      */
     public static final int listChoiceIndicatorMultipleAnimated=0x7f030273;
     /**
-     * Animated Drawable to use for single choice indicators.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5581,7 +5405,6 @@ public final class R {
      */
     public static final int listChoiceIndicatorSingleAnimated=0x7f030274;
     /**
-     * The list divider used in alert dialogs.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5603,7 +5426,6 @@ public final class R {
      */
     public static final int listLayout=0x7f030277;
     /**
-     * Default menu-style ListView style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5618,7 +5440,6 @@ public final class R {
      */
     public static final int listPopupWindowStyle=0x7f030279;
     /**
-     * The preferred list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5627,7 +5448,6 @@ public final class R {
      */
     public static final int listPreferredItemHeight=0x7f03027a;
     /**
-     * A larger, more robust list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5636,7 +5456,6 @@ public final class R {
      */
     public static final int listPreferredItemHeightLarge=0x7f03027b;
     /**
-     * A smaller, sleeker list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5645,7 +5464,6 @@ public final class R {
      */
     public static final int listPreferredItemHeightSmall=0x7f03027c;
     /**
-     * The preferred padding along the end edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5654,7 +5472,6 @@ public final class R {
      */
     public static final int listPreferredItemPaddingEnd=0x7f03027d;
     /**
-     * The preferred padding along the left edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5663,7 +5480,6 @@ public final class R {
      */
     public static final int listPreferredItemPaddingLeft=0x7f03027e;
     /**
-     * The preferred padding along the right edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5672,7 +5488,6 @@ public final class R {
      */
     public static final int listPreferredItemPaddingRight=0x7f03027f;
     /**
-     * The preferred padding along the start edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5681,7 +5496,6 @@ public final class R {
      */
     public static final int listPreferredItemPaddingStart=0x7f030280;
     /**
-     * Specifies the drawable used for the application logo.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5695,8 +5509,6 @@ public final class R {
      */
     public static final int logoAdjustViewBounds=0x7f030282;
     /**
-     * A content description string to describe the appearance of the
-     * associated logo image.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -6102,9 +5914,6 @@ public final class R {
      */
     public static final int maxWidth=0x7f0302b6;
     /**
-     * When set to true, all children with a weight will be considered having
-     * the minimum size of the largest child. If false, all children are
-     * measured normally.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -6413,15 +6222,11 @@ public final class R {
      */
     public static final int multiChoiceItemLayout=0x7f0302e3;
     /**
-     * Text to set as the content description for the navigation button
-     * located at the start of the toolbar.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int navigationContentDescription=0x7f0302e4;
     /**
-     * Icon drawable to use for the navigation button located at
-     * the start of the toolbar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -6435,7 +6240,6 @@ public final class R {
      */
     public static final int navigationIconTint=0x7f0302e6;
     /**
-     * The type of navigation to use.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -6493,8 +6297,6 @@ public final class R {
      */
     public static final int number=0x7f0302ed;
     /**
-     * The numeric modifier key. This is the modifier when using a numeric (e.g., 12-key)
-     * keyboard. The values should be kept in sync with KeyEvent
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -6569,7 +6371,6 @@ public final class R {
      */
     public static final int onTouchUp=0x7f0302f5;
     /**
-     * Whether the popup window should overlap its anchor view.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -6580,7 +6381,6 @@ public final class R {
      */
     public static final int overlay=0x7f0302f7;
     /**
-     * Bottom padding to use when no buttons are present.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -6596,7 +6396,6 @@ public final class R {
      */
     public static final int paddingBottomSystemWindowInsets=0x7f0302f9;
     /**
-     * Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -6615,7 +6414,6 @@ public final class R {
      */
     public static final int paddingRightSystemWindowInsets=0x7f0302fc;
     /**
-     * Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -6624,7 +6422,6 @@ public final class R {
      */
     public static final int paddingStart=0x7f0302fd;
     /**
-     * Top padding to use when no title is present.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -6638,7 +6435,6 @@ public final class R {
      */
     public static final int paddingTopSystemWindowInsets=0x7f0302ff;
     /**
-     * The background of a panel when it is inset from the left and right edges of the screen.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -6646,7 +6442,6 @@ public final class R {
      */
     public static final int panelBackground=0x7f030300;
     /**
-     * Default Panel Menu style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -6654,7 +6449,6 @@ public final class R {
      */
     public static final int panelMenuListTheme=0x7f030301;
     /**
-     * Default Panel Menu width.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -6823,7 +6617,6 @@ public final class R {
      */
     public static final int popupMenuBackground=0x7f030315;
     /**
-     * Default PopupMenu style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -6831,8 +6624,6 @@ public final class R {
      */
     public static final int popupMenuStyle=0x7f030316;
     /**
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -6840,7 +6631,6 @@ public final class R {
      */
     public static final int popupTheme=0x7f030317;
     /**
-     * Default PopupWindow style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -6870,7 +6660,6 @@ public final class R {
      */
     public static final int prefixTextColor=0x7f03031b;
     /**
-     * Whether space should be reserved in layout when an icon is missing.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -6885,7 +6674,6 @@ public final class R {
      */
     public static final int pressedTranslationZ=0x7f03031d;
     /**
-     * Specifies the horizontal padding on either end for an embedded progress bar.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -6894,7 +6682,6 @@ public final class R {
      */
     public static final int progressBarPadding=0x7f03031e;
     /**
-     * Specifies a style resource to use for an embedded progress bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -6932,7 +6719,6 @@ public final class R {
      */
     public static final int quantizeMotionSteps=0x7f030322;
     /**
-     * Background for the section containing the search query
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -6940,7 +6726,6 @@ public final class R {
      */
     public static final int queryBackground=0x7f030323;
     /**
-     * An optional user-defined query hint string to be displayed in the empty query field.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -6953,7 +6738,6 @@ public final class R {
      */
     public static final int queryPatterns=0x7f030325;
     /**
-     * Default RadioButton style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -6967,7 +6751,6 @@ public final class R {
      */
     public static final int rangeFillColor=0x7f030327;
     /**
-     * Default RatingBar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -6975,7 +6758,6 @@ public final class R {
      */
     public static final int ratingBarStyle=0x7f030328;
     /**
-     * Indicator RatingBar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -6983,7 +6765,6 @@ public final class R {
      */
     public static final int ratingBarStyleIndicator=0x7f030329;
     /**
-     * Small indicator RatingBar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -7121,7 +6902,6 @@ public final class R {
      */
     public static final int scrimVisibleHeightTrigger=0x7f03033d;
     /**
-     * Search icon displayed as a text field hint
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -7129,7 +6909,6 @@ public final class R {
      */
     public static final int searchHintIcon=0x7f03033e;
     /**
-     * Search icon
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -7137,7 +6916,6 @@ public final class R {
      */
     public static final int searchIcon=0x7f03033f;
     /**
-     * Style for the search query widget.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -7145,7 +6923,6 @@ public final class R {
      */
     public static final int searchViewStyle=0x7f030340;
     /**
-     * Default SeekBar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -7153,9 +6930,6 @@ public final class R {
      */
     public static final int seekBarStyle=0x7f030341;
     /**
-     * A style that may be applied to buttons or other selectable items
-     * that should react to pressed and focus states, but that do not
-     * have a clear visual border along the edges.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -7163,7 +6937,6 @@ public final class R {
      */
     public static final int selectableItemBackground=0x7f030342;
     /**
-     * Background drawable for borderless standalone items that need focus/pressed states.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -7249,7 +7022,6 @@ public final class R {
      */
     public static final int showAnimationBehavior=0x7f03034d;
     /**
-     * How this item should display in the Action Bar, if present.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -7281,7 +7053,6 @@ public final class R {
      */
     public static final int showDelay=0x7f03034f;
     /**
-     * Setting for which dividers to show.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -7308,7 +7079,6 @@ public final class R {
      */
     public static final int showPaths=0x7f030352;
     /**
-     * Whether to draw on/off text.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -7403,13 +7173,11 @@ public final class R {
      */
     public static final int spanCount=0x7f030360;
     /**
-     * Whether bars should rotate or not during transition
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int spinBars=0x7f030361;
     /**
-     * Default Spinner style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -7417,7 +7185,6 @@ public final class R {
      */
     public static final int spinnerDropDownItemStyle=0x7f030362;
     /**
-     * Default Spinner style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -7425,7 +7192,6 @@ public final class R {
      */
     public static final int spinnerStyle=0x7f030363;
     /**
-     * Whether to split the track and leave a gap for the thumb drawable.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -7461,8 +7227,6 @@ public final class R {
      */
     public static final int springStopThreshold=0x7f030369;
     /**
-     * Sets a drawable as the content of this ImageView. Allows the use of vector drawable
-     * when running on older versions of the platform.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -7526,7 +7290,6 @@ public final class R {
      */
     public static final int startIconTintMode=0x7f030371;
     /**
-     * State identifier indicating the popup will be above the anchor.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -7608,7 +7371,6 @@ public final class R {
      */
     public static final int strokeWidth=0x7f03037c;
     /**
-     * Drawable for the arrow icon indicating a particular item is a submenu.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -7651,7 +7413,6 @@ public final class R {
      */
     public static final int subheaderTextAppearance=0x7f030381;
     /**
-     * Background for the section containing the action (e.g. voice search)
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -7659,7 +7420,6 @@ public final class R {
      */
     public static final int submitBackground=0x7f030382;
     /**
-     * Specifies subtitle text used for navigationMode="normal"
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -7679,14 +7439,12 @@ public final class R {
      */
     public static final int subtitleTextAppearance=0x7f030385;
     /**
-     * A color to apply to the subtitle string.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int subtitleTextColor=0x7f030386;
     /**
-     * Specifies a style to use for subtitle text.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -7716,7 +7474,6 @@ public final class R {
      */
     public static final int suffixTextColor=0x7f03038a;
     /**
-     * Layout for query suggestion rows
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -7724,7 +7481,6 @@ public final class R {
      */
     public static final int suggestionRowLayout=0x7f03038b;
     /**
-     * Minimum width for the switch component
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -7733,7 +7489,6 @@ public final class R {
      */
     public static final int switchMinWidth=0x7f03038c;
     /**
-     * Minimum space between the switch and caption text
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -7742,7 +7497,6 @@ public final class R {
      */
     public static final int switchPadding=0x7f03038d;
     /**
-     * Default style for the Switch widget.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -7750,7 +7504,6 @@ public final class R {
      */
     public static final int switchStyle=0x7f03038e;
     /**
-     * TextAppearance style for text displayed on the switch thumb.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8058,7 +7811,6 @@ public final class R {
      */
     public static final int telltales_velocityMode=0x7f0303af;
     /**
-     * Present the text in ALL CAPS. This may use a small-caps form when available.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8222,7 +7974,6 @@ public final class R {
      */
     public static final int textAppearanceLabelSmall=0x7f0303c6;
     /**
-     * Text color, typeface, size, and style for the text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8235,7 +7986,6 @@ public final class R {
      */
     public static final int textAppearanceLineHeightEnabled=0x7f0303c8;
     /**
-     * The preferred TextAppearance for the primary text of list items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8243,7 +7993,6 @@ public final class R {
      */
     public static final int textAppearanceListItem=0x7f0303c9;
     /**
-     * The preferred TextAppearance for the secondary text of list items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8251,7 +8000,6 @@ public final class R {
      */
     public static final int textAppearanceListItemSecondary=0x7f0303ca;
     /**
-     * The preferred TextAppearance for the primary text of small list items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8266,7 +8014,6 @@ public final class R {
      */
     public static final int textAppearanceOverline=0x7f0303cc;
     /**
-     * Text color, typeface, size, and style for header text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8274,7 +8021,6 @@ public final class R {
      */
     public static final int textAppearancePopupMenuHeader=0x7f0303cd;
     /**
-     * Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8282,7 +8028,6 @@ public final class R {
      */
     public static final int textAppearanceSearchResultSubtitle=0x7f0303ce;
     /**
-     * Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8290,7 +8035,6 @@ public final class R {
      */
     public static final int textAppearanceSearchResultTitle=0x7f0303cf;
     /**
-     * Text color, typeface, size, and style for small text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8356,7 +8100,6 @@ public final class R {
      */
     public static final int textBackgroundZoom=0x7f0303da;
     /**
-     * Color of list item text in alert dialogs.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8367,7 +8110,6 @@ public final class R {
      */
     public static final int textColorAlertDialogListItem=0x7f0303db;
     /**
-     * Text color for urls in search suggestions, used by things like global search
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8449,11 +8191,6 @@ public final class R {
      */
     public static final int textInputStyle=0x7f0303e6;
     /**
-     * Set the textLocale by a comma-separated language tag string,
-     * for example "ja-JP,zh-CN". This attribute only takes effect on API 21 and above.
-     * Before API 24, only the first language tag is used. Starting from API 24,
-     * the string will be converted into a {@link android.os.LocaleList} and then used by
-     * {@link android.widget.TextView}
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -8522,7 +8259,6 @@ public final class R {
      */
     public static final int textureWidth=0x7f0303f0;
     /**
-     * Deprecated.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8538,7 +8274,6 @@ public final class R {
      */
     public static final int themeLineHeight=0x7f0303f2;
     /**
-     * The thickness (stroke size) for the bar paint
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -8588,7 +8323,6 @@ public final class R {
      */
     public static final int thumbStrokeWidth=0x7f0303f8;
     /**
-     * Amount of padding on either side of text within the switch thumb.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -8597,14 +8331,12 @@ public final class R {
      */
     public static final int thumbTextPadding=0x7f0303f9;
     /**
-     * Tint to apply to the thumb drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int thumbTint=0x7f0303fa;
     /**
-     * Blending mode used to apply the thumb tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -8649,7 +8381,6 @@ public final class R {
      */
     public static final int tickColorInactive=0x7f0303fe;
     /**
-     * Drawable displayed at each progress position on a seekbar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8657,14 +8388,12 @@ public final class R {
      */
     public static final int tickMark=0x7f0303ff;
     /**
-     * Tint to apply to the tick mark drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int tickMarkTint=0x7f030400;
     /**
-     * Blending mode used to apply the tick mark tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -8692,14 +8421,12 @@ public final class R {
      */
     public static final int tickVisible=0x7f030402;
     /**
-     * Tint to apply to the image source.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int tint=0x7f030403;
     /**
-     * Blending mode used to apply the image source tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -8752,8 +8479,6 @@ public final class R {
      */
     public static final int titleEnabled=0x7f030408;
     /**
-     * Specifies extra space on the left, start, right and end sides
-     * of the toolbar's title. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -8762,9 +8487,6 @@ public final class R {
      */
     public static final int titleMargin=0x7f030409;
     /**
-     * Specifies extra space on the bottom side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -8773,9 +8495,6 @@ public final class R {
      */
     public static final int titleMarginBottom=0x7f03040a;
     /**
-     * Specifies extra space on the end side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -8784,9 +8503,6 @@ public final class R {
      */
     public static final int titleMarginEnd=0x7f03040b;
     /**
-     * Specifies extra space on the start side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -8795,9 +8511,6 @@ public final class R {
      */
     public static final int titleMarginStart=0x7f03040c;
     /**
-     * Specifies extra space on the top side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -8806,14 +8519,12 @@ public final class R {
      */
     public static final int titleMarginTop=0x7f03040d;
     /**
-     * {@deprecated Use titleMargin}
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    @Deprecated
     public static final int titleMargins=0x7f03040e;
     /**
      * The interpolator to use when animating the title position from collapsed to expanded and
@@ -8832,14 +8543,12 @@ public final class R {
      */
     public static final int titleTextAppearance=0x7f030410;
     /**
-     * A color to apply to the title string.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int titleTextColor=0x7f030411;
     /**
-     * Specifies a style to use for title text.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8857,7 +8566,6 @@ public final class R {
      */
     public static final int toolbarId=0x7f030413;
     /**
-     * Default Toolar NavigationButtonStyle
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8865,7 +8573,6 @@ public final class R {
      */
     public static final int toolbarNavigationButtonStyle=0x7f030414;
     /**
-     * Default Toolbar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8880,7 +8587,6 @@ public final class R {
      */
     public static final int toolbarSurfaceStyle=0x7f030416;
     /**
-     * Foreground color to use for tooltips
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8891,7 +8597,6 @@ public final class R {
      */
     public static final int tooltipForegroundColor=0x7f030417;
     /**
-     * Background to use for tooltips
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -8906,7 +8611,6 @@ public final class R {
      */
     public static final int tooltipStyle=0x7f030419;
     /**
-     * The tooltip text associated with the item.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -8950,7 +8654,6 @@ public final class R {
      */
     public static final int touchRegionId=0x7f03041e;
     /**
-     * Drawable to use as the "track" that the switch thumb slides within.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -9007,14 +8710,12 @@ public final class R {
      */
     public static final int trackThickness=0x7f030425;
     /**
-     * Tint to apply to the track.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int trackTint=0x7f030426;
     /**
-     * Blending mode used to apply the track tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -9206,7 +8907,6 @@ public final class R {
      */
     public static final int visibilityMode=0x7f03043d;
     /**
-     * Voice button icon
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -9270,31 +8970,21 @@ public final class R {
      */
     public static final int waveVariesBy=0x7f030445;
     /**
-     * Flag indicating whether this window should have an Action Bar
-     * in place of the usual title bar.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int windowActionBar=0x7f030446;
     /**
-     * Flag indicating whether this window's Action Bar should overlay
-     * application content. Does nothing if the window would not
-     * have an Action Bar.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int windowActionBarOverlay=0x7f030447;
     /**
-     * Flag indicating whether action modes should overlay window content
-     * when there is not reserved space for their UI (such as an Action Bar).
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int windowActionModeOverlay=0x7f030448;
     /**
-     * A fixed height for the window along the major axis of the screen,
-     * that is, when in portrait. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -9307,9 +8997,6 @@ public final class R {
      */
     public static final int windowFixedHeightMajor=0x7f030449;
     /**
-     * A fixed height for the window along the minor axis of the screen,
-     * that is, when in landscape. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -9322,9 +9009,6 @@ public final class R {
      */
     public static final int windowFixedHeightMinor=0x7f03044a;
     /**
-     * A fixed width for the window along the major axis of the screen,
-     * that is, when in landscape. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -9337,9 +9021,6 @@ public final class R {
      */
     public static final int windowFixedWidthMajor=0x7f03044b;
     /**
-     * A fixed width for the window along the minor axis of the screen,
-     * that is, when in portrait. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -9352,10 +9033,6 @@ public final class R {
      */
     public static final int windowFixedWidthMinor=0x7f03044c;
     /**
-     * The minimum width the window is allowed to be, along the major
-     * axis of the screen.  That is, when in landscape.  Can be either
-     * an absolute dimension or a fraction of the screen size in that
-     * dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -9368,10 +9045,6 @@ public final class R {
      */
     public static final int windowMinWidthMajor=0x7f03044d;
     /**
-     * The minimum width the window is allowed to be, along the minor
-     * axis of the screen.  That is, when in portrait.  Can be either
-     * an absolute dimension or a fraction of the screen size in that
-     * dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -9384,7 +9057,6 @@ public final class R {
      */
     public static final int windowMinWidthMinor=0x7f03044e;
     /**
-     * Flag indicating whether there should be no title on this window.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -10778,272 +10450,272 @@ public final class R {
     public static final int SHOW_PATH=0x7f08000a;
     public static final int SHOW_PROGRESS=0x7f08000b;
     public static final int SYM=0x7f08000c;
-    public static final int TOP_END=0x7f08000d;
-    public static final int TOP_START=0x7f08000e;
-    public static final int accelerate=0x7f08000f;
-    public static final int accessibility_action_clickable_span=0x7f080010;
-    public static final int accessibility_custom_action_0=0x7f080011;
-    public static final int accessibility_custom_action_1=0x7f080012;
-    public static final int accessibility_custom_action_10=0x7f080013;
-    public static final int accessibility_custom_action_11=0x7f080014;
-    public static final int accessibility_custom_action_12=0x7f080015;
-    public static final int accessibility_custom_action_13=0x7f080016;
-    public static final int accessibility_custom_action_14=0x7f080017;
-    public static final int accessibility_custom_action_15=0x7f080018;
-    public static final int accessibility_custom_action_16=0x7f080019;
-    public static final int accessibility_custom_action_17=0x7f08001a;
-    public static final int accessibility_custom_action_18=0x7f08001b;
-    public static final int accessibility_custom_action_19=0x7f08001c;
-    public static final int accessibility_custom_action_2=0x7f08001d;
-    public static final int accessibility_custom_action_20=0x7f08001e;
-    public static final int accessibility_custom_action_21=0x7f08001f;
-    public static final int accessibility_custom_action_22=0x7f080020;
-    public static final int accessibility_custom_action_23=0x7f080021;
-    public static final int accessibility_custom_action_24=0x7f080022;
-    public static final int accessibility_custom_action_25=0x7f080023;
-    public static final int accessibility_custom_action_26=0x7f080024;
-    public static final int accessibility_custom_action_27=0x7f080025;
-    public static final int accessibility_custom_action_28=0x7f080026;
-    public static final int accessibility_custom_action_29=0x7f080027;
-    public static final int accessibility_custom_action_3=0x7f080028;
-    public static final int accessibility_custom_action_30=0x7f080029;
-    public static final int accessibility_custom_action_31=0x7f08002a;
-    public static final int accessibility_custom_action_4=0x7f08002b;
-    public static final int accessibility_custom_action_5=0x7f08002c;
-    public static final int accessibility_custom_action_6=0x7f08002d;
-    public static final int accessibility_custom_action_7=0x7f08002e;
-    public static final int accessibility_custom_action_8=0x7f08002f;
-    public static final int accessibility_custom_action_9=0x7f080030;
-    public static final int actionDown=0x7f080031;
-    public static final int actionDownUp=0x7f080032;
-    public static final int actionUp=0x7f080033;
-    public static final int action_bar=0x7f080034;
-    public static final int action_bar_activity_content=0x7f080035;
-    public static final int action_bar_container=0x7f080036;
-    public static final int action_bar_root=0x7f080037;
-    public static final int action_bar_spinner=0x7f080038;
-    public static final int action_bar_subtitle=0x7f080039;
-    public static final int action_bar_title=0x7f08003a;
-    public static final int action_container=0x7f08003b;
-    public static final int action_context_bar=0x7f08003c;
-    public static final int action_divider=0x7f08003d;
-    public static final int action_image=0x7f08003e;
-    public static final int action_menu_divider=0x7f08003f;
-    public static final int action_menu_presenter=0x7f080040;
-    public static final int action_mode_bar=0x7f080041;
-    public static final int action_mode_bar_stub=0x7f080042;
-    public static final int action_mode_close_button=0x7f080043;
-    public static final int action_text=0x7f080044;
-    public static final int actions=0x7f080045;
-    public static final int activity_chooser_view_content=0x7f080046;
-    public static final int add=0x7f080047;
-    public static final int alertTitle=0x7f080048;
-    public static final int aligned=0x7f080049;
-    public static final int all=0x7f08004a;
-    public static final int allStates=0x7f08004b;
-    public static final int always=0x7f08004c;
-    public static final int animateToEnd=0x7f08004d;
-    public static final int animateToStart=0x7f08004e;
-    public static final int antiClockwise=0x7f08004f;
-    public static final int anticipate=0x7f080050;
-    public static final int arc=0x7f080051;
-    public static final int asConfigured=0x7f080052;
-    public static final int async=0x7f080053;
-    public static final int auto=0x7f080054;
-    public static final int autoComplete=0x7f080055;
-    public static final int autoCompleteToEnd=0x7f080056;
-    public static final int autoCompleteToStart=0x7f080057;
-    public static final int barrier=0x7f080058;
-    public static final int baseline=0x7f080059;
-    public static final int beginOnFirstDraw=0x7f08005a;
-    public static final int beginning=0x7f08005b;
-    public static final int bestChoice=0x7f08005c;
-    public static final int blocking=0x7f08005d;
-    public static final int bottom=0x7f08005e;
-    public static final int bounce=0x7f08005f;
-    public static final int bounceBoth=0x7f080060;
-    public static final int bounceEnd=0x7f080061;
-    public static final int bounceStart=0x7f080062;
-    public static final int browser_actions_header_text=0x7f080063;
-    public static final int browser_actions_menu_item_icon=0x7f080064;
-    public static final int browser_actions_menu_item_text=0x7f080065;
-    public static final int browser_actions_menu_items=0x7f080066;
-    public static final int browser_actions_menu_view=0x7f080067;
-    public static final int buttonPanel=0x7f080068;
-    public static final int cache_measures=0x7f080069;
-    public static final int callMeasure=0x7f08006a;
-    public static final int cancel_button=0x7f08006b;
-    public static final int captureButton=0x7f08006c;
-    public static final int carryVelocity=0x7f08006d;
-    public static final int center=0x7f08006e;
-    public static final int centerCrop=0x7f08006f;
-    public static final int centerInside=0x7f080070;
-    public static final int center_horizontal=0x7f080071;
-    public static final int center_vertical=0x7f080072;
-    public static final int chain=0x7f080073;
-    public static final int chain2=0x7f080074;
-    public static final int chains=0x7f080075;
-    public static final int checkbox=0x7f080076;
-    public static final int checked=0x7f080077;
-    public static final int chip=0x7f080078;
-    public static final int chip1=0x7f080079;
-    public static final int chip2=0x7f08007a;
-    public static final int chip3=0x7f08007b;
-    public static final int chip_group=0x7f08007c;
-    public static final int chronometer=0x7f08007d;
-    public static final int circle_center=0x7f08007e;
-    public static final int clear_text=0x7f08007f;
-    public static final int clip_horizontal=0x7f080080;
-    public static final int clip_vertical=0x7f080081;
-    public static final int clockwise=0x7f080082;
-    public static final int closest=0x7f080083;
-    public static final int collapseActionView=0x7f080084;
-    public static final int compress=0x7f080085;
-    public static final int confirm_button=0x7f080086;
-    public static final int constraint=0x7f080087;
-    public static final int container=0x7f080088;
-    public static final int content=0x7f080089;
-    public static final int contentPanel=0x7f08008a;
-    public static final int contiguous=0x7f08008b;
-    public static final int continuousVelocity=0x7f08008c;
-    public static final int coordinator=0x7f08008d;
-    public static final int cos=0x7f08008e;
-    public static final int counterclockwise=0x7f08008f;
-    public static final int currentState=0x7f080090;
-    public static final int custom=0x7f080091;
-    public static final int customPanel=0x7f080092;
-    public static final int cut=0x7f080093;
-    public static final int date_picker_actions=0x7f080094;
-    public static final int decelerate=0x7f080095;
-    public static final int decelerateAndComplete=0x7f080096;
-    public static final int decor_content_parent=0x7f080097;
-    public static final int default_activity_button=0x7f080098;
-    public static final int deltaRelative=0x7f080099;
-    public static final int dependency_ordering=0x7f08009a;
-    public static final int design_bottom_sheet=0x7f08009b;
-    public static final int design_menu_item_action_area=0x7f08009c;
-    public static final int design_menu_item_action_area_stub=0x7f08009d;
-    public static final int design_menu_item_text=0x7f08009e;
-    public static final int design_navigation_view=0x7f08009f;
-    public static final int dialog_button=0x7f0800a0;
-    public static final int dimensions=0x7f0800a1;
-    public static final int direct=0x7f0800a2;
-    public static final int disableHome=0x7f0800a3;
-    public static final int disableIntraAutoTransition=0x7f0800a4;
-    public static final int disablePostScroll=0x7f0800a5;
-    public static final int disableScroll=0x7f0800a6;
-    public static final int disjoint=0x7f0800a7;
-    public static final int dragAnticlockwise=0x7f0800a8;
-    public static final int dragClockwise=0x7f0800a9;
-    public static final int dragDown=0x7f0800aa;
-    public static final int dragEnd=0x7f0800ab;
-    public static final int dragLeft=0x7f0800ac;
-    public static final int dragRight=0x7f0800ad;
-    public static final int dragStart=0x7f0800ae;
-    public static final int dragUp=0x7f0800af;
-    public static final int dropdown_editable=0x7f0800b0;
-    public static final int dropdown_menu=0x7f0800b1;
-    public static final int dropdown_noneditable=0x7f0800b2;
-    public static final int easeIn=0x7f0800b3;
-    public static final int easeInOut=0x7f0800b4;
-    public static final int easeOut=0x7f0800b5;
-    public static final int east=0x7f0800b6;
-    public static final int edit_query=0x7f0800b7;
-    public static final int edittext_dropdown_editable=0x7f0800b8;
-    public static final int edittext_dropdown_noneditable=0x7f0800b9;
-    public static final int elastic=0x7f0800ba;
-    public static final int end=0x7f0800bb;
-    public static final int endToStart=0x7f0800bc;
-    public static final int enterAlways=0x7f0800bd;
-    public static final int enterAlwaysCollapsed=0x7f0800be;
-    public static final int exitUntilCollapsed=0x7f0800bf;
-    public static final int expand_activities_button=0x7f0800c0;
-    public static final int expanded_menu=0x7f0800c1;
-    public static final int fade=0x7f0800c2;
-    public static final int fill=0x7f0800c3;
-    public static final int fill_horizontal=0x7f0800c4;
-    public static final int fill_vertical=0x7f0800c5;
-    public static final int filled=0x7f0800c6;
-    public static final int fitCenter=0x7f0800c7;
-    public static final int fitEnd=0x7f0800c8;
-    public static final int fitStart=0x7f0800c9;
-    public static final int fitToContents=0x7f0800ca;
-    public static final int fitXY=0x7f0800cb;
-    public static final int fixed=0x7f0800cc;
-    public static final int flip=0x7f0800cd;
-    public static final int floating=0x7f0800ce;
-    public static final int forever=0x7f0800cf;
-    public static final int fragment_container_view_tag=0x7f0800d0;
-    public static final int frost=0x7f0800d1;
-    public static final int fullscreen_header=0x7f0800d2;
-    public static final int ghost_view=0x7f0800d3;
-    public static final int ghost_view_holder=0x7f0800d4;
-    public static final int gone=0x7f0800d5;
-    public static final int graph=0x7f0800d6;
-    public static final int graph_wrap=0x7f0800d7;
-    public static final int group_divider=0x7f0800d8;
-    public static final int grouping=0x7f0800d9;
-    public static final int groups=0x7f0800da;
-    public static final int guideline=0x7f0800db;
-    public static final int header_title=0x7f0800dc;
-    public static final int hideable=0x7f0800dd;
-    public static final int home=0x7f0800de;
-    public static final int homeAsUp=0x7f0800df;
-    public static final int honorRequest=0x7f0800e0;
-    public static final int horizontal_only=0x7f0800e1;
-    public static final int icon=0x7f0800e2;
-    public static final int icon_group=0x7f0800e3;
-    public static final int ifRoom=0x7f0800e4;
-    public static final int ignore=0x7f0800e5;
-    public static final int ignoreRequest=0x7f0800e6;
-    public static final int image=0x7f0800e7;
-    public static final int immediateStop=0x7f0800e8;
-    public static final int included=0x7f0800e9;
-    public static final int info=0x7f0800ea;
-    public static final int invisible=0x7f0800eb;
-    public static final int inward=0x7f0800ec;
-    public static final int italic=0x7f0800ed;
-    public static final int item_touch_helper_previous_elevation=0x7f0800ee;
-    public static final int jumpToEnd=0x7f0800ef;
-    public static final int jumpToStart=0x7f0800f0;
-    public static final int labeled=0x7f0800f1;
-    public static final int layout=0x7f0800f2;
-    public static final int left=0x7f0800f3;
-    public static final int leftToRight=0x7f0800f4;
-    public static final int legacy=0x7f0800f5;
-    public static final int line1=0x7f0800f6;
-    public static final int line3=0x7f0800f7;
-    public static final int linear=0x7f0800f8;
-    public static final int listMode=0x7f0800f9;
-    public static final int list_item=0x7f0800fa;
-    public static final int masked=0x7f0800fb;
-    public static final int match_constraint=0x7f0800fc;
-    public static final int match_parent=0x7f0800fd;
-    public static final int material_clock_display=0x7f0800fe;
-    public static final int material_clock_face=0x7f0800ff;
-    public static final int material_clock_hand=0x7f080100;
-    public static final int material_clock_period_am_button=0x7f080101;
-    public static final int material_clock_period_pm_button=0x7f080102;
-    public static final int material_clock_period_toggle=0x7f080103;
-    public static final int material_hour_text_input=0x7f080104;
-    public static final int material_hour_tv=0x7f080105;
-    public static final int material_label=0x7f080106;
-    public static final int material_minute_text_input=0x7f080107;
-    public static final int material_minute_tv=0x7f080108;
-    public static final int material_textinput_timepicker=0x7f080109;
-    public static final int material_timepicker_cancel_button=0x7f08010a;
-    public static final int material_timepicker_container=0x7f08010b;
-    public static final int material_timepicker_edit_text=0x7f08010c;
-    public static final int material_timepicker_mode_button=0x7f08010d;
-    public static final int material_timepicker_ok_button=0x7f08010e;
-    public static final int material_timepicker_view=0x7f08010f;
-    public static final int material_value_index=0x7f080110;
-    public static final int matrix=0x7f080111;
-    public static final int message=0x7f080112;
-    public static final int middle=0x7f080113;
-    public static final int mini=0x7f080114;
-    public static final int mispar1=0x7f080115;
-    public static final int mispar2=0x7f080116;
+    public static final int SearchCompany=0x7f08000d;
+    public static final int SearchSize=0x7f08000e;
+    public static final int TOP_END=0x7f08000f;
+    public static final int TOP_START=0x7f080010;
+    public static final int accelerate=0x7f080011;
+    public static final int accessibility_action_clickable_span=0x7f080012;
+    public static final int accessibility_custom_action_0=0x7f080013;
+    public static final int accessibility_custom_action_1=0x7f080014;
+    public static final int accessibility_custom_action_10=0x7f080015;
+    public static final int accessibility_custom_action_11=0x7f080016;
+    public static final int accessibility_custom_action_12=0x7f080017;
+    public static final int accessibility_custom_action_13=0x7f080018;
+    public static final int accessibility_custom_action_14=0x7f080019;
+    public static final int accessibility_custom_action_15=0x7f08001a;
+    public static final int accessibility_custom_action_16=0x7f08001b;
+    public static final int accessibility_custom_action_17=0x7f08001c;
+    public static final int accessibility_custom_action_18=0x7f08001d;
+    public static final int accessibility_custom_action_19=0x7f08001e;
+    public static final int accessibility_custom_action_2=0x7f08001f;
+    public static final int accessibility_custom_action_20=0x7f080020;
+    public static final int accessibility_custom_action_21=0x7f080021;
+    public static final int accessibility_custom_action_22=0x7f080022;
+    public static final int accessibility_custom_action_23=0x7f080023;
+    public static final int accessibility_custom_action_24=0x7f080024;
+    public static final int accessibility_custom_action_25=0x7f080025;
+    public static final int accessibility_custom_action_26=0x7f080026;
+    public static final int accessibility_custom_action_27=0x7f080027;
+    public static final int accessibility_custom_action_28=0x7f080028;
+    public static final int accessibility_custom_action_29=0x7f080029;
+    public static final int accessibility_custom_action_3=0x7f08002a;
+    public static final int accessibility_custom_action_30=0x7f08002b;
+    public static final int accessibility_custom_action_31=0x7f08002c;
+    public static final int accessibility_custom_action_4=0x7f08002d;
+    public static final int accessibility_custom_action_5=0x7f08002e;
+    public static final int accessibility_custom_action_6=0x7f08002f;
+    public static final int accessibility_custom_action_7=0x7f080030;
+    public static final int accessibility_custom_action_8=0x7f080031;
+    public static final int accessibility_custom_action_9=0x7f080032;
+    public static final int actionDown=0x7f080033;
+    public static final int actionDownUp=0x7f080034;
+    public static final int actionUp=0x7f080035;
+    public static final int action_bar=0x7f080036;
+    public static final int action_bar_activity_content=0x7f080037;
+    public static final int action_bar_container=0x7f080038;
+    public static final int action_bar_root=0x7f080039;
+    public static final int action_bar_spinner=0x7f08003a;
+    public static final int action_bar_subtitle=0x7f08003b;
+    public static final int action_bar_title=0x7f08003c;
+    public static final int action_container=0x7f08003d;
+    public static final int action_context_bar=0x7f08003e;
+    public static final int action_divider=0x7f08003f;
+    public static final int action_image=0x7f080040;
+    public static final int action_menu_divider=0x7f080041;
+    public static final int action_menu_presenter=0x7f080042;
+    public static final int action_mode_bar=0x7f080043;
+    public static final int action_mode_bar_stub=0x7f080044;
+    public static final int action_mode_close_button=0x7f080045;
+    public static final int action_text=0x7f080046;
+    public static final int actions=0x7f080047;
+    public static final int activity_chooser_view_content=0x7f080048;
+    public static final int add=0x7f080049;
+    public static final int alertTitle=0x7f08004a;
+    public static final int aligned=0x7f08004b;
+    public static final int all=0x7f08004c;
+    public static final int allStates=0x7f08004d;
+    public static final int always=0x7f08004e;
+    public static final int animateToEnd=0x7f08004f;
+    public static final int animateToStart=0x7f080050;
+    public static final int antiClockwise=0x7f080051;
+    public static final int anticipate=0x7f080052;
+    public static final int arc=0x7f080053;
+    public static final int asConfigured=0x7f080054;
+    public static final int async=0x7f080055;
+    public static final int auto=0x7f080056;
+    public static final int autoComplete=0x7f080057;
+    public static final int autoCompleteToEnd=0x7f080058;
+    public static final int autoCompleteToStart=0x7f080059;
+    public static final int barrier=0x7f08005a;
+    public static final int baseline=0x7f08005b;
+    public static final int beginOnFirstDraw=0x7f08005c;
+    public static final int beginning=0x7f08005d;
+    public static final int bestChoice=0x7f08005e;
+    public static final int blocking=0x7f08005f;
+    public static final int bottom=0x7f080060;
+    public static final int bounce=0x7f080061;
+    public static final int bounceBoth=0x7f080062;
+    public static final int bounceEnd=0x7f080063;
+    public static final int bounceStart=0x7f080064;
+    public static final int browser_actions_header_text=0x7f080065;
+    public static final int browser_actions_menu_item_icon=0x7f080066;
+    public static final int browser_actions_menu_item_text=0x7f080067;
+    public static final int browser_actions_menu_items=0x7f080068;
+    public static final int browser_actions_menu_view=0x7f080069;
+    public static final int buttonPanel=0x7f08006a;
+    public static final int cache_measures=0x7f08006b;
+    public static final int callMeasure=0x7f08006c;
+    public static final int cancel_button=0x7f08006d;
+    public static final int captureButton=0x7f08006e;
+    public static final int carryVelocity=0x7f08006f;
+    public static final int center=0x7f080070;
+    public static final int centerCrop=0x7f080071;
+    public static final int centerInside=0x7f080072;
+    public static final int center_horizontal=0x7f080073;
+    public static final int center_vertical=0x7f080074;
+    public static final int chain=0x7f080075;
+    public static final int chain2=0x7f080076;
+    public static final int chains=0x7f080077;
+    public static final int checkbox=0x7f080078;
+    public static final int checked=0x7f080079;
+    public static final int chip=0x7f08007a;
+    public static final int chip1=0x7f08007b;
+    public static final int chip2=0x7f08007c;
+    public static final int chip3=0x7f08007d;
+    public static final int chip_group=0x7f08007e;
+    public static final int chronometer=0x7f08007f;
+    public static final int circle_center=0x7f080080;
+    public static final int clear_text=0x7f080081;
+    public static final int clip_horizontal=0x7f080082;
+    public static final int clip_vertical=0x7f080083;
+    public static final int clockwise=0x7f080084;
+    public static final int closest=0x7f080085;
+    public static final int collapseActionView=0x7f080086;
+    public static final int compress=0x7f080087;
+    public static final int confirm_button=0x7f080088;
+    public static final int constraint=0x7f080089;
+    public static final int container=0x7f08008a;
+    public static final int content=0x7f08008b;
+    public static final int contentPanel=0x7f08008c;
+    public static final int contiguous=0x7f08008d;
+    public static final int continuousVelocity=0x7f08008e;
+    public static final int coordinator=0x7f08008f;
+    public static final int cos=0x7f080090;
+    public static final int counterclockwise=0x7f080091;
+    public static final int currentState=0x7f080092;
+    public static final int custom=0x7f080093;
+    public static final int customPanel=0x7f080094;
+    public static final int cut=0x7f080095;
+    public static final int date_picker_actions=0x7f080096;
+    public static final int decelerate=0x7f080097;
+    public static final int decelerateAndComplete=0x7f080098;
+    public static final int decor_content_parent=0x7f080099;
+    public static final int default_activity_button=0x7f08009a;
+    public static final int deltaRelative=0x7f08009b;
+    public static final int dependency_ordering=0x7f08009c;
+    public static final int design_bottom_sheet=0x7f08009d;
+    public static final int design_menu_item_action_area=0x7f08009e;
+    public static final int design_menu_item_action_area_stub=0x7f08009f;
+    public static final int design_menu_item_text=0x7f0800a0;
+    public static final int design_navigation_view=0x7f0800a1;
+    public static final int dialog_button=0x7f0800a2;
+    public static final int dimensions=0x7f0800a3;
+    public static final int direct=0x7f0800a4;
+    public static final int disableHome=0x7f0800a5;
+    public static final int disableIntraAutoTransition=0x7f0800a6;
+    public static final int disablePostScroll=0x7f0800a7;
+    public static final int disableScroll=0x7f0800a8;
+    public static final int disjoint=0x7f0800a9;
+    public static final int dragAnticlockwise=0x7f0800aa;
+    public static final int dragClockwise=0x7f0800ab;
+    public static final int dragDown=0x7f0800ac;
+    public static final int dragEnd=0x7f0800ad;
+    public static final int dragLeft=0x7f0800ae;
+    public static final int dragRight=0x7f0800af;
+    public static final int dragStart=0x7f0800b0;
+    public static final int dragUp=0x7f0800b1;
+    public static final int dropdown_editable=0x7f0800b2;
+    public static final int dropdown_menu=0x7f0800b3;
+    public static final int dropdown_noneditable=0x7f0800b4;
+    public static final int easeIn=0x7f0800b5;
+    public static final int easeInOut=0x7f0800b6;
+    public static final int easeOut=0x7f0800b7;
+    public static final int east=0x7f0800b8;
+    public static final int edit_query=0x7f0800b9;
+    public static final int edittext_dropdown_editable=0x7f0800ba;
+    public static final int edittext_dropdown_noneditable=0x7f0800bb;
+    public static final int elastic=0x7f0800bc;
+    public static final int end=0x7f0800bd;
+    public static final int endToStart=0x7f0800be;
+    public static final int enterAlways=0x7f0800bf;
+    public static final int enterAlwaysCollapsed=0x7f0800c0;
+    public static final int exitUntilCollapsed=0x7f0800c1;
+    public static final int expand_activities_button=0x7f0800c2;
+    public static final int expanded_menu=0x7f0800c3;
+    public static final int fade=0x7f0800c4;
+    public static final int fill=0x7f0800c5;
+    public static final int fill_horizontal=0x7f0800c6;
+    public static final int fill_vertical=0x7f0800c7;
+    public static final int filled=0x7f0800c8;
+    public static final int fitCenter=0x7f0800c9;
+    public static final int fitEnd=0x7f0800ca;
+    public static final int fitStart=0x7f0800cb;
+    public static final int fitToContents=0x7f0800cc;
+    public static final int fitXY=0x7f0800cd;
+    public static final int fixed=0x7f0800ce;
+    public static final int flip=0x7f0800cf;
+    public static final int floating=0x7f0800d0;
+    public static final int forever=0x7f0800d1;
+    public static final int fragment_container_view_tag=0x7f0800d2;
+    public static final int frost=0x7f0800d3;
+    public static final int fullscreen_header=0x7f0800d4;
+    public static final int ghost_view=0x7f0800d5;
+    public static final int ghost_view_holder=0x7f0800d6;
+    public static final int gone=0x7f0800d7;
+    public static final int graph=0x7f0800d8;
+    public static final int graph_wrap=0x7f0800d9;
+    public static final int group_divider=0x7f0800da;
+    public static final int grouping=0x7f0800db;
+    public static final int groups=0x7f0800dc;
+    public static final int guideline=0x7f0800dd;
+    public static final int header_title=0x7f0800de;
+    public static final int hideable=0x7f0800df;
+    public static final int home=0x7f0800e0;
+    public static final int homeAsUp=0x7f0800e1;
+    public static final int honorRequest=0x7f0800e2;
+    public static final int horizontal_only=0x7f0800e3;
+    public static final int icon=0x7f0800e4;
+    public static final int icon_group=0x7f0800e5;
+    public static final int ifRoom=0x7f0800e6;
+    public static final int ignore=0x7f0800e7;
+    public static final int ignoreRequest=0x7f0800e8;
+    public static final int image=0x7f0800e9;
+    public static final int immediateStop=0x7f0800ea;
+    public static final int included=0x7f0800eb;
+    public static final int info=0x7f0800ec;
+    public static final int invisible=0x7f0800ed;
+    public static final int inward=0x7f0800ee;
+    public static final int italic=0x7f0800ef;
+    public static final int item_touch_helper_previous_elevation=0x7f0800f0;
+    public static final int jumpToEnd=0x7f0800f1;
+    public static final int jumpToStart=0x7f0800f2;
+    public static final int labeled=0x7f0800f3;
+    public static final int layout=0x7f0800f4;
+    public static final int left=0x7f0800f5;
+    public static final int leftToRight=0x7f0800f6;
+    public static final int legacy=0x7f0800f7;
+    public static final int line1=0x7f0800f8;
+    public static final int line3=0x7f0800f9;
+    public static final int linear=0x7f0800fa;
+    public static final int listMode=0x7f0800fb;
+    public static final int list_item=0x7f0800fc;
+    public static final int masked=0x7f0800fd;
+    public static final int match_constraint=0x7f0800fe;
+    public static final int match_parent=0x7f0800ff;
+    public static final int material_clock_display=0x7f080100;
+    public static final int material_clock_face=0x7f080101;
+    public static final int material_clock_hand=0x7f080102;
+    public static final int material_clock_period_am_button=0x7f080103;
+    public static final int material_clock_period_pm_button=0x7f080104;
+    public static final int material_clock_period_toggle=0x7f080105;
+    public static final int material_hour_text_input=0x7f080106;
+    public static final int material_hour_tv=0x7f080107;
+    public static final int material_label=0x7f080108;
+    public static final int material_minute_text_input=0x7f080109;
+    public static final int material_minute_tv=0x7f08010a;
+    public static final int material_textinput_timepicker=0x7f08010b;
+    public static final int material_timepicker_cancel_button=0x7f08010c;
+    public static final int material_timepicker_container=0x7f08010d;
+    public static final int material_timepicker_edit_text=0x7f08010e;
+    public static final int material_timepicker_mode_button=0x7f08010f;
+    public static final int material_timepicker_ok_button=0x7f080110;
+    public static final int material_timepicker_view=0x7f080111;
+    public static final int material_value_index=0x7f080112;
+    public static final int matrix=0x7f080113;
+    public static final int message=0x7f080114;
+    public static final int middle=0x7f080115;
+    public static final int mini=0x7f080116;
     public static final int month_grid=0x7f080117;
     public static final int month_navigation_bar=0x7f080118;
     public static final int month_navigation_fragment_toggle=0x7f080119;
@@ -11248,19 +10920,20 @@ public final class R {
     public static final int view_offset_helper=0x7f0801e0;
     public static final int view_transition=0x7f0801e1;
     public static final int view_tree_lifecycle_owner=0x7f0801e2;
-    public static final int view_tree_saved_state_registry_owner=0x7f0801e3;
-    public static final int view_tree_view_model_store_owner=0x7f0801e4;
-    public static final int visible=0x7f0801e5;
-    public static final int visible_removing_fragment_view_tag=0x7f0801e6;
-    public static final int west=0x7f0801e7;
-    public static final int withText=0x7f0801e8;
-    public static final int withinBounds=0x7f0801e9;
-    public static final int wrap=0x7f0801ea;
-    public static final int wrap_content=0x7f0801eb;
-    public static final int wrap_content_constrained=0x7f0801ec;
-    public static final int x_left=0x7f0801ed;
-    public static final int x_right=0x7f0801ee;
-    public static final int zero_corner_chip=0x7f0801ef;
+    public static final int view_tree_on_back_pressed_dispatcher_owner=0x7f0801e3;
+    public static final int view_tree_saved_state_registry_owner=0x7f0801e4;
+    public static final int view_tree_view_model_store_owner=0x7f0801e5;
+    public static final int visible=0x7f0801e6;
+    public static final int visible_removing_fragment_view_tag=0x7f0801e7;
+    public static final int west=0x7f0801e8;
+    public static final int withText=0x7f0801e9;
+    public static final int withinBounds=0x7f0801ea;
+    public static final int wrap=0x7f0801eb;
+    public static final int wrap_content=0x7f0801ec;
+    public static final int wrap_content_constrained=0x7f0801ed;
+    public static final int x_left=0x7f0801ee;
+    public static final int x_right=0x7f0801ef;
+    public static final int zero_corner_chip=0x7f0801f0;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -12659,39 +12332,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.companyname.newinventoryapp:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.companyname.newinventoryapp:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.companyname.newinventoryapp:backgroundStacked}</code></td><td>Specifies a background drawable for a second stacked row of the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.companyname.newinventoryapp:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.companyname.newinventoryapp:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
-     * are present.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.companyname.newinventoryapp:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.companyname.newinventoryapp:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.companyname.newinventoryapp:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.companyname.newinventoryapp:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button.</td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.companyname.newinventoryapp:customNavigationLayout}</code></td><td>Specifies a layout for custom navigation.</td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.companyname.newinventoryapp:displayOptions}</code></td><td>Options affecting how the action bar is displayed.</td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.companyname.newinventoryapp:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.companyname.newinventoryapp:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.companyname.newinventoryapp:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.companyname.newinventoryapp:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.companyname.newinventoryapp:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.companyname.newinventoryapp:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.companyname.newinventoryapp:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.companyname.newinventoryapp:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.companyname.newinventoryapp:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.companyname.newinventoryapp:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.companyname.newinventoryapp:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.companyname.newinventoryapp:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.companyname.newinventoryapp:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.companyname.newinventoryapp:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.companyname.newinventoryapp:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #ActionBar_height com.companyname.newinventoryapp:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.companyname.newinventoryapp:hideOnContentScroll}</code></td><td>Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.companyname.newinventoryapp:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.companyname.newinventoryapp:homeLayout}</code></td><td>Specifies a layout to use for the "home" section of the action bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.companyname.newinventoryapp:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.companyname.newinventoryapp:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.companyname.newinventoryapp:homeLayout}</code></td><td></td></tr>
      * <tr><td><code>{@link #ActionBar_icon com.companyname.newinventoryapp:icon}</code></td><td>Icon drawable to display at the start of this view.</td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.companyname.newinventoryapp:indeterminateProgressStyle}</code></td><td>Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.companyname.newinventoryapp:itemPadding}</code></td><td>Specifies padding that should be applied to the left and right sides of
-     * system-provided items in the bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.companyname.newinventoryapp:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.companyname.newinventoryapp:navigationMode}</code></td><td>The type of navigation to use.</td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.companyname.newinventoryapp:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.companyname.newinventoryapp:progressBarPadding}</code></td><td>Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.companyname.newinventoryapp:progressBarStyle}</code></td><td>Specifies a style resource to use for an embedded progress bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.companyname.newinventoryapp:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.companyname.newinventoryapp:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.companyname.newinventoryapp:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.companyname.newinventoryapp:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.companyname.newinventoryapp:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.companyname.newinventoryapp:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.companyname.newinventoryapp:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.companyname.newinventoryapp:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.companyname.newinventoryapp:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.companyname.newinventoryapp:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.companyname.newinventoryapp:subtitleTextStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #ActionBar_title com.companyname.newinventoryapp:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.companyname.newinventoryapp:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.companyname.newinventoryapp:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -12734,9 +12403,8 @@ public final class R {
       0x7f030412
     };
     /**
-     * <p>
-     * @attr description
-     * Specifies a background drawable for the action bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#background}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12747,9 +12415,8 @@ public final class R {
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>
-     * @attr description
-     * Specifies a background drawable for the bottom component of a split action bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#backgroundSplit}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12763,9 +12430,8 @@ public final class R {
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>
-     * @attr description
-     * Specifies a background drawable for a second stacked row of the action bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#backgroundStacked}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12779,10 +12445,8 @@ public final class R {
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#contentInsetEnd}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -12794,10 +12458,8 @@ public final class R {
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar when actions from a menu
-     * are present. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#contentInsetEndWithActions}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -12809,10 +12471,8 @@ public final class R {
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#contentInsetLeft}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -12824,10 +12484,8 @@ public final class R {
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#contentInsetRight}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -12839,10 +12497,8 @@ public final class R {
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#contentInsetStart}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -12854,10 +12510,8 @@ public final class R {
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#contentInsetStartWithNavigation}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -12869,9 +12523,8 @@ public final class R {
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>
-     * @attr description
-     * Specifies a layout for custom navigation. Overrides navigationMode.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#customNavigationLayout}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12882,9 +12535,8 @@ public final class R {
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>
-     * @attr description
-     * Options affecting how the action bar is displayed.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#displayOptions}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -12905,9 +12557,8 @@ public final class R {
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>
-     * @attr description
-     * Specifies the drawable used for item dividers.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#divider}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12918,9 +12569,8 @@ public final class R {
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#elevation}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -12932,9 +12582,8 @@ public final class R {
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>
-     * @attr description
-     * Specifies a fixed height.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#height}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -12946,9 +12595,8 @@ public final class R {
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>
-     * @attr description
-     * Set true to hide the action bar on a vertical nested scroll of content.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#hideOnContentScroll}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -12957,9 +12605,8 @@ public final class R {
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>
-     * @attr description
-     * Up navigation glyph
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#homeAsUpIndicator}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12970,9 +12617,8 @@ public final class R {
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>
-     * @attr description
-     * Specifies a layout to use for the "home" section of the action bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#homeLayout}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12985,7 +12631,7 @@ public final class R {
     /**
      * <p>
      * @attr description
-     * Specifies the drawable used for the application icon.
+     * Icon drawable to display at the start of this view.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12996,9 +12642,8 @@ public final class R {
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style resource to use for an indeterminate progress spinner.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#indeterminateProgressStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13009,10 +12654,8 @@ public final class R {
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>
-     * @attr description
-     * Specifies padding that should be applied to the left and right sides of
-     * system-provided items in the bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#itemPadding}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13024,9 +12667,8 @@ public final class R {
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>
-     * @attr description
-     * Specifies the drawable used for the application logo.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#logo}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13037,9 +12679,8 @@ public final class R {
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>
-     * @attr description
-     * The type of navigation to use.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#navigationMode}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -13056,10 +12697,8 @@ public final class R {
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#popupTheme}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13070,9 +12709,8 @@ public final class R {
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>
-     * @attr description
-     * Specifies the horizontal padding on either end for an embedded progress bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#progressBarPadding}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13084,9 +12722,8 @@ public final class R {
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style resource to use for an embedded progress bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#progressBarStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13097,9 +12734,8 @@ public final class R {
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>
-     * @attr description
-     * Specifies subtitle text used for navigationMode="normal"
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#subtitle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -13108,9 +12744,8 @@ public final class R {
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style to use for subtitle text.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#subtitleTextStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13121,9 +12756,8 @@ public final class R {
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>
-     * @attr description
-     * Specifies title text used for navigationMode="normal"
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#title}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -13132,9 +12766,8 @@ public final class R {
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style to use for title text.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#titleTextStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13223,12 +12856,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.companyname.newinventoryapp:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.companyname.newinventoryapp:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.companyname.newinventoryapp:closeItemLayout}</code></td><td>Specifies a layout to use for the "close" item at the starting edge.</td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.companyname.newinventoryapp:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.companyname.newinventoryapp:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.companyname.newinventoryapp:closeItemLayout}</code></td><td></td></tr>
      * <tr><td><code>{@link #ActionMode_height com.companyname.newinventoryapp:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.companyname.newinventoryapp:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.companyname.newinventoryapp:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.companyname.newinventoryapp:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.companyname.newinventoryapp:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -13242,9 +12875,8 @@ public final class R {
       0x7f030387, 0x7f030412
     };
     /**
-     * <p>
-     * @attr description
-     * Specifies a background for the action mode bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#background}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13255,9 +12887,8 @@ public final class R {
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>
-     * @attr description
-     * Specifies a background for the split action mode bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#backgroundSplit}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13271,9 +12902,8 @@ public final class R {
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>
-     * @attr description
-     * Specifies a layout to use for the "close" item at the starting edge.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#closeItemLayout}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13284,9 +12914,8 @@ public final class R {
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>
-     * @attr description
-     * Specifies a fixed height for the action mode bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#height}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13298,9 +12927,8 @@ public final class R {
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style to use for subtitle text.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#subtitleTextStyle}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13311,9 +12939,8 @@ public final class R {
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style to use for title text.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#titleTextStyle}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13330,8 +12957,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.companyname.newinventoryapp:expandActivityOverflowButtonDrawable}</code></td><td>The drawable to show in the button for expanding the activities overflow popup.</td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.companyname.newinventoryapp:initialActivityCount}</code></td><td>The maximal number of items initially shown in the activity list.</td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.companyname.newinventoryapp:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.companyname.newinventoryapp:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -13340,13 +12967,8 @@ public final class R {
       0x7f03017d, 0x7f0301f8
     };
     /**
-     * <p>
-     * @attr description
-     * The drawable to show in the button for expanding the activities overflow popup.
-     * <strong>Note:</strong> Clients would like to set this drawable
-     * as a clue about the action the chosen activity will perform. For
-     * example, if share activity is to be chosen the drawable should
-     * give a clue that sharing is to be performed.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#expandActivityOverflowButtonDrawable}
+     * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13357,9 +12979,8 @@ public final class R {
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>
-     * @attr description
-     * The maximal number of items initially shown in the activity list.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#initialActivityCount}
+     * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -13517,11 +13138,8 @@ public final class R {
       0x0101030c, 0x0101030d
     };
     /**
-     * <p>
-     * @attr description
-     * Enables or disables dithering of the bitmap if the bitmap does not have the
-     * same pixel configuration as the screen (for instance: a ARGB 8888 bitmap with
-     * an RGB 565 screen).
+     * <p>This symbol is the offset where the {@link android.R.attr#dither}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13530,9 +13148,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_dither=0;
     /**
-     * <p>
-     * @attr description
-     * Indicates whether the drawable should be initially visible.
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13541,14 +13158,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_visible=1;
     /**
-     * <p>
-     * @attr description
-     * If true, allows the drawable's padding to change based on the
-     * current state that is selected.  If false, the padding will
-     * stay the same (based on the maximum padding of all the states).
-     * Enabling this feature requires that the owner of the drawable
-     * deal with performing layout when the state changes, which is
-     * often not supported.
+     * <p>This symbol is the offset where the {@link android.R.attr#variablePadding}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13557,12 +13168,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_variablePadding=2;
     /**
-     * <p>
-     * @attr description
-     * If true, the drawable's reported internal size will remain
-     * constant as the state changes; the size is the maximum of all
-     * of the states.  If false, the size will vary based on the
-     * current state.
+     * <p>This symbol is the offset where the {@link android.R.attr#constantSize}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13571,9 +13178,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_constantSize=3;
     /**
-     * <p>
-     * @attr description
-     * Amount of time (in milliseconds) to fade in a new state drawable.
+     * <p>This symbol is the offset where the {@link android.R.attr#enterFadeDuration}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -13581,9 +13187,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_enterFadeDuration=4;
     /**
-     * <p>
-     * @attr description
-     * Amount of time (in milliseconds) to fade out an old state drawable.
+     * <p>This symbol is the offset where the {@link android.R.attr#exitFadeDuration}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -13607,9 +13212,8 @@ public final class R {
       0x010100d0, 0x01010199
     };
     /**
-     * <p>
-     * @attr description
-     * Keyframe identifier for use in specifying transitions.
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13620,10 +13224,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableItem_android_id=0;
     /**
-     * <p>
-     * @attr description
-     * Reference to a drawable resource to use for the frame.  If not
-     * given, the drawable must be defined by the first child tag.
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13654,10 +13256,8 @@ public final class R {
       0x01010199, 0x01010449, 0x0101044a, 0x0101044b
     };
     /**
-     * <p>
-     * @attr description
-     * Reference to a animation drawable resource to use for the frame.  If not
-     * given, the animation drawable must be defined by the first child tag.
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13668,9 +13268,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableTransition_android_drawable=0;
     /**
-     * <p>
-     * @attr description
-     * Keyframe identifier for the ending state.
+     * <p>This symbol is the offset where the {@link android.R.attr#toId}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13681,9 +13280,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableTransition_android_toId=1;
     /**
-     * <p>
-     * @attr description
-     * Keyframe identifier for the starting state.
+     * <p>This symbol is the offset where the {@link android.R.attr#fromId}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13694,9 +13292,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableTransition_android_fromId=2;
     /**
-     * <p>
-     * @attr description
-     * Whether this transition is reversible.
+     * <p>This symbol is the offset where the {@link android.R.attr#reversible}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -13714,7 +13311,7 @@ public final class R {
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation com.companyname.newinventoryapp:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation com.companyname.newinventoryapp:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_expanded com.companyname.newinventoryapp:expanded}</code></td><td>The initial expanded state for the AppBarLayout.</td></tr>
      * <tr><td><code>{@link #AppBarLayout_liftOnScroll com.companyname.newinventoryapp:liftOnScroll}</code></td><td>Whether the {@link AppBarLayout} should lift on scroll.</td></tr>
      * <tr><td><code>{@link #AppBarLayout_liftOnScrollTargetViewId com.companyname.newinventoryapp:liftOnScrollTargetViewId}</code></td><td>The id of the view that the {@link AppBarLayout} should use to determine whether
@@ -14005,9 +13602,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.companyname.newinventoryapp:srcCompat}</code></td><td>Sets a drawable as the content of this ImageView.</td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.companyname.newinventoryapp:tint}</code></td><td>Tint to apply to the image source.</td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.companyname.newinventoryapp:tintMode}</code></td><td>Blending mode used to apply the image source tint.</td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.companyname.newinventoryapp:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.companyname.newinventoryapp:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.companyname.newinventoryapp:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -14033,10 +13630,8 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>
-     * @attr description
-     * Sets a drawable as the content of this ImageView. Allows the use of vector drawable
-     * when running on older versions of the platform.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#srcCompat}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14047,9 +13642,8 @@ public final class R {
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the image source.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#tint}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -14059,9 +13653,8 @@ public final class R {
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the image source tint.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#tintMode}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -14093,9 +13686,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.companyname.newinventoryapp:tickMark}</code></td><td>Drawable displayed at each progress position on a seekbar.</td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.companyname.newinventoryapp:tickMarkTint}</code></td><td>Tint to apply to the tick mark drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.companyname.newinventoryapp:tickMarkTintMode}</code></td><td>Blending mode used to apply the tick mark tint.</td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.companyname.newinventoryapp:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.companyname.newinventoryapp:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.companyname.newinventoryapp:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -14118,9 +13711,8 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>
-     * @attr description
-     * Drawable displayed at each progress position on a seekbar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#tickMark}
+     * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14131,9 +13723,8 @@ public final class R {
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the tick mark drawable.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#tickMarkTint}
+     * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -14143,9 +13734,8 @@ public final class R {
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the tick mark tint.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#tickMarkTintMode}
+     * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -14306,31 +13896,27 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.companyname.newinventoryapp:autoSizeMaxTextSize}</code></td><td>The maximum text size constraint to be used when auto-sizing text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.companyname.newinventoryapp:autoSizeMinTextSize}</code></td><td>The minimum text size constraint to be used when auto-sizing text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.companyname.newinventoryapp:autoSizePresetSizes}</code></td><td>Resource array of dimensions to be used in conjunction with
-     * <code>autoSizeTextType</code> set to <code>uniform</code>.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.companyname.newinventoryapp:autoSizeStepGranularity}</code></td><td>Specify the auto-size step size if <code>autoSizeTextType</code> is set to
-     * <code>uniform</code>.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.companyname.newinventoryapp:autoSizeTextType}</code></td><td>Specify the type of auto-size.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.companyname.newinventoryapp:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.companyname.newinventoryapp:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.companyname.newinventoryapp:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.companyname.newinventoryapp:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.companyname.newinventoryapp:autoSizeTextType}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_drawableBottomCompat com.companyname.newinventoryapp:drawableBottomCompat}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_drawableEndCompat com.companyname.newinventoryapp:drawableEndCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableLeftCompat com.companyname.newinventoryapp:drawableLeftCompat}</code></td><td>Compound drawables allowing the use of vector drawable when running on older versions
-     * of the platform.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableLeftCompat com.companyname.newinventoryapp:drawableLeftCompat}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_drawableRightCompat com.companyname.newinventoryapp:drawableRightCompat}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_drawableStartCompat com.companyname.newinventoryapp:drawableStartCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableTint com.companyname.newinventoryapp:drawableTint}</code></td><td>Tint to apply to the compound (left, top, etc.) drawables.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableTintMode com.companyname.newinventoryapp:drawableTintMode}</code></td><td>Blending mode used to apply the compound (left, top, etc.) drawables tint.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableTint com.companyname.newinventoryapp:drawableTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableTintMode com.companyname.newinventoryapp:drawableTintMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_drawableTopCompat com.companyname.newinventoryapp:drawableTopCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_emojiCompatEnabled com.companyname.newinventoryapp:emojiCompatEnabled}</code></td><td>Display the emoji if emojicompat has this character for emoji not on the system</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.companyname.newinventoryapp:firstBaselineToTopHeight}</code></td><td>Distance from the top of the TextView to the first text baseline.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.companyname.newinventoryapp:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontVariationSettings com.companyname.newinventoryapp:fontVariationSettings}</code></td><td>OpenType font variation settings, available after api 26.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.companyname.newinventoryapp:lastBaselineToBottomHeight}</code></td><td>Distance from the bottom of the TextView to the last text baseline.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_emojiCompatEnabled com.companyname.newinventoryapp:emojiCompatEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.companyname.newinventoryapp:firstBaselineToTopHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.companyname.newinventoryapp:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontVariationSettings com.companyname.newinventoryapp:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.companyname.newinventoryapp:lastBaselineToBottomHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_lineHeight com.companyname.newinventoryapp:lineHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.companyname.newinventoryapp:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textLocale com.companyname.newinventoryapp:textLocale}</code></td><td>Set the textLocale by a comma-separated language tag string,
-     * for example "ja-JP,zh-CN".</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.companyname.newinventoryapp:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textLocale com.companyname.newinventoryapp:textLocale}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -14376,9 +13962,8 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>
-     * @attr description
-     * The maximum text size constraint to be used when auto-sizing text.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#autoSizeMaxTextSize}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14390,9 +13975,8 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>
-     * @attr description
-     * The minimum text size constraint to be used when auto-sizing text.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#autoSizeMinTextSize}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14404,11 +13988,8 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>
-     * @attr description
-     * Resource array of dimensions to be used in conjunction with
-     * <code>autoSizeTextType</code> set to <code>uniform</code>. Overrides
-     * <code>autoSizeStepGranularity</code> if set.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#autoSizePresetSizes}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14419,11 +14000,8 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>
-     * @attr description
-     * Specify the auto-size step size if <code>autoSizeTextType</code> is set to
-     * <code>uniform</code>. The default is 1px. Overwrites
-     * <code>autoSizePresetSizes</code> if set.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#autoSizeStepGranularity}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14435,10 +14013,8 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>
-     * @attr description
-     * Specify the type of auto-size. Note that this feature is not supported by EditText,
-     * works only for TextView.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#autoSizeTextType}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -14479,10 +14055,8 @@ public final class R {
      */
     public static final int AppCompatTextView_drawableEndCompat=7;
     /**
-     * <p>
-     * @attr description
-     * Compound drawables allowing the use of vector drawable when running on older versions
-     * of the platform.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#drawableLeftCompat}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14517,9 +14091,8 @@ public final class R {
      */
     public static final int AppCompatTextView_drawableStartCompat=10;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the compound (left, top, etc.) drawables.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#drawableTint}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -14529,9 +14102,8 @@ public final class R {
      */
     public static final int AppCompatTextView_drawableTint=11;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the compound (left, top, etc.) drawables tint.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#drawableTintMode}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -14568,9 +14140,8 @@ public final class R {
      */
     public static final int AppCompatTextView_drawableTopCompat=13;
     /**
-     * <p>
-     * @attr description
-     * Display the emoji if emojicompat has this character for emoji not on the system
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#emojiCompatEnabled}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -14579,10 +14150,8 @@ public final class R {
      */
     public static final int AppCompatTextView_emojiCompatEnabled=14;
     /**
-     * <p>
-     * @attr description
-     * Distance from the top of the TextView to the first text baseline. If set, this
-     * overrides the value set for paddingTop.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#firstBaselineToTopHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14594,9 +14163,8 @@ public final class R {
      */
     public static final int AppCompatTextView_firstBaselineToTopHeight=15;
     /**
-     * <p>
-     * @attr description
-     * The attribute for the font family.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#fontFamily}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -14605,9 +14173,8 @@ public final class R {
      */
     public static final int AppCompatTextView_fontFamily=16;
     /**
-     * <p>
-     * @attr description
-     * OpenType font variation settings, available after api 26.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#fontVariationSettings}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -14616,10 +14183,8 @@ public final class R {
      */
     public static final int AppCompatTextView_fontVariationSettings=17;
     /**
-     * <p>
-     * @attr description
-     * Distance from the bottom of the TextView to the last text baseline. If set, this
-     * overrides the value set for paddingBottom.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#lastBaselineToBottomHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14631,10 +14196,8 @@ public final class R {
      */
     public static final int AppCompatTextView_lastBaselineToBottomHeight=18;
     /**
-     * <p>
-     * @attr description
-     * Explicit height between lines of text. If set, this will override the values set
-     * for lineSpacingExtra and lineSpacingMultiplier.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#lineHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14646,9 +14209,8 @@ public final class R {
      */
     public static final int AppCompatTextView_lineHeight=19;
     /**
-     * <p>
-     * @attr description
-     * Present the text in ALL CAPS. This may use a small-caps form when available.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#textAllCaps}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14661,13 +14223,8 @@ public final class R {
      */
     public static final int AppCompatTextView_textAllCaps=20;
     /**
-     * <p>
-     * @attr description
-     * Set the textLocale by a comma-separated language tag string,
-     * for example "ja-JP,zh-CN". This attribute only takes effect on API 21 and above.
-     * Before API 24, only the first language tag is used. Starting from API 24,
-     * the string will be converted into a {@link android.os.LocaleList} and then used by
-     * {@link android.widget.TextView}
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#textLocale}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -14684,149 +14241,131 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.companyname.newinventoryapp:actionBarDivider}</code></td><td>Custom divider drawable to use for elements in the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.companyname.newinventoryapp:actionBarItemBackground}</code></td><td>Custom item state list drawable background for action bar items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.companyname.newinventoryapp:actionBarPopupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.companyname.newinventoryapp:actionBarSize}</code></td><td>Size of the Action Bar, including the contextual
-     * bar used to present Action Modes.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.companyname.newinventoryapp:actionBarSplitStyle}</code></td><td>Reference to a style for the split Action Bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.companyname.newinventoryapp:actionBarStyle}</code></td><td>Reference to a style for the Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.companyname.newinventoryapp:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.companyname.newinventoryapp:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.companyname.newinventoryapp:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.companyname.newinventoryapp:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.companyname.newinventoryapp:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.companyname.newinventoryapp:actionBarStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.companyname.newinventoryapp:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.companyname.newinventoryapp:actionBarTabStyle}</code></td><td>Default style for tabs within an action bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.companyname.newinventoryapp:actionBarTabStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.companyname.newinventoryapp:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.companyname.newinventoryapp:actionBarTheme}</code></td><td>Reference to a theme that should be used to inflate the
-     * action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.companyname.newinventoryapp:actionBarWidgetTheme}</code></td><td>Reference to a theme that should be used to inflate widgets
-     * and layouts destined for the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.companyname.newinventoryapp:actionButtonStyle}</code></td><td>Default action button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.companyname.newinventoryapp:actionDropDownStyle}</code></td><td>Default ActionBar dropdown style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.companyname.newinventoryapp:actionMenuTextAppearance}</code></td><td>TextAppearance style that will be applied to text that
-     * appears within action menu items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.companyname.newinventoryapp:actionMenuTextColor}</code></td><td>Color for text that appears within action menu items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.companyname.newinventoryapp:actionModeBackground}</code></td><td>Background drawable to use for action mode UI</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.companyname.newinventoryapp:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.companyname.newinventoryapp:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.companyname.newinventoryapp:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.companyname.newinventoryapp:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.companyname.newinventoryapp:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.companyname.newinventoryapp:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.companyname.newinventoryapp:actionModeBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.companyname.newinventoryapp:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseContentDescription com.companyname.newinventoryapp:actionModeCloseContentDescription}</code></td><td>Content description to use for the close action mode button</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.companyname.newinventoryapp:actionModeCloseDrawable}</code></td><td>Drawable to use for the close action mode button</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.companyname.newinventoryapp:actionModeCopyDrawable}</code></td><td>Drawable to use for the Copy action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.companyname.newinventoryapp:actionModeCutDrawable}</code></td><td>Drawable to use for the Cut action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.companyname.newinventoryapp:actionModeFindDrawable}</code></td><td>Drawable to use for the Find action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.companyname.newinventoryapp:actionModePasteDrawable}</code></td><td>Drawable to use for the Paste action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.companyname.newinventoryapp:actionModePopupWindowStyle}</code></td><td>PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.companyname.newinventoryapp:actionModeSelectAllDrawable}</code></td><td>Drawable to use for the Select all action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.companyname.newinventoryapp:actionModeShareDrawable}</code></td><td>Drawable to use for the Share action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.companyname.newinventoryapp:actionModeSplitBackground}</code></td><td>Background drawable to use for action mode UI in the lower split bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseContentDescription com.companyname.newinventoryapp:actionModeCloseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.companyname.newinventoryapp:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.companyname.newinventoryapp:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.companyname.newinventoryapp:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.companyname.newinventoryapp:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.companyname.newinventoryapp:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.companyname.newinventoryapp:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.companyname.newinventoryapp:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.companyname.newinventoryapp:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.companyname.newinventoryapp:actionModeSplitBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.companyname.newinventoryapp:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeTheme com.companyname.newinventoryapp:actionModeTheme}</code></td><td>Reference to a theme that should be used to inflate the
-     * action bar in action mode.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.companyname.newinventoryapp:actionModeWebSearchDrawable}</code></td><td>Drawable to use for the Web Search action button in WebView selection action modes</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeTheme com.companyname.newinventoryapp:actionModeTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.companyname.newinventoryapp:actionModeWebSearchDrawable}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.companyname.newinventoryapp:actionOverflowButtonStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.companyname.newinventoryapp:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.companyname.newinventoryapp:activityChooserViewStyle}</code></td><td>Default ActivityChooserView style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.companyname.newinventoryapp:activityChooserViewStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.companyname.newinventoryapp:alertDialogButtonGroupStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.companyname.newinventoryapp:alertDialogCenterButtons}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.companyname.newinventoryapp:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.companyname.newinventoryapp:alertDialogTheme}</code></td><td>Theme to use for alert dialogs spawned from this theme.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.companyname.newinventoryapp:autoCompleteTextViewStyle}</code></td><td>Default AutoCompleteTextView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.companyname.newinventoryapp:borderlessButtonStyle}</code></td><td>Style for buttons without an explicit border, often used in groups.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.companyname.newinventoryapp:buttonBarButtonStyle}</code></td><td>Style for buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.companyname.newinventoryapp:buttonBarNegativeButtonStyle}</code></td><td>Style for the "negative" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.companyname.newinventoryapp:buttonBarNeutralButtonStyle}</code></td><td>Style for the "neutral" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.companyname.newinventoryapp:buttonBarPositiveButtonStyle}</code></td><td>Style for the "positive" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.companyname.newinventoryapp:buttonBarStyle}</code></td><td>Style for button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.companyname.newinventoryapp:buttonStyle}</code></td><td>Normal Button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.companyname.newinventoryapp:buttonStyleSmall}</code></td><td>Small Button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.companyname.newinventoryapp:checkboxStyle}</code></td><td>Default Checkbox style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.companyname.newinventoryapp:checkedTextViewStyle}</code></td><td>Default CheckedTextView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.companyname.newinventoryapp:colorAccent}</code></td><td>Bright complement to the primary branding color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.companyname.newinventoryapp:colorBackgroundFloating}</code></td><td>Default color of background imagery for floating components, ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.companyname.newinventoryapp:colorButtonNormal}</code></td><td>The color applied to framework buttons in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.companyname.newinventoryapp:colorControlActivated}</code></td><td>The color applied to framework controls in their activated (ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.companyname.newinventoryapp:colorControlHighlight}</code></td><td>The color applied to framework control highlights (ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.companyname.newinventoryapp:colorControlNormal}</code></td><td>The color applied to framework controls in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.companyname.newinventoryapp:colorError}</code></td><td>Color used for error states and things that need to be drawn to
-     * the user's attention.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.companyname.newinventoryapp:colorPrimary}</code></td><td>The primary branding color for the app.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.companyname.newinventoryapp:colorPrimaryDark}</code></td><td>Dark variant of the primary branding color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.companyname.newinventoryapp:colorSwitchThumbNormal}</code></td><td>The color applied to framework switch thumbs in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.companyname.newinventoryapp:controlBackground}</code></td><td>The background used by framework controls.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.companyname.newinventoryapp:dialogCornerRadius}</code></td><td>Preferred corner radius of dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.companyname.newinventoryapp:dialogPreferredPadding}</code></td><td>Preferred padding for dialog content.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.companyname.newinventoryapp:dialogTheme}</code></td><td>Theme to use for dialogs spawned from this theme.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.companyname.newinventoryapp:dividerHorizontal}</code></td><td>A drawable that may be used as a horizontal divider between visual elements.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.companyname.newinventoryapp:dividerVertical}</code></td><td>A drawable that may be used as a vertical divider between visual elements.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.companyname.newinventoryapp:dropDownListViewStyle}</code></td><td>ListPopupWindow compatibility</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.companyname.newinventoryapp:dropdownListPreferredItemHeight}</code></td><td>The preferred item height for dropdown lists.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.companyname.newinventoryapp:editTextBackground}</code></td><td>EditText background drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.companyname.newinventoryapp:editTextColor}</code></td><td>EditText text foreground color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.companyname.newinventoryapp:editTextStyle}</code></td><td>Default EditText style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.companyname.newinventoryapp:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.companyname.newinventoryapp:imageButtonStyle}</code></td><td>ImageButton background drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.companyname.newinventoryapp:listChoiceBackgroundIndicator}</code></td><td>Drawable used as a background for selected list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorMultipleAnimated com.companyname.newinventoryapp:listChoiceIndicatorMultipleAnimated}</code></td><td>Animated Drawable to use for multiple choice indicators.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorSingleAnimated com.companyname.newinventoryapp:listChoiceIndicatorSingleAnimated}</code></td><td>Animated Drawable to use for single choice indicators.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.companyname.newinventoryapp:listDividerAlertDialog}</code></td><td>The list divider used in alert dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.companyname.newinventoryapp:listMenuViewStyle}</code></td><td>Default menu-style ListView style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.companyname.newinventoryapp:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.companyname.newinventoryapp:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.companyname.newinventoryapp:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.companyname.newinventoryapp:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.companyname.newinventoryapp:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.companyname.newinventoryapp:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.companyname.newinventoryapp:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.companyname.newinventoryapp:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.companyname.newinventoryapp:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.companyname.newinventoryapp:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.companyname.newinventoryapp:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.companyname.newinventoryapp:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.companyname.newinventoryapp:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.companyname.newinventoryapp:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.companyname.newinventoryapp:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.companyname.newinventoryapp:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.companyname.newinventoryapp:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.companyname.newinventoryapp:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.companyname.newinventoryapp:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.companyname.newinventoryapp:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.companyname.newinventoryapp:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.companyname.newinventoryapp:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.companyname.newinventoryapp:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.companyname.newinventoryapp:dialogCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.companyname.newinventoryapp:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.companyname.newinventoryapp:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.companyname.newinventoryapp:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.companyname.newinventoryapp:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.companyname.newinventoryapp:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.companyname.newinventoryapp:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.companyname.newinventoryapp:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.companyname.newinventoryapp:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.companyname.newinventoryapp:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.companyname.newinventoryapp:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.companyname.newinventoryapp:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.companyname.newinventoryapp:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorMultipleAnimated com.companyname.newinventoryapp:listChoiceIndicatorMultipleAnimated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorSingleAnimated com.companyname.newinventoryapp:listChoiceIndicatorSingleAnimated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.companyname.newinventoryapp:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.companyname.newinventoryapp:listMenuViewStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.companyname.newinventoryapp:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.companyname.newinventoryapp:listPreferredItemHeight}</code></td><td>The preferred list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.companyname.newinventoryapp:listPreferredItemHeightLarge}</code></td><td>A larger, more robust list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.companyname.newinventoryapp:listPreferredItemHeightSmall}</code></td><td>A smaller, sleeker list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingEnd com.companyname.newinventoryapp:listPreferredItemPaddingEnd}</code></td><td>The preferred padding along the end edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.companyname.newinventoryapp:listPreferredItemPaddingLeft}</code></td><td>The preferred padding along the left edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.companyname.newinventoryapp:listPreferredItemPaddingRight}</code></td><td>The preferred padding along the right edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingStart com.companyname.newinventoryapp:listPreferredItemPaddingStart}</code></td><td>The preferred padding along the start edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.companyname.newinventoryapp:panelBackground}</code></td><td>The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.companyname.newinventoryapp:panelMenuListTheme}</code></td><td>Default Panel Menu style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.companyname.newinventoryapp:panelMenuListWidth}</code></td><td>Default Panel Menu width.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.companyname.newinventoryapp:popupMenuStyle}</code></td><td>Default PopupMenu style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.companyname.newinventoryapp:popupWindowStyle}</code></td><td>Default PopupWindow style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.companyname.newinventoryapp:radioButtonStyle}</code></td><td>Default RadioButton style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.companyname.newinventoryapp:ratingBarStyle}</code></td><td>Default RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.companyname.newinventoryapp:ratingBarStyleIndicator}</code></td><td>Indicator RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.companyname.newinventoryapp:ratingBarStyleSmall}</code></td><td>Small indicator RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.companyname.newinventoryapp:searchViewStyle}</code></td><td>Style for the search query widget.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.companyname.newinventoryapp:seekBarStyle}</code></td><td>Default SeekBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.companyname.newinventoryapp:selectableItemBackground}</code></td><td>A style that may be applied to buttons or other selectable items
-     * that should react to pressed and focus states, but that do not
-     * have a clear visual border along the edges.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.companyname.newinventoryapp:selectableItemBackgroundBorderless}</code></td><td>Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.companyname.newinventoryapp:spinnerDropDownItemStyle}</code></td><td>Default Spinner style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.companyname.newinventoryapp:spinnerStyle}</code></td><td>Default Spinner style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.companyname.newinventoryapp:switchStyle}</code></td><td>Default style for the Switch widget.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.companyname.newinventoryapp:textAppearanceLargePopupMenu}</code></td><td>Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.companyname.newinventoryapp:textAppearanceListItem}</code></td><td>The preferred TextAppearance for the primary text of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.companyname.newinventoryapp:textAppearanceListItemSecondary}</code></td><td>The preferred TextAppearance for the secondary text of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.companyname.newinventoryapp:textAppearanceListItemSmall}</code></td><td>The preferred TextAppearance for the primary text of small list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.companyname.newinventoryapp:textAppearancePopupMenuHeader}</code></td><td>Text color, typeface, size, and style for header text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.companyname.newinventoryapp:textAppearanceSearchResultSubtitle}</code></td><td>Text color, typeface, size, and style for system search result subtitle.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.companyname.newinventoryapp:textAppearanceSearchResultTitle}</code></td><td>Text color, typeface, size, and style for system search result title.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.companyname.newinventoryapp:textAppearanceSmallPopupMenu}</code></td><td>Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.companyname.newinventoryapp:textColorAlertDialogListItem}</code></td><td>Color of list item text in alert dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.companyname.newinventoryapp:textColorSearchUrl}</code></td><td>Text color for urls in search suggestions, used by things like global search</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.companyname.newinventoryapp:toolbarNavigationButtonStyle}</code></td><td>Default Toolar NavigationButtonStyle</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.companyname.newinventoryapp:toolbarStyle}</code></td><td>Default Toolbar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.companyname.newinventoryapp:tooltipForegroundColor}</code></td><td>Foreground color to use for tooltips</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.companyname.newinventoryapp:tooltipFrameBackground}</code></td><td>Background to use for tooltips</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.companyname.newinventoryapp:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.companyname.newinventoryapp:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.companyname.newinventoryapp:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingEnd com.companyname.newinventoryapp:listPreferredItemPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.companyname.newinventoryapp:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.companyname.newinventoryapp:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingStart com.companyname.newinventoryapp:listPreferredItemPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.companyname.newinventoryapp:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.companyname.newinventoryapp:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.companyname.newinventoryapp:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.companyname.newinventoryapp:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.companyname.newinventoryapp:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.companyname.newinventoryapp:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.companyname.newinventoryapp:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.companyname.newinventoryapp:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.companyname.newinventoryapp:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.companyname.newinventoryapp:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.companyname.newinventoryapp:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.companyname.newinventoryapp:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.companyname.newinventoryapp:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.companyname.newinventoryapp:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.companyname.newinventoryapp:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.companyname.newinventoryapp:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.companyname.newinventoryapp:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.companyname.newinventoryapp:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.companyname.newinventoryapp:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.companyname.newinventoryapp:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.companyname.newinventoryapp:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.companyname.newinventoryapp:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.companyname.newinventoryapp:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.companyname.newinventoryapp:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.companyname.newinventoryapp:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.companyname.newinventoryapp:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.companyname.newinventoryapp:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.companyname.newinventoryapp:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.companyname.newinventoryapp:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.companyname.newinventoryapp:tooltipFrameBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.companyname.newinventoryapp:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.companyname.newinventoryapp:windowActionBar}</code></td><td>Flag indicating whether this window should have an Action Bar
-     * in place of the usual title bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.companyname.newinventoryapp:windowActionBarOverlay}</code></td><td>Flag indicating whether this window's Action Bar should overlay
-     * application content.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.companyname.newinventoryapp:windowActionModeOverlay}</code></td><td>Flag indicating whether action modes should overlay window content
-     * when there is not reserved space for their UI (such as an Action Bar).</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.companyname.newinventoryapp:windowFixedHeightMajor}</code></td><td>A fixed height for the window along the major axis of the screen,
-     * that is, when in portrait.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.companyname.newinventoryapp:windowFixedHeightMinor}</code></td><td>A fixed height for the window along the minor axis of the screen,
-     * that is, when in landscape.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.companyname.newinventoryapp:windowFixedWidthMajor}</code></td><td>A fixed width for the window along the major axis of the screen,
-     * that is, when in landscape.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.companyname.newinventoryapp:windowFixedWidthMinor}</code></td><td>A fixed width for the window along the minor axis of the screen,
-     * that is, when in portrait.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.companyname.newinventoryapp:windowMinWidthMajor}</code></td><td>The minimum width the window is allowed to be, along the major
-     * axis of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.companyname.newinventoryapp:windowMinWidthMinor}</code></td><td>The minimum width the window is allowed to be, along the minor
-     * axis of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.companyname.newinventoryapp:windowNoTitle}</code></td><td>Flag indicating whether there should be no title on this window.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.companyname.newinventoryapp:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.companyname.newinventoryapp:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.companyname.newinventoryapp:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.companyname.newinventoryapp:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.companyname.newinventoryapp:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.companyname.newinventoryapp:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.companyname.newinventoryapp:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.companyname.newinventoryapp:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.companyname.newinventoryapp:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.companyname.newinventoryapp:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -15013,9 +14552,8 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>
-     * @attr description
-     * Custom divider drawable to use for elements in the action bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionBarDivider}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15026,9 +14564,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>
-     * @attr description
-     * Custom item state list drawable background for action bar items.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionBarItemBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15039,10 +14576,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionBarPopupTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15053,10 +14588,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>
-     * @attr description
-     * Size of the Action Bar, including the contextual
-     * bar used to present Action Modes.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionBarSize}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15076,12 +14609,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>
-     * @attr description
-     * Reference to a style for the split Action Bar. This style
-     * controls the split component that holds the menu/action
-     * buttons. actionBarStyle is still used for the primary
-     * bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionBarSplitStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15092,9 +14621,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>
-     * @attr description
-     * Reference to a style for the Action Bar
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15117,9 +14645,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>
-     * @attr description
-     * Default style for tabs within an action bar
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionBarTabStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15142,11 +14669,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate the
-     * action bar. This will be inherited by any widget inflated
-     * into the action bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionBarTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15157,15 +14681,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate widgets
-     * and layouts destined for the action bar. Most of the time
-     * this will be a reference to the current theme, but when
-     * the action bar has a significantly different contrast
-     * profile than the rest of the activity the difference
-     * can become important. If this is set to @null the current
-     * theme will be used.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionBarWidgetTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15176,9 +14693,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>
-     * @attr description
-     * Default action button style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15189,9 +14705,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>
-     * @attr description
-     * Default ActionBar dropdown style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionDropDownStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15202,10 +14717,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>
-     * @attr description
-     * TextAppearance style that will be applied to text that
-     * appears within action menu items.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionMenuTextAppearance}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15216,9 +14729,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>
-     * @attr description
-     * Color for text that appears within action menu items.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionMenuTextColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15232,9 +14744,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>
-     * @attr description
-     * Background drawable to use for action mode UI
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionModeBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15257,9 +14768,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>
-     * @attr description
-     * Content description to use for the close action mode button
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionModeCloseContentDescription}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -15268,9 +14778,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCloseContentDescription=19;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the close action mode button
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionModeCloseDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15281,9 +14790,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=20;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Copy action button in Contextual Action Bar
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionModeCopyDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15294,9 +14802,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=21;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Cut action button in Contextual Action Bar
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionModeCutDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15307,9 +14814,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCutDrawable=22;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Find action button in WebView selection action modes
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionModeFindDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15320,9 +14826,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeFindDrawable=23;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Paste action button in Contextual Action Bar
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionModePasteDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15333,9 +14838,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModePasteDrawable=24;
     /**
-     * <p>
-     * @attr description
-     * PopupWindow style to use for action modes when showing as a window overlay.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionModePopupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15346,9 +14850,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=25;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Select all action button in Contextual Action Bar
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionModeSelectAllDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15359,9 +14862,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=26;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Share action button in WebView selection action modes
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionModeShareDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15372,9 +14874,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeShareDrawable=27;
     /**
-     * <p>
-     * @attr description
-     * Background drawable to use for action mode UI in the lower split bar
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionModeSplitBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15397,11 +14898,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeStyle=29;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate the
-     * action bar in action mode. This will be inherited by any widget inflated
-     * into the action bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionModeTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15412,9 +14910,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeTheme=30;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Web Search action button in WebView selection action modes
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionModeWebSearchDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15449,9 +14946,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=33;
     /**
-     * <p>
-     * @attr description
-     * Default ActivityChooserView style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#activityChooserViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15496,9 +14992,8 @@ public final class R {
      */
     public static final int AppCompatTheme_alertDialogStyle=37;
     /**
-     * <p>
-     * @attr description
-     * Theme to use for alert dialogs spawned from this theme.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#alertDialogTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15509,9 +15004,8 @@ public final class R {
      */
     public static final int AppCompatTheme_alertDialogTheme=38;
     /**
-     * <p>
-     * @attr description
-     * Default AutoCompleteTextView style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#autoCompleteTextViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15522,9 +15016,8 @@ public final class R {
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=39;
     /**
-     * <p>
-     * @attr description
-     * Style for buttons without an explicit border, often used in groups.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#borderlessButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15535,9 +15028,8 @@ public final class R {
      */
     public static final int AppCompatTheme_borderlessButtonStyle=40;
     /**
-     * <p>
-     * @attr description
-     * Style for buttons within button bars
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#buttonBarButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15548,9 +15040,8 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=41;
     /**
-     * <p>
-     * @attr description
-     * Style for the "negative" buttons within button bars
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#buttonBarNegativeButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15561,9 +15052,8 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=42;
     /**
-     * <p>
-     * @attr description
-     * Style for the "neutral" buttons within button bars
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#buttonBarNeutralButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15574,9 +15064,8 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=43;
     /**
-     * <p>
-     * @attr description
-     * Style for the "positive" buttons within button bars
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#buttonBarPositiveButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15587,9 +15076,8 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=44;
     /**
-     * <p>
-     * @attr description
-     * Style for button bars
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#buttonBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15600,9 +15088,8 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarStyle=45;
     /**
-     * <p>
-     * @attr description
-     * Normal Button style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#buttonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15613,9 +15100,8 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonStyle=46;
     /**
-     * <p>
-     * @attr description
-     * Small Button style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#buttonStyleSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15626,9 +15112,8 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonStyleSmall=47;
     /**
-     * <p>
-     * @attr description
-     * Default Checkbox style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#checkboxStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15639,9 +15124,8 @@ public final class R {
      */
     public static final int AppCompatTheme_checkboxStyle=48;
     /**
-     * <p>
-     * @attr description
-     * Default CheckedTextView style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#checkedTextViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15652,10 +15136,8 @@ public final class R {
      */
     public static final int AppCompatTheme_checkedTextViewStyle=49;
     /**
-     * <p>
-     * @attr description
-     * Bright complement to the primary branding color. By default, this is the color applied
-     * to framework controls (via colorControlActivated).
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#colorAccent}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -15665,9 +15147,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorAccent=50;
     /**
-     * <p>
-     * @attr description
-     * Default color of background imagery for floating components, ex. dialogs, popups, and cards.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#colorBackgroundFloating}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -15677,9 +15158,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorBackgroundFloating=51;
     /**
-     * <p>
-     * @attr description
-     * The color applied to framework buttons in their normal state.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#colorButtonNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -15689,9 +15169,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorButtonNormal=52;
     /**
-     * <p>
-     * @attr description
-     * The color applied to framework controls in their activated (ex. checked) state.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#colorControlActivated}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -15701,9 +15180,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorControlActivated=53;
     /**
-     * <p>
-     * @attr description
-     * The color applied to framework control highlights (ex. ripples, list selectors).
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#colorControlHighlight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -15713,9 +15191,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorControlHighlight=54;
     /**
-     * <p>
-     * @attr description
-     * The color applied to framework controls in their normal state.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#colorControlNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -15725,10 +15202,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorControlNormal=55;
     /**
-     * <p>
-     * @attr description
-     * Color used for error states and things that need to be drawn to
-     * the user's attention.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#colorError}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15742,10 +15217,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorError=56;
     /**
-     * <p>
-     * @attr description
-     * The primary branding color for the app. By default, this is the color applied to the
-     * action bar background.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#colorPrimary}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -15755,10 +15228,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorPrimary=57;
     /**
-     * <p>
-     * @attr description
-     * Dark variant of the primary branding color. By default, this is the color applied to
-     * the status bar (via statusBarColor) and navigation bar (via navigationBarColor).
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#colorPrimaryDark}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -15768,9 +15239,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorPrimaryDark=58;
     /**
-     * <p>
-     * @attr description
-     * The color applied to framework switch thumbs in their normal state.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#colorSwitchThumbNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -15780,9 +15250,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=59;
     /**
-     * <p>
-     * @attr description
-     * The background used by framework controls.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#controlBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15793,9 +15262,8 @@ public final class R {
      */
     public static final int AppCompatTheme_controlBackground=60;
     /**
-     * <p>
-     * @attr description
-     * Preferred corner radius of dialogs.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#dialogCornerRadius}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15807,9 +15275,8 @@ public final class R {
      */
     public static final int AppCompatTheme_dialogCornerRadius=61;
     /**
-     * <p>
-     * @attr description
-     * Preferred padding for dialog content.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#dialogPreferredPadding}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15821,9 +15288,8 @@ public final class R {
      */
     public static final int AppCompatTheme_dialogPreferredPadding=62;
     /**
-     * <p>
-     * @attr description
-     * Theme to use for dialogs spawned from this theme.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#dialogTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15834,9 +15300,8 @@ public final class R {
      */
     public static final int AppCompatTheme_dialogTheme=63;
     /**
-     * <p>
-     * @attr description
-     * A drawable that may be used as a horizontal divider between visual elements.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#dividerHorizontal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15847,9 +15312,8 @@ public final class R {
      */
     public static final int AppCompatTheme_dividerHorizontal=64;
     /**
-     * <p>
-     * @attr description
-     * A drawable that may be used as a vertical divider between visual elements.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#dividerVertical}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15860,9 +15324,8 @@ public final class R {
      */
     public static final int AppCompatTheme_dividerVertical=65;
     /**
-     * <p>
-     * @attr description
-     * ListPopupWindow compatibility
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#dropDownListViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15873,9 +15336,8 @@ public final class R {
      */
     public static final int AppCompatTheme_dropDownListViewStyle=66;
     /**
-     * <p>
-     * @attr description
-     * The preferred item height for dropdown lists.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#dropdownListPreferredItemHeight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15887,9 +15349,8 @@ public final class R {
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=67;
     /**
-     * <p>
-     * @attr description
-     * EditText background drawable.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#editTextBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15900,9 +15361,8 @@ public final class R {
      */
     public static final int AppCompatTheme_editTextBackground=68;
     /**
-     * <p>
-     * @attr description
-     * EditText text foreground color.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#editTextColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15916,9 +15376,8 @@ public final class R {
      */
     public static final int AppCompatTheme_editTextColor=69;
     /**
-     * <p>
-     * @attr description
-     * Default EditText style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#editTextStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15929,9 +15388,8 @@ public final class R {
      */
     public static final int AppCompatTheme_editTextStyle=70;
     /**
-     * <p>
-     * @attr description
-     * Specifies a drawable to use for the 'home as up' indicator.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#homeAsUpIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15942,9 +15400,8 @@ public final class R {
      */
     public static final int AppCompatTheme_homeAsUpIndicator=71;
     /**
-     * <p>
-     * @attr description
-     * ImageButton background drawable.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#imageButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15955,9 +15412,8 @@ public final class R {
      */
     public static final int AppCompatTheme_imageButtonStyle=72;
     /**
-     * <p>
-     * @attr description
-     * Drawable used as a background for selected list items.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#listChoiceBackgroundIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15968,9 +15424,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=73;
     /**
-     * <p>
-     * @attr description
-     * Animated Drawable to use for multiple choice indicators.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#listChoiceIndicatorMultipleAnimated}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15981,9 +15436,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listChoiceIndicatorMultipleAnimated=74;
     /**
-     * <p>
-     * @attr description
-     * Animated Drawable to use for single choice indicators.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#listChoiceIndicatorSingleAnimated}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15994,9 +15448,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listChoiceIndicatorSingleAnimated=75;
     /**
-     * <p>
-     * @attr description
-     * The list divider used in alert dialogs.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#listDividerAlertDialog}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16007,9 +15460,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listDividerAlertDialog=76;
     /**
-     * <p>
-     * @attr description
-     * Default menu-style ListView style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#listMenuViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16032,9 +15484,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listPopupWindowStyle=78;
     /**
-     * <p>
-     * @attr description
-     * The preferred list item height.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#listPreferredItemHeight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16046,9 +15497,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemHeight=79;
     /**
-     * <p>
-     * @attr description
-     * A larger, more robust list item height.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#listPreferredItemHeightLarge}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16060,9 +15510,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=80;
     /**
-     * <p>
-     * @attr description
-     * A smaller, sleeker list item height.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#listPreferredItemHeightSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16074,9 +15523,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=81;
     /**
-     * <p>
-     * @attr description
-     * The preferred padding along the end edge of list items.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#listPreferredItemPaddingEnd}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16088,9 +15536,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemPaddingEnd=82;
     /**
-     * <p>
-     * @attr description
-     * The preferred padding along the left edge of list items.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#listPreferredItemPaddingLeft}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16102,9 +15549,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=83;
     /**
-     * <p>
-     * @attr description
-     * The preferred padding along the right edge of list items.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#listPreferredItemPaddingRight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16116,9 +15562,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=84;
     /**
-     * <p>
-     * @attr description
-     * The preferred padding along the start edge of list items.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#listPreferredItemPaddingStart}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16130,9 +15575,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemPaddingStart=85;
     /**
-     * <p>
-     * @attr description
-     * The background of a panel when it is inset from the left and right edges of the screen.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#panelBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16143,9 +15587,8 @@ public final class R {
      */
     public static final int AppCompatTheme_panelBackground=86;
     /**
-     * <p>
-     * @attr description
-     * Default Panel Menu style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#panelMenuListTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16156,9 +15599,8 @@ public final class R {
      */
     public static final int AppCompatTheme_panelMenuListTheme=87;
     /**
-     * <p>
-     * @attr description
-     * Default Panel Menu width.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#panelMenuListWidth}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16170,9 +15612,8 @@ public final class R {
      */
     public static final int AppCompatTheme_panelMenuListWidth=88;
     /**
-     * <p>
-     * @attr description
-     * Default PopupMenu style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#popupMenuStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16183,9 +15624,8 @@ public final class R {
      */
     public static final int AppCompatTheme_popupMenuStyle=89;
     /**
-     * <p>
-     * @attr description
-     * Default PopupWindow style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#popupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16196,9 +15636,8 @@ public final class R {
      */
     public static final int AppCompatTheme_popupWindowStyle=90;
     /**
-     * <p>
-     * @attr description
-     * Default RadioButton style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#radioButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16209,9 +15648,8 @@ public final class R {
      */
     public static final int AppCompatTheme_radioButtonStyle=91;
     /**
-     * <p>
-     * @attr description
-     * Default RatingBar style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#ratingBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16222,9 +15660,8 @@ public final class R {
      */
     public static final int AppCompatTheme_ratingBarStyle=92;
     /**
-     * <p>
-     * @attr description
-     * Indicator RatingBar style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#ratingBarStyleIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16235,9 +15672,8 @@ public final class R {
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=93;
     /**
-     * <p>
-     * @attr description
-     * Small indicator RatingBar style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#ratingBarStyleSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16248,9 +15684,8 @@ public final class R {
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=94;
     /**
-     * <p>
-     * @attr description
-     * Style for the search query widget.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#searchViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16261,9 +15696,8 @@ public final class R {
      */
     public static final int AppCompatTheme_searchViewStyle=95;
     /**
-     * <p>
-     * @attr description
-     * Default SeekBar style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#seekBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16274,11 +15708,8 @@ public final class R {
      */
     public static final int AppCompatTheme_seekBarStyle=96;
     /**
-     * <p>
-     * @attr description
-     * A style that may be applied to buttons or other selectable items
-     * that should react to pressed and focus states, but that do not
-     * have a clear visual border along the edges.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#selectableItemBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16289,9 +15720,8 @@ public final class R {
      */
     public static final int AppCompatTheme_selectableItemBackground=97;
     /**
-     * <p>
-     * @attr description
-     * Background drawable for borderless standalone items that need focus/pressed states.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#selectableItemBackgroundBorderless}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16302,9 +15732,8 @@ public final class R {
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=98;
     /**
-     * <p>
-     * @attr description
-     * Default Spinner style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#spinnerDropDownItemStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16315,9 +15744,8 @@ public final class R {
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=99;
     /**
-     * <p>
-     * @attr description
-     * Default Spinner style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#spinnerStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16328,9 +15756,8 @@ public final class R {
      */
     public static final int AppCompatTheme_spinnerStyle=100;
     /**
-     * <p>
-     * @attr description
-     * Default style for the Switch widget.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#switchStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16341,9 +15768,8 @@ public final class R {
      */
     public static final int AppCompatTheme_switchStyle=101;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for the text inside of a popup menu.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#textAppearanceLargePopupMenu}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16354,9 +15780,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=102;
     /**
-     * <p>
-     * @attr description
-     * The preferred TextAppearance for the primary text of list items.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#textAppearanceListItem}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16367,9 +15792,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceListItem=103;
     /**
-     * <p>
-     * @attr description
-     * The preferred TextAppearance for the secondary text of list items.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#textAppearanceListItemSecondary}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16380,9 +15804,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=104;
     /**
-     * <p>
-     * @attr description
-     * The preferred TextAppearance for the primary text of small list items.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#textAppearanceListItemSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16393,9 +15816,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=105;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for header text inside of a popup menu.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#textAppearancePopupMenuHeader}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16406,9 +15828,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=106;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#textAppearanceSearchResultSubtitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16419,9 +15840,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=107;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#textAppearanceSearchResultTitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16432,9 +15852,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=108;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for small text inside of a popup menu.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#textAppearanceSmallPopupMenu}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16445,9 +15864,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=109;
     /**
-     * <p>
-     * @attr description
-     * Color of list item text in alert dialogs.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#textColorAlertDialogListItem}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16461,9 +15879,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=110;
     /**
-     * <p>
-     * @attr description
-     * Text color for urls in search suggestions, used by things like global search
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#textColorSearchUrl}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16477,9 +15894,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textColorSearchUrl=111;
     /**
-     * <p>
-     * @attr description
-     * Default Toolar NavigationButtonStyle
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#toolbarNavigationButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16490,9 +15906,8 @@ public final class R {
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=112;
     /**
-     * <p>
-     * @attr description
-     * Default Toolbar style.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#toolbarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16503,9 +15918,8 @@ public final class R {
      */
     public static final int AppCompatTheme_toolbarStyle=113;
     /**
-     * <p>
-     * @attr description
-     * Foreground color to use for tooltips
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#tooltipForegroundColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16519,9 +15933,8 @@ public final class R {
      */
     public static final int AppCompatTheme_tooltipForegroundColor=114;
     /**
-     * <p>
-     * @attr description
-     * Background to use for tooltips
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#tooltipFrameBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16542,10 +15955,8 @@ public final class R {
      */
     public static final int AppCompatTheme_viewInflaterClass=116;
     /**
-     * <p>
-     * @attr description
-     * Flag indicating whether this window should have an Action Bar
-     * in place of the usual title bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#windowActionBar}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -16554,11 +15965,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowActionBar=117;
     /**
-     * <p>
-     * @attr description
-     * Flag indicating whether this window's Action Bar should overlay
-     * application content. Does nothing if the window would not
-     * have an Action Bar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#windowActionBarOverlay}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -16567,10 +15975,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowActionBarOverlay=118;
     /**
-     * <p>
-     * @attr description
-     * Flag indicating whether action modes should overlay window content
-     * when there is not reserved space for their UI (such as an Action Bar).
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#windowActionModeOverlay}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -16579,11 +15985,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowActionModeOverlay=119;
     /**
-     * <p>
-     * @attr description
-     * A fixed height for the window along the major axis of the screen,
-     * that is, when in portrait. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#windowFixedHeightMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16599,11 +16002,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=120;
     /**
-     * <p>
-     * @attr description
-     * A fixed height for the window along the minor axis of the screen,
-     * that is, when in landscape. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#windowFixedHeightMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16619,11 +16019,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=121;
     /**
-     * <p>
-     * @attr description
-     * A fixed width for the window along the major axis of the screen,
-     * that is, when in landscape. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#windowFixedWidthMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16639,11 +16036,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=122;
     /**
-     * <p>
-     * @attr description
-     * A fixed width for the window along the minor axis of the screen,
-     * that is, when in portrait. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#windowFixedWidthMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16659,12 +16053,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=123;
     /**
-     * <p>
-     * @attr description
-     * The minimum width the window is allowed to be, along the major
-     * axis of the screen.  That is, when in landscape.  Can be either
-     * an absolute dimension or a fraction of the screen size in that
-     * dimension.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#windowMinWidthMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16680,12 +16070,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowMinWidthMajor=124;
     /**
-     * <p>
-     * @attr description
-     * The minimum width the window is allowed to be, along the minor
-     * axis of the screen.  That is, when in portrait.  Can be either
-     * an absolute dimension or a fraction of the screen size in that
-     * dimension.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#windowMinWidthMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16701,9 +16087,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowMinWidthMinor=125;
     /**
-     * <p>
-     * @attr description
-     * Flag indicating whether there should be no title on this window.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#windowNoTitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -17096,7 +16481,7 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #BottomAppBar_backgroundTint com.companyname.newinventoryapp:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_elevation com.companyname.newinventoryapp:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #BottomAppBar_elevation com.companyname.newinventoryapp:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #BottomAppBar_fabAlignmentMode com.companyname.newinventoryapp:fabAlignmentMode}</code></td><td>The alignment of the fab relative to the BottomAppBar.</td></tr>
      * <tr><td><code>{@link #BottomAppBar_fabAnimationMode com.companyname.newinventoryapp:fabAnimationMode}</code></td><td>The animation mode that should be used when the fab animates between alignment modes.</td></tr>
      * <tr><td><code>{@link #BottomAppBar_fabCradleMargin com.companyname.newinventoryapp:fabCradleMargin}</code></td><td>The margin between the semi-circular cradle for the fab and the fab.</td></tr>
@@ -17691,8 +17076,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.companyname.newinventoryapp:allowStacking}</code></td><td>Whether to automatically stack the buttons when there is not
-     * enough space to lay them out side-by-side.</td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.companyname.newinventoryapp:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -17700,10 +17084,8 @@ public final class R {
       0x7f03002b
     };
     /**
-     * <p>
-     * @attr description
-     * Whether to automatically stack the buttons when there is not
-     * enough space to lay them out side-by-side.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#allowStacking}
+     * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -18128,9 +17510,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CheckedTextView_android_checkMark android:checkMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CheckedTextView_checkMarkCompat com.companyname.newinventoryapp:checkMarkCompat}</code></td><td>Compat attr to load backported drawable types</td></tr>
-     * <tr><td><code>{@link #CheckedTextView_checkMarkTint com.companyname.newinventoryapp:checkMarkTint}</code></td><td>Tint to apply to the check mark drawable.</td></tr>
-     * <tr><td><code>{@link #CheckedTextView_checkMarkTintMode com.companyname.newinventoryapp:checkMarkTintMode}</code></td><td>Blending mode used to apply the check mark tint.</td></tr>
+     * <tr><td><code>{@link #CheckedTextView_checkMarkCompat com.companyname.newinventoryapp:checkMarkCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CheckedTextView_checkMarkTint com.companyname.newinventoryapp:checkMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CheckedTextView_checkMarkTintMode com.companyname.newinventoryapp:checkMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CheckedTextView_android_checkMark
      * @see #CheckedTextView_checkMarkCompat
@@ -18153,9 +17535,8 @@ public final class R {
      */
     public static final int CheckedTextView_android_checkMark=0;
     /**
-     * <p>
-     * @attr description
-     * Compat attr to load backported drawable types
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#checkMarkCompat}
+     * attribute's value can be found in the {@link #CheckedTextView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -18166,9 +17547,8 @@ public final class R {
      */
     public static final int CheckedTextView_checkMarkCompat=1;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the check mark drawable.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#checkMarkTint}
+     * attribute's value can be found in the {@link #CheckedTextView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -18178,9 +17558,8 @@ public final class R {
      */
     public static final int CheckedTextView_checkMarkTint=2;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the check mark tint.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#checkMarkTintMode}
+     * attribute's value can be found in the {@link #CheckedTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -19690,9 +19069,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonCompat com.companyname.newinventoryapp:buttonCompat}</code></td><td>Compat attr to load backported drawable types</td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.companyname.newinventoryapp:buttonTint}</code></td><td>Tint to apply to the button drawable.</td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.companyname.newinventoryapp:buttonTintMode}</code></td><td>Blending mode used to apply the button tint.</td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonCompat com.companyname.newinventoryapp:buttonCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.companyname.newinventoryapp:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.companyname.newinventoryapp:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonCompat
@@ -19715,9 +19094,8 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>
-     * @attr description
-     * Compat attr to load backported drawable types
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#buttonCompat}
+     * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -19728,9 +19106,8 @@ public final class R {
      */
     public static final int CompoundButton_buttonCompat=1;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the button drawable.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#buttonTint}
+     * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -19740,9 +19117,8 @@ public final class R {
      */
     public static final int CompoundButton_buttonTint=2;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the button tint.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#buttonTintMode}
+     * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -28107,14 +27483,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.companyname.newinventoryapp:arrowHeadLength}</code></td><td>The length of the arrow head when formed to make an arrow</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.companyname.newinventoryapp:arrowShaftLength}</code></td><td>The length of the shaft when formed to make an arrow</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.companyname.newinventoryapp:barLength}</code></td><td>The length of the bars when they are parallel to each other</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.companyname.newinventoryapp:color}</code></td><td>The drawing color for the bars</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.companyname.newinventoryapp:drawableSize}</code></td><td>The total size of the drawable</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.companyname.newinventoryapp:gapBetweenBars}</code></td><td>The max gap between the bars when they are parallel to each other</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.companyname.newinventoryapp:spinBars}</code></td><td>Whether bars should rotate or not during transition</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.companyname.newinventoryapp:thickness}</code></td><td>The thickness (stroke size) for the bar paint</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.companyname.newinventoryapp:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.companyname.newinventoryapp:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.companyname.newinventoryapp:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.companyname.newinventoryapp:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.companyname.newinventoryapp:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.companyname.newinventoryapp:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.companyname.newinventoryapp:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.companyname.newinventoryapp:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -28130,9 +27506,8 @@ public final class R {
       0x7f030158, 0x7f0301c8, 0x7f030361, 0x7f0303f3
     };
     /**
-     * <p>
-     * @attr description
-     * The length of the arrow head when formed to make an arrow
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#arrowHeadLength}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -28144,9 +27519,8 @@ public final class R {
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>
-     * @attr description
-     * The length of the shaft when formed to make an arrow
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#arrowShaftLength}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -28158,9 +27532,8 @@ public final class R {
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>
-     * @attr description
-     * The length of the bars when they are parallel to each other
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#barLength}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -28172,9 +27545,8 @@ public final class R {
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>
-     * @attr description
-     * The drawing color for the bars
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#color}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -28184,9 +27556,8 @@ public final class R {
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>
-     * @attr description
-     * The total size of the drawable
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#drawableSize}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -28198,9 +27569,8 @@ public final class R {
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>
-     * @attr description
-     * The max gap between the bars when they are parallel to each other
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#gapBetweenBars}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -28212,9 +27582,8 @@ public final class R {
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>
-     * @attr description
-     * Whether bars should rotate or not during transition
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#spinBars}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -28223,9 +27592,8 @@ public final class R {
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>
-     * @attr description
-     * The thickness (stroke size) for the bar paint
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#thickness}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -28243,7 +27611,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerLayout_elevation com.companyname.newinventoryapp:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #DrawerLayout_elevation com.companyname.newinventoryapp:elevation}</code></td><td></td></tr>
      * </table>
      * @see #DrawerLayout_elevation
      */
@@ -28272,7 +27640,7 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ExtendedFloatingActionButton_collapsedSize com.companyname.newinventoryapp:collapsedSize}</code></td><td>FAB size when collapsed.</td></tr>
-     * <tr><td><code>{@link #ExtendedFloatingActionButton_elevation com.companyname.newinventoryapp:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #ExtendedFloatingActionButton_elevation com.companyname.newinventoryapp:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #ExtendedFloatingActionButton_extendMotionSpec com.companyname.newinventoryapp:extendMotionSpec}</code></td><td>Motion spec for extend animation.</td></tr>
      * <tr><td><code>{@link #ExtendedFloatingActionButton_hideMotionSpec com.companyname.newinventoryapp:hideMotionSpec}</code></td><td></td></tr>
      * <tr><td><code>{@link #ExtendedFloatingActionButton_showMotionSpec com.companyname.newinventoryapp:showMotionSpec}</code></td><td></td></tr>
@@ -28416,9 +27784,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #FloatingActionButton_android_enabled android:enabled}</code></td><td></td></tr>
      * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.companyname.newinventoryapp:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.companyname.newinventoryapp:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.companyname.newinventoryapp:backgroundTintMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #FloatingActionButton_borderWidth com.companyname.newinventoryapp:borderWidth}</code></td><td>The width of the border around the FAB.</td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation com.companyname.newinventoryapp:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation com.companyname.newinventoryapp:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #FloatingActionButton_ensureMinTouchTargetSize com.companyname.newinventoryapp:ensureMinTouchTargetSize}</code></td><td></td></tr>
      * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.companyname.newinventoryapp:fabCustomSize}</code></td><td>Custom size for the FAB.</td></tr>
      * <tr><td><code>{@link #FloatingActionButton_fabSize com.companyname.newinventoryapp:fabSize}</code></td><td>Size for the FAB.</td></tr>
@@ -28481,9 +27849,8 @@ public final class R {
      */
     public static final int FloatingActionButton_backgroundTint=1;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the background tint.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#backgroundTintMode}
+     * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -28907,7 +28274,7 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_font com.companyname.newinventoryapp:font}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_fontStyle com.companyname.newinventoryapp:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.companyname.newinventoryapp:fontVariationSettings}</code></td><td>OpenType font variation settings, available after api 26.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.companyname.newinventoryapp:fontVariationSettings}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_fontWeight com.companyname.newinventoryapp:fontWeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.companyname.newinventoryapp:ttcIndex}</code></td><td></td></tr>
      * </table>
@@ -29014,9 +28381,8 @@ public final class R {
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
-     * <p>
-     * @attr description
-     * OpenType font variation settings, available after api 26.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#fontVariationSettings}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -32338,11 +31704,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.companyname.newinventoryapp:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.companyname.newinventoryapp:dividerPadding}</code></td><td>Size of padding on either end of a divider.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.companyname.newinventoryapp:measureWithLargestChild}</code></td><td>When set to true, all children with a weight will be considered having
-     * the minimum size of the largest child.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.companyname.newinventoryapp:showDividers}</code></td><td>Setting for which dividers to show.</td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.companyname.newinventoryapp:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.companyname.newinventoryapp:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.companyname.newinventoryapp:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.companyname.newinventoryapp:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -32389,11 +31754,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_gravity=0;
     /**
-     * <p>
-     * @attr description
-     * Should the layout be a column or a row?  Use "horizontal"
-     * for a row, "vertical" for a column.  The default is
-     * horizontal.
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -32409,11 +31771,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_orientation=1;
     /**
-     * <p>
-     * @attr description
-     * When set to false, prevents the layout from aligning its children's
-     * baselines. This attribute is particularly useful when the children
-     * use different values for gravity. The default value is true.
+     * <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -32422,11 +31781,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_baselineAligned=2;
     /**
-     * <p>
-     * @attr description
-     * When a linear layout is part of another layout that is baseline
-     * aligned, it can specify which of its children to baseline align to
-     * (that is, which child TextView).
+     * <p>This symbol is the offset where the {@link android.R.attr#baselineAlignedChildIndex}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -32434,13 +31790,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_baselineAlignedChildIndex=3;
     /**
-     * <p>
-     * @attr description
-     * Defines the maximum weight sum. If unspecified, the sum is computed
-     * by adding the layout_weight of all of the children. This can be
-     * used for instance to give a single child 50% of the total available
-     * space by giving it a layout_weight of 0.5 and setting the weightSum
-     * to 1.0.
+     * <p>This symbol is the offset where the {@link android.R.attr#weightSum}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -32448,9 +31799,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use as a vertical divider between buttons.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#divider}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -32461,9 +31811,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>
-     * @attr description
-     * Size of padding on either end of a divider.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#dividerPadding}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -32475,11 +31824,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>
-     * @attr description
-     * When set to true, all children with a weight will be considered having
-     * the minimum size of the largest child. If false, all children are
-     * measured normally.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#measureWithLargestChild}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -32488,9 +31834,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>
-     * @attr description
-     * Setting for which dividers to show.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#showDividers}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -32688,9 +32033,8 @@ public final class R {
       0x010102ac, 0x010102ad
     };
     /**
-     * <p>
-     * @attr description
-     * Amount of pixels by which the drop down should be offset horizontally.
+     * <p>This symbol is the offset where the {@link android.R.attr#dropDownHorizontalOffset}
+     * attribute's value can be found in the {@link #ListPopupWindow} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -32702,9 +32046,8 @@ public final class R {
      */
     public static final int ListPopupWindow_android_dropDownHorizontalOffset=0;
     /**
-     * <p>
-     * @attr description
-     * Amount of pixels by which the drop down should be offset vertically.
+     * <p>This symbol is the offset where the {@link android.R.attr#dropDownVerticalOffset}
+     * attribute's value can be found in the {@link #ListPopupWindow} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -32986,15 +32329,15 @@ public final class R {
      * <tr><td><code>{@link #MaterialButton_android_insetBottom android:insetBottom}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_backgroundTint com.companyname.newinventoryapp:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTintMode com.companyname.newinventoryapp:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTintMode com.companyname.newinventoryapp:backgroundTintMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_cornerRadius com.companyname.newinventoryapp:cornerRadius}</code></td><td>Specifies the radius for the corners of the button.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_elevation com.companyname.newinventoryapp:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #MaterialButton_elevation com.companyname.newinventoryapp:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_icon com.companyname.newinventoryapp:icon}</code></td><td>Icon drawable to display at the start of this view.</td></tr>
      * <tr><td><code>{@link #MaterialButton_iconGravity com.companyname.newinventoryapp:iconGravity}</code></td><td>Specifies how the icon should be positioned on the X axis.</td></tr>
      * <tr><td><code>{@link #MaterialButton_iconPadding com.companyname.newinventoryapp:iconPadding}</code></td><td>Padding between icon and button text.</td></tr>
      * <tr><td><code>{@link #MaterialButton_iconSize com.companyname.newinventoryapp:iconSize}</code></td><td>Specifies the width and height to use for the icon drawable.</td></tr>
      * <tr><td><code>{@link #MaterialButton_iconTint com.companyname.newinventoryapp:iconTint}</code></td><td>Tint for icon drawable to display.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconTintMode com.companyname.newinventoryapp:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconTintMode com.companyname.newinventoryapp:iconTintMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_rippleColor com.companyname.newinventoryapp:rippleColor}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_shapeAppearance com.companyname.newinventoryapp:shapeAppearance}</code></td><td>Shape appearance style reference to be used to construct a ShapeAppearanceModel.</td></tr>
      * <tr><td><code>{@link #MaterialButton_shapeAppearanceOverlay com.companyname.newinventoryapp:shapeAppearanceOverlay}</code></td><td>Shape appearance overlay style reference to be used to modify the shapeAppearance.</td></tr>
@@ -33142,9 +32485,8 @@ public final class R {
      */
     public static final int MaterialButton_backgroundTint=6;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the background tint.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#backgroundTintMode}
+     * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -33970,7 +33312,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MaterialCheckBox_buttonTint com.companyname.newinventoryapp:buttonTint}</code></td><td>Tint to apply to the button drawable.</td></tr>
+     * <tr><td><code>{@link #MaterialCheckBox_buttonTint com.companyname.newinventoryapp:buttonTint}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialCheckBox_centerIfNoTextEnabled com.companyname.newinventoryapp:centerIfNoTextEnabled}</code></td><td>Whether the MaterialCheckBox button drawable (checkbox icon) will be
      * centered when there is no text set for the checkbox.</td></tr>
      * <tr><td><code>{@link #MaterialCheckBox_useMaterialThemeColors com.companyname.newinventoryapp:useMaterialThemeColors}</code></td><td></td></tr>
@@ -34121,7 +33463,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MaterialRadioButton_buttonTint com.companyname.newinventoryapp:buttonTint}</code></td><td>Tint to apply to the button drawable.</td></tr>
+     * <tr><td><code>{@link #MaterialRadioButton_buttonTint com.companyname.newinventoryapp:buttonTint}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialRadioButton_useMaterialThemeColors com.companyname.newinventoryapp:useMaterialThemeColors}</code></td><td></td></tr>
      * </table>
      * @see #MaterialRadioButton_buttonTint
@@ -34476,9 +33818,8 @@ public final class R {
       0x010101df, 0x010101e0
     };
     /**
-     * <p>
-     * @attr description
-     * Whether the items are enabled.
+     * <p>This symbol is the offset where the {@link android.R.attr#enabled}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -34487,9 +33828,8 @@ public final class R {
      */
     public static final int MenuGroup_android_enabled=0;
     /**
-     * <p>
-     * @attr description
-     * The ID of the group.
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -34500,9 +33840,8 @@ public final class R {
      */
     public static final int MenuGroup_android_id=1;
     /**
-     * <p>
-     * @attr description
-     * Whether the items are shown/visible.
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -34511,10 +33850,8 @@ public final class R {
      */
     public static final int MenuGroup_android_visible=2;
     /**
-     * <p>
-     * @attr description
-     * The category applied to all items within this group.
-     * (This will be or'ed with the orderInCategory attribute.)
+     * <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -34532,10 +33869,8 @@ public final class R {
      */
     public static final int MenuGroup_android_menuCategory=3;
     /**
-     * <p>
-     * @attr description
-     * The order within the category applied to all items within this group.
-     * (This will be or'ed with the category attribute.)
+     * <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -34543,9 +33878,8 @@ public final class R {
      */
     public static final int MenuGroup_android_orderInCategory=4;
     /**
-     * <p>
-     * @attr description
-     * Whether the items are capable of displaying a check mark.
+     * <p>This symbol is the offset where the {@link android.R.attr#checkableBehavior}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -34581,18 +33915,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.companyname.newinventoryapp:actionLayout}</code></td><td>An optional layout to be used as an action view.</td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.companyname.newinventoryapp:actionProviderClass}</code></td><td>The name of an optional ActionProvider class to instantiate an action view
-     * and perform operations such as default action for that menu item.</td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.companyname.newinventoryapp:actionViewClass}</code></td><td>The name of an optional View class to instantiate and use as an
-     * action view.</td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.companyname.newinventoryapp:alphabeticModifiers}</code></td><td>The alphabetic modifier key.</td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.companyname.newinventoryapp:contentDescription}</code></td><td>The content description associated with the item.</td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.companyname.newinventoryapp:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.companyname.newinventoryapp:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.companyname.newinventoryapp:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.companyname.newinventoryapp:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.companyname.newinventoryapp:contentDescription}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_iconTint com.companyname.newinventoryapp:iconTint}</code></td><td>Tint for icon drawable to display.</td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.companyname.newinventoryapp:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.companyname.newinventoryapp:numericModifiers}</code></td><td>The numeric modifier key.</td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.companyname.newinventoryapp:showAsAction}</code></td><td>How this item should display in the Action Bar, if present.</td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.companyname.newinventoryapp:tooltipText}</code></td><td>The tooltip text associated with the item.</td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.companyname.newinventoryapp:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.companyname.newinventoryapp:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.companyname.newinventoryapp:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.companyname.newinventoryapp:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -34627,10 +33959,8 @@ public final class R {
       0x7f0302ee, 0x7f03034e, 0x7f03041a
     };
     /**
-     * <p>
-     * @attr description
-     * The icon associated with this item.  This icon will not always be shown, so
-     * the title should be sufficient in describing this item.
+     * <p>This symbol is the offset where the {@link android.R.attr#icon}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -34641,9 +33971,8 @@ public final class R {
      */
     public static final int MenuItem_android_icon=0;
     /**
-     * <p>
-     * @attr description
-     * Whether the item is enabled.
+     * <p>This symbol is the offset where the {@link android.R.attr#enabled}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -34652,9 +33981,8 @@ public final class R {
      */
     public static final int MenuItem_android_enabled=1;
     /**
-     * <p>
-     * @attr description
-     * The ID of the item.
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -34665,10 +33993,8 @@ public final class R {
      */
     public static final int MenuItem_android_id=2;
     /**
-     * <p>
-     * @attr description
-     * Whether the item is checked.  Note that you must first have enabled checking with
-     * the checkable attribute or else the check mark will not appear.
+     * <p>This symbol is the offset where the {@link android.R.attr#checked}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -34677,9 +34003,8 @@ public final class R {
      */
     public static final int MenuItem_android_checked=3;
     /**
-     * <p>
-     * @attr description
-     * Whether the item is shown/visible.
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -34688,10 +34013,8 @@ public final class R {
      */
     public static final int MenuItem_android_visible=4;
     /**
-     * <p>
-     * @attr description
-     * The category applied to the item.
-     * (This will be or'ed with the orderInCategory attribute.)
+     * <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -34709,10 +34032,8 @@ public final class R {
      */
     public static final int MenuItem_android_menuCategory=5;
     /**
-     * <p>
-     * @attr description
-     * The order within the category applied to the item.
-     * (This will be or'ed with the category attribute.)
+     * <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -34720,9 +34041,8 @@ public final class R {
      */
     public static final int MenuItem_android_orderInCategory=6;
     /**
-     * <p>
-     * @attr description
-     * The title associated with the item.
+     * <p>This symbol is the offset where the {@link android.R.attr#title}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -34731,10 +34051,8 @@ public final class R {
      */
     public static final int MenuItem_android_title=7;
     /**
-     * <p>
-     * @attr description
-     * The condensed title associated with the item.  This is used in situations where the
-     * normal title may be too long to be displayed.
+     * <p>This symbol is the offset where the {@link android.R.attr#titleCondensed}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -34743,10 +34061,8 @@ public final class R {
      */
     public static final int MenuItem_android_titleCondensed=8;
     /**
-     * <p>
-     * @attr description
-     * The alphabetic shortcut key.  This is the shortcut when using a keyboard
-     * with alphabetic keys.
+     * <p>This symbol is the offset where the {@link android.R.attr#alphabeticShortcut}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -34755,10 +34071,8 @@ public final class R {
      */
     public static final int MenuItem_android_alphabeticShortcut=9;
     /**
-     * <p>
-     * @attr description
-     * The numeric shortcut key.  This is the shortcut when using a numeric (e.g., 12-key)
-     * keyboard.
+     * <p>This symbol is the offset where the {@link android.R.attr#numericShortcut}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -34767,9 +34081,8 @@ public final class R {
      */
     public static final int MenuItem_android_numericShortcut=10;
     /**
-     * <p>
-     * @attr description
-     * Whether the item is capable of displaying a check mark.
+     * <p>This symbol is the offset where the {@link android.R.attr#checkable}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -34778,10 +34091,8 @@ public final class R {
      */
     public static final int MenuItem_android_checkable=11;
     /**
-     * <p>
-     * @attr description
-     * Name of a method on the Context used to inflate the menu that will be
-     * called when the item is clicked.
+     * <p>This symbol is the offset where the {@link android.R.attr#onClick}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -34790,11 +34101,8 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>
-     * @attr description
-     * An optional layout to be used as an action view.
-     * See {@link android.view.MenuItem#setActionView(android.view.View)}
-     * for more info.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionLayout}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -34805,12 +34113,8 @@ public final class R {
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>
-     * @attr description
-     * The name of an optional ActionProvider class to instantiate an action view
-     * and perform operations such as default action for that menu item.
-     * See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
-     * for more info.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionProviderClass}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -34819,11 +34123,8 @@ public final class R {
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>
-     * @attr description
-     * The name of an optional View class to instantiate and use as an
-     * action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
-     * for more info.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#actionViewClass}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -34832,10 +34133,8 @@ public final class R {
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>
-     * @attr description
-     * The alphabetic modifier key. This is the modifier when using a keyboard
-     * with alphabetic keys. The values should be kept in sync with KeyEvent
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#alphabeticModifiers}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -34855,9 +34154,8 @@ public final class R {
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>
-     * @attr description
-     * The content description associated with the item.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#contentDescription}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -34868,7 +34166,7 @@ public final class R {
     /**
      * <p>
      * @attr description
-     * Tint to apply to the icon.
+     * Tint for icon drawable to display.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -34878,9 +34176,8 @@ public final class R {
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the icon tint.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#iconTintMode}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -34905,10 +34202,8 @@ public final class R {
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>
-     * @attr description
-     * The numeric modifier key. This is the modifier when using a numeric (e.g., 12-key)
-     * keyboard. The values should be kept in sync with KeyEvent
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#numericModifiers}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -34928,9 +34223,8 @@ public final class R {
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>
-     * @attr description
-     * How this item should display in the Action Bar, if present.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#showAsAction}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -34958,9 +34252,8 @@ public final class R {
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>
-     * @attr description
-     * The tooltip text associated with the item.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#tooltipText}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -34982,8 +34275,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.companyname.newinventoryapp:preserveIconSpacing}</code></td><td>Whether space should be reserved in layout when an icon is missing.</td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.companyname.newinventoryapp:subMenuArrow}</code></td><td>Drawable for the arrow icon indicating a particular item is a submenu.</td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.companyname.newinventoryapp:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.companyname.newinventoryapp:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -35001,9 +34294,8 @@ public final class R {
       0x7f03037d
     };
     /**
-     * <p>
-     * @attr description
-     * Default animations for the menu.
+     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -35014,9 +34306,8 @@ public final class R {
      */
     public static final int MenuView_android_windowAnimationStyle=0;
     /**
-     * <p>
-     * @attr description
-     * Default appearance of menu item text.
+     * <p>This symbol is the offset where the {@link android.R.attr#itemTextAppearance}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -35027,9 +34318,8 @@ public final class R {
      */
     public static final int MenuView_android_itemTextAppearance=1;
     /**
-     * <p>
-     * @attr description
-     * Default horizontal divider between rows of menu items.
+     * <p>This symbol is the offset where the {@link android.R.attr#horizontalDivider}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -35040,9 +34330,8 @@ public final class R {
      */
     public static final int MenuView_android_horizontalDivider=2;
     /**
-     * <p>
-     * @attr description
-     * Default vertical divider between menu items.
+     * <p>This symbol is the offset where the {@link android.R.attr#verticalDivider}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -35053,9 +34342,8 @@ public final class R {
      */
     public static final int MenuView_android_verticalDivider=3;
     /**
-     * <p>
-     * @attr description
-     * Default background for the menu header.
+     * <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -35069,9 +34357,8 @@ public final class R {
      */
     public static final int MenuView_android_headerBackground=4;
     /**
-     * <p>
-     * @attr description
-     * Default background for each menu item.
+     * <p>This symbol is the offset where the {@link android.R.attr#itemBackground}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -35085,9 +34372,8 @@ public final class R {
      */
     public static final int MenuView_android_itemBackground=5;
     /**
-     * <p>
-     * @attr description
-     * Default disabled icon alpha for each menu item that shows an icon.
+     * <p>This symbol is the offset where the {@link android.R.attr#itemIconDisabledAlpha}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -35095,9 +34381,8 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>
-     * @attr description
-     * Whether space should be reserved in layout when an icon is missing.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#preserveIconSpacing}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -35106,9 +34391,8 @@ public final class R {
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>
-     * @attr description
-     * Drawable for the arrow icon indicating a particular item is a submenu.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#subMenuArrow}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -36236,7 +35520,7 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #NavigationBarView_backgroundTint com.companyname.newinventoryapp:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationBarView_elevation com.companyname.newinventoryapp:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #NavigationBarView_elevation com.companyname.newinventoryapp:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationBarView_itemActiveIndicatorStyle com.companyname.newinventoryapp:itemActiveIndicatorStyle}</code></td><td>The style used for each navigation item's active indicator</td></tr>
      * <tr><td><code>{@link #NavigationBarView_itemBackground com.companyname.newinventoryapp:itemBackground}</code></td><td>A background drawable to use for navigation items.</td></tr>
      * <tr><td><code>{@link #NavigationBarView_itemIconSize com.companyname.newinventoryapp:itemIconSize}</code></td><td>The size of the icon navigation items that display an icon</td></tr>
@@ -36590,7 +35874,7 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_dividerInsetStart com.companyname.newinventoryapp:dividerInsetStart}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_drawerLayoutCornerSize com.companyname.newinventoryapp:drawerLayoutCornerSize}</code></td><td>Corner size for the exposed corners (those not attatched to the side
      * of the screen) when the navigation view is placed inside a drawer layout.</td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation com.companyname.newinventoryapp:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation com.companyname.newinventoryapp:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_headerLayout com.companyname.newinventoryapp:headerLayout}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_itemBackground com.companyname.newinventoryapp:itemBackground}</code></td><td>A background drawable to use for navigation items.</td></tr>
      * <tr><td><code>{@link #NavigationView_itemHorizontalPadding com.companyname.newinventoryapp:itemHorizontalPadding}</code></td><td>Horizontal padding (left and right) of navigation items, around the icon & text</td></tr>
@@ -36789,9 +36073,8 @@ public final class R {
      */
     public static final int NavigationView_drawerLayoutCornerSize=7;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#elevation}
+     * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -37516,7 +36799,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.companyname.newinventoryapp:overlapAnchor}</code></td><td>Whether the popup window should overlap its anchor view.</td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.companyname.newinventoryapp:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -37553,9 +36836,8 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>
-     * @attr description
-     * Whether the popup window should overlap its anchor view.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#overlapAnchor}
+     * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -37570,7 +36852,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.companyname.newinventoryapp:state_above_anchor}</code></td><td>State identifier indicating the popup will be above the anchor.</td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.companyname.newinventoryapp:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -37578,9 +36860,8 @@ public final class R {
       0x7f030372
     };
     /**
-     * <p>
-     * @attr description
-     * State identifier indicating the popup will be above the anchor.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#state_above_anchor}
+     * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -37758,8 +37039,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.companyname.newinventoryapp:paddingBottomNoButtons}</code></td><td>Bottom padding to use when no buttons are present.</td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.companyname.newinventoryapp:paddingTopNoTitle}</code></td><td>Top padding to use when no title is present.</td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.companyname.newinventoryapp:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.companyname.newinventoryapp:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -37768,9 +37049,8 @@ public final class R {
       0x7f0302f8, 0x7f0302fe
     };
     /**
-     * <p>
-     * @attr description
-     * Bottom padding to use when no buttons are present.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#paddingBottomNoButtons}
+     * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -37782,9 +37062,8 @@ public final class R {
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>
-     * @attr description
-     * Top padding to use when no title is present.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#paddingTopNoTitle}
+     * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -38053,19 +37332,18 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_closeIcon com.companyname.newinventoryapp:closeIcon}</code></td><td>Close icon drawable to display at the end of the chip.</td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.companyname.newinventoryapp:commitIcon}</code></td><td>Commit icon shown in the query suggestion row</td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.companyname.newinventoryapp:defaultQueryHint}</code></td><td>Default query hint used when {@code queryHint} is undefined and
-     * the search view's {@code SearchableInfo} does not provide a hint.</td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.companyname.newinventoryapp:goIcon}</code></td><td>Go button icon</td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.companyname.newinventoryapp:iconifiedByDefault}</code></td><td>The default state of the SearchView.</td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.companyname.newinventoryapp:layout}</code></td><td>The layout to use for the search view.</td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.companyname.newinventoryapp:queryBackground}</code></td><td>Background for the section containing the search query</td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.companyname.newinventoryapp:queryHint}</code></td><td>An optional user-defined query hint string to be displayed in the empty query field.</td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.companyname.newinventoryapp:searchHintIcon}</code></td><td>Search icon displayed as a text field hint</td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.companyname.newinventoryapp:searchIcon}</code></td><td>Search icon</td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.companyname.newinventoryapp:submitBackground}</code></td><td>Background for the section containing the action (e.g.</td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.companyname.newinventoryapp:suggestionRowLayout}</code></td><td>Layout for query suggestion rows</td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.companyname.newinventoryapp:voiceIcon}</code></td><td>Voice button icon</td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.companyname.newinventoryapp:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.companyname.newinventoryapp:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.companyname.newinventoryapp:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.companyname.newinventoryapp:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.companyname.newinventoryapp:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.companyname.newinventoryapp:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.companyname.newinventoryapp:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.companyname.newinventoryapp:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.companyname.newinventoryapp:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.companyname.newinventoryapp:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.companyname.newinventoryapp:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.companyname.newinventoryapp:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -38111,9 +37389,8 @@ public final class R {
      */
     public static final int SearchView_android_focusable=0;
     /**
-     * <p>
-     * @attr description
-     * An optional maximum width of the SearchView.
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -38125,9 +37402,8 @@ public final class R {
      */
     public static final int SearchView_android_maxWidth=1;
     /**
-     * <p>
-     * @attr description
-     * The input type to set on the query text field.
+     * <p>This symbol is the offset where the {@link android.R.attr#inputType}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -38173,9 +37449,8 @@ public final class R {
      */
     public static final int SearchView_android_inputType=2;
     /**
-     * <p>
-     * @attr description
-     * The IME options to set on the query text field.
+     * <p>This symbol is the offset where the {@link android.R.attr#imeOptions}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -38208,7 +37483,7 @@ public final class R {
     /**
      * <p>
      * @attr description
-     * Close button icon
+     * Close icon drawable to display at the end of the chip.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -38219,9 +37494,8 @@ public final class R {
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>
-     * @attr description
-     * Commit icon shown in the query suggestion row
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#commitIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -38232,10 +37506,8 @@ public final class R {
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>
-     * @attr description
-     * Default query hint used when {@code queryHint} is undefined and
-     * the search view's {@code SearchableInfo} does not provide a hint.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#defaultQueryHint}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -38244,9 +37516,8 @@ public final class R {
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>
-     * @attr description
-     * Go button icon
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#goIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -38257,10 +37528,8 @@ public final class R {
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>
-     * @attr description
-     * The default state of the SearchView. If true, it will be iconified when not in
-     * use and expanded when clicked.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#iconifiedByDefault}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -38269,9 +37538,8 @@ public final class R {
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>
-     * @attr description
-     * The layout to use for the search view.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#layout}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -38282,9 +37550,8 @@ public final class R {
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>
-     * @attr description
-     * Background for the section containing the search query
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#queryBackground}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -38295,9 +37562,8 @@ public final class R {
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>
-     * @attr description
-     * An optional user-defined query hint string to be displayed in the empty query field.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#queryHint}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -38306,9 +37572,8 @@ public final class R {
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>
-     * @attr description
-     * Search icon displayed as a text field hint
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#searchHintIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -38319,9 +37584,8 @@ public final class R {
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>
-     * @attr description
-     * Search icon
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#searchIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -38332,9 +37596,8 @@ public final class R {
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>
-     * @attr description
-     * Background for the section containing the action (e.g. voice search)
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#submitBackground}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -38345,9 +37608,8 @@ public final class R {
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>
-     * @attr description
-     * Layout for query suggestion rows
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#suggestionRowLayout}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -38358,9 +37620,8 @@ public final class R {
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>
-     * @attr description
-     * Voice button icon
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#voiceIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -39201,8 +38462,8 @@ public final class R {
      * <tr><td><code>{@link #SnackbarLayout_animationMode com.companyname.newinventoryapp:animationMode}</code></td><td>Sets the enter and exit animations for a Snackbar.</td></tr>
      * <tr><td><code>{@link #SnackbarLayout_backgroundOverlayColorAlpha com.companyname.newinventoryapp:backgroundOverlayColorAlpha}</code></td><td>Alpha level for the color that is overlaid on top of the background color.</td></tr>
      * <tr><td><code>{@link #SnackbarLayout_backgroundTint com.companyname.newinventoryapp:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_backgroundTintMode com.companyname.newinventoryapp:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation com.companyname.newinventoryapp:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_backgroundTintMode com.companyname.newinventoryapp:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation com.companyname.newinventoryapp:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.companyname.newinventoryapp:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
@@ -39312,9 +38573,8 @@ public final class R {
      */
     public static final int SnackbarLayout_backgroundTintMode=5;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#elevation}
+     * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -39349,8 +38609,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.companyname.newinventoryapp:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.</td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.companyname.newinventoryapp:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -39363,9 +38622,8 @@ public final class R {
       0x7f030317
     };
     /**
-     * <p>
-     * @attr description
-     * Reference to an array resource that will populate the Spinner.
+     * <p>This symbol is the offset where the {@link android.R.attr#entries}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -39376,9 +38634,8 @@ public final class R {
      */
     public static final int Spinner_android_entries=0;
     /**
-     * <p>
-     * @attr description
-     * Background drawable to use for the dropdown in spinnerMode="dropdown".
+     * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -39392,9 +38649,8 @@ public final class R {
      */
     public static final int Spinner_android_popupBackground=1;
     /**
-     * <p>
-     * @attr description
-     * The prompt to display when the spinner's dialog is shown.
+     * <p>This symbol is the offset where the {@link android.R.attr#prompt}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -39405,9 +38661,8 @@ public final class R {
      */
     public static final int Spinner_android_prompt=2;
     /**
-     * <p>
-     * @attr description
-     * Width of the dropdown in spinnerMode="dropdown".
+     * <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -39429,9 +38684,8 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>
-     * @attr description
-     * Theme to use for the drop-down or dialog popup window.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#popupTheme}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -39507,11 +38761,8 @@ public final class R {
       0x0101030c, 0x0101030d
     };
     /**
-     * <p>
-     * @attr description
-     * Enables or disables dithering of the bitmap if the bitmap does not have the
-     * same pixel configuration as the screen (for instance: a ARGB 8888 bitmap with
-     * an RGB 565 screen).
+     * <p>This symbol is the offset where the {@link android.R.attr#dither}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -39520,9 +38771,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_dither=0;
     /**
-     * <p>
-     * @attr description
-     * Indicates whether the drawable should be initially visible.
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -39531,14 +38781,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_visible=1;
     /**
-     * <p>
-     * @attr description
-     * If true, allows the drawable's padding to change based on the
-     * current state that is selected.  If false, the padding will
-     * stay the same (based on the maximum padding of all the states).
-     * Enabling this feature requires that the owner of the drawable
-     * deal with performing layout when the state changes, which is
-     * often not supported.
+     * <p>This symbol is the offset where the {@link android.R.attr#variablePadding}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -39547,12 +38791,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_variablePadding=2;
     /**
-     * <p>
-     * @attr description
-     * If true, the drawable's reported internal size will remain
-     * constant as the state changes; the size is the maximum of all
-     * of the states.  If false, the size will vary based on the
-     * current state.
+     * <p>This symbol is the offset where the {@link android.R.attr#constantSize}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -39561,9 +38801,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_constantSize=3;
     /**
-     * <p>
-     * @attr description
-     * Amount of time (in milliseconds) to fade in a new state drawable.
+     * <p>This symbol is the offset where the {@link android.R.attr#enterFadeDuration}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -39571,9 +38810,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_enterFadeDuration=4;
     /**
-     * <p>
-     * @attr description
-     * Amount of time (in milliseconds) to fade out an old state drawable.
+     * <p>This symbol is the offset where the {@link android.R.attr#exitFadeDuration}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -39595,10 +38833,8 @@ public final class R {
       0x01010199
     };
     /**
-     * <p>
-     * @attr description
-     * Reference to a drawable resource to use for the state. If not
-     * given, the drawable must be defined by the first child tag.
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #StateListDrawableItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -39644,17 +38880,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.companyname.newinventoryapp:showText}</code></td><td>Whether to draw on/off text.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.companyname.newinventoryapp:splitTrack}</code></td><td>Whether to split the track and leave a gap for the thumb drawable.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.companyname.newinventoryapp:switchMinWidth}</code></td><td>Minimum width for the switch component</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.companyname.newinventoryapp:switchPadding}</code></td><td>Minimum space between the switch and caption text</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.companyname.newinventoryapp:switchTextAppearance}</code></td><td>TextAppearance style for text displayed on the switch thumb.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.companyname.newinventoryapp:thumbTextPadding}</code></td><td>Amount of padding on either side of text within the switch thumb.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.companyname.newinventoryapp:thumbTint}</code></td><td>Tint to apply to the thumb drawable.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.companyname.newinventoryapp:thumbTintMode}</code></td><td>Blending mode used to apply the thumb tint.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.companyname.newinventoryapp:track}</code></td><td>Drawable to use as the "track" that the switch thumb slides within.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.companyname.newinventoryapp:trackTint}</code></td><td>Tint to apply to the track.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.companyname.newinventoryapp:trackTintMode}</code></td><td>Blending mode used to apply the track tint.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.companyname.newinventoryapp:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.companyname.newinventoryapp:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.companyname.newinventoryapp:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.companyname.newinventoryapp:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.companyname.newinventoryapp:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.companyname.newinventoryapp:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.companyname.newinventoryapp:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.companyname.newinventoryapp:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.companyname.newinventoryapp:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.companyname.newinventoryapp:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.companyname.newinventoryapp:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -39678,9 +38914,8 @@ public final class R {
       0x7f030426, 0x7f030427
     };
     /**
-     * <p>
-     * @attr description
-     * Text to use when the switch is in the checked/"on" state.
+     * <p>This symbol is the offset where the {@link android.R.attr#textOn}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -39689,9 +38924,8 @@ public final class R {
      */
     public static final int SwitchCompat_android_textOn=0;
     /**
-     * <p>
-     * @attr description
-     * Text to use when the switch is in the unchecked/"off" state.
+     * <p>This symbol is the offset where the {@link android.R.attr#textOff}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -39700,9 +38934,8 @@ public final class R {
      */
     public static final int SwitchCompat_android_textOff=1;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use as the "thumb" that switches back and forth.
+     * <p>This symbol is the offset where the {@link android.R.attr#thumb}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -39713,9 +38946,8 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>
-     * @attr description
-     * Whether to draw on/off text.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#showText}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -39724,9 +38956,8 @@ public final class R {
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>
-     * @attr description
-     * Whether to split the track and leave a gap for the thumb drawable.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#splitTrack}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -39735,9 +38966,8 @@ public final class R {
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>
-     * @attr description
-     * Minimum width for the switch component
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#switchMinWidth}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -39749,9 +38979,8 @@ public final class R {
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>
-     * @attr description
-     * Minimum space between the switch and caption text
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#switchPadding}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -39763,9 +38992,8 @@ public final class R {
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>
-     * @attr description
-     * TextAppearance style for text displayed on the switch thumb.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#switchTextAppearance}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -39776,9 +39004,8 @@ public final class R {
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>
-     * @attr description
-     * Amount of padding on either side of text within the switch thumb.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#thumbTextPadding}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -39790,9 +39017,8 @@ public final class R {
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the thumb drawable.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#thumbTint}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -39802,9 +39028,8 @@ public final class R {
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the thumb tint.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#thumbTintMode}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -39829,9 +39054,8 @@ public final class R {
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use as the "track" that the switch thumb slides within.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#track}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -39842,9 +39066,8 @@ public final class R {
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the track.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#trackTint}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -39854,9 +39077,8 @@ public final class R {
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the track tint.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#trackTintMode}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -40444,11 +39666,10 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_textFontWeight android:textFontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.companyname.newinventoryapp:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontVariationSettings com.companyname.newinventoryapp:fontVariationSettings}</code></td><td>OpenType font variation settings, available after api 26.</td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.companyname.newinventoryapp:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
-     * <tr><td><code>{@link #TextAppearance_textLocale com.companyname.newinventoryapp:textLocale}</code></td><td>Set the textLocale by a comma-separated language tag string,
-     * for example "ja-JP,zh-CN".</td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.companyname.newinventoryapp:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontVariationSettings com.companyname.newinventoryapp:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.companyname.newinventoryapp:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textLocale com.companyname.newinventoryapp:textLocale}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -40626,9 +39847,8 @@ public final class R {
      */
     public static final int TextAppearance_android_textFontWeight=11;
     /**
-     * <p>
-     * @attr description
-     * The attribute for the font family.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#fontFamily}
+     * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -40637,9 +39857,8 @@ public final class R {
      */
     public static final int TextAppearance_fontFamily=12;
     /**
-     * <p>
-     * @attr description
-     * OpenType font variation settings, available aftear api 26.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#fontVariationSettings}
+     * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -40648,9 +39867,8 @@ public final class R {
      */
     public static final int TextAppearance_fontVariationSettings=13;
     /**
-     * <p>
-     * @attr description
-     * Present the text in ALL CAPS. This may use a small-caps form when available.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#textAllCaps}
+     * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -40663,13 +39881,8 @@ public final class R {
      */
     public static final int TextAppearance_textAllCaps=14;
     /**
-     * <p>
-     * @attr description
-     * Set the textLocale by a comma-separated language tag string,
-     * for example "ja-JP,zh-CN". This attribute only takes effect on API 21 and above.
-     * Before API 24, only the first language tag is used. Starting from API 24,
-     * the string will be converted into a {@link android.os.LocaleList} and then used by
-     * {@link android.widget.TextView}
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#textLocale}
+     * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -42069,40 +41282,33 @@ public final class R {
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_buttonGravity com.companyname.newinventoryapp:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.companyname.newinventoryapp:collapseContentDescription}</code></td><td>Text to set as the content description for the collapse button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.companyname.newinventoryapp:collapseIcon}</code></td><td>Icon drawable to use for the collapse button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.companyname.newinventoryapp:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.companyname.newinventoryapp:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
-     * are present.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.companyname.newinventoryapp:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.companyname.newinventoryapp:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.companyname.newinventoryapp:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.companyname.newinventoryapp:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.companyname.newinventoryapp:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.companyname.newinventoryapp:logoDescription}</code></td><td>A content description string to describe the appearance of the
-     * associated logo image.</td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.companyname.newinventoryapp:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.companyname.newinventoryapp:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.companyname.newinventoryapp:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.companyname.newinventoryapp:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.companyname.newinventoryapp:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.companyname.newinventoryapp:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.companyname.newinventoryapp:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.companyname.newinventoryapp:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.companyname.newinventoryapp:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.companyname.newinventoryapp:logoDescription}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_maxButtonHeight com.companyname.newinventoryapp:maxButtonHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_menu com.companyname.newinventoryapp:menu}</code></td><td>The menu resource to inflate and populate items from.</td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.companyname.newinventoryapp:navigationContentDescription}</code></td><td>Text to set as the content description for the navigation button
-     * located at the start of the toolbar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.companyname.newinventoryapp:navigationIcon}</code></td><td>Icon drawable to use for the navigation button located at
-     * the start of the toolbar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.companyname.newinventoryapp:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.companyname.newinventoryapp:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.companyname.newinventoryapp:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.companyname.newinventoryapp:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.companyname.newinventoryapp:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.companyname.newinventoryapp:subtitle}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.companyname.newinventoryapp:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.companyname.newinventoryapp:subtitleTextColor}</code></td><td>A color to apply to the subtitle string.</td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.companyname.newinventoryapp:subtitleTextColor}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_title com.companyname.newinventoryapp:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.companyname.newinventoryapp:titleMargin}</code></td><td>Specifies extra space on the left, start, right and end sides
-     * of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.companyname.newinventoryapp:titleMarginBottom}</code></td><td>Specifies extra space on the bottom side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.companyname.newinventoryapp:titleMarginEnd}</code></td><td>Specifies extra space on the end side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.companyname.newinventoryapp:titleMarginStart}</code></td><td>Specifies extra space on the start side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.companyname.newinventoryapp:titleMarginTop}</code></td><td>Specifies extra space on the top side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.companyname.newinventoryapp:titleMargins}</code></td><td>{@deprecated Use titleMargin}</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.companyname.newinventoryapp:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.companyname.newinventoryapp:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.companyname.newinventoryapp:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.companyname.newinventoryapp:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.companyname.newinventoryapp:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.companyname.newinventoryapp:titleMargins}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_titleTextAppearance com.companyname.newinventoryapp:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.companyname.newinventoryapp:titleTextColor}</code></td><td>A color to apply to the title string.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.companyname.newinventoryapp:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -42135,7 +41341,6 @@ public final class R {
      * @see #Toolbar_titleTextAppearance
      * @see #Toolbar_titleTextColor
      */
-    @Deprecated
     public static final int[] Toolbar={
       0x010100af, 0x01010140, 0x7f03007c, 0x7f0300ce, 
       0x7f0300cf, 0x7f03010b, 0x7f03010c, 0x7f03010d, 
@@ -42207,9 +41412,8 @@ public final class R {
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>
-     * @attr description
-     * Text to set as the content description for the collapse button.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#collapseContentDescription}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -42218,9 +41422,8 @@ public final class R {
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>
-     * @attr description
-     * Icon drawable to use for the collapse button.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#collapseIcon}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -42231,10 +41434,8 @@ public final class R {
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#contentInsetEnd}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -42246,10 +41447,8 @@ public final class R {
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar when actions from a menu
-     * are present. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#contentInsetEndWithActions}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -42261,10 +41460,8 @@ public final class R {
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#contentInsetLeft}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -42276,10 +41473,8 @@ public final class R {
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#contentInsetRight}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -42291,10 +41486,8 @@ public final class R {
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#contentInsetStart}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -42306,10 +41499,8 @@ public final class R {
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#contentInsetStartWithNavigation}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -42321,10 +41512,8 @@ public final class R {
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>
-     * @attr description
-     * Drawable to set as the logo that appears at the starting side of
-     * the Toolbar, just after the navigation button.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#logo}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -42335,10 +41524,8 @@ public final class R {
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>
-     * @attr description
-     * A content description string to describe the appearance of the
-     * associated logo image.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#logoDescription}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -42362,7 +41549,7 @@ public final class R {
     /**
      * <p>
      * @attr description
-     * Menu resource to inflate to be shown in the toolbar
+     * The menu resource to inflate and populate items from.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -42373,10 +41560,8 @@ public final class R {
      */
     public static final int Toolbar_menu=14;
     /**
-     * <p>
-     * @attr description
-     * Text to set as the content description for the navigation button
-     * located at the start of the toolbar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#navigationContentDescription}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -42385,10 +41570,8 @@ public final class R {
      */
     public static final int Toolbar_navigationContentDescription=15;
     /**
-     * <p>
-     * @attr description
-     * Icon drawable to use for the navigation button located at
-     * the start of the toolbar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#navigationIcon}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -42399,10 +41582,8 @@ public final class R {
      */
     public static final int Toolbar_navigationIcon=16;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the toolbar.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#popupTheme}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -42413,9 +41594,8 @@ public final class R {
      */
     public static final int Toolbar_popupTheme=17;
     /**
-     * <p>
-     * @attr description
-     * Specifies subtitle text used for navigationMode="normal"
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#subtitle}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -42436,9 +41616,8 @@ public final class R {
      */
     public static final int Toolbar_subtitleTextAppearance=19;
     /**
-     * <p>
-     * @attr description
-     * A color to apply to the subtitle string.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#subtitleTextColor}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -42458,10 +41637,8 @@ public final class R {
      */
     public static final int Toolbar_title=21;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the left, start, right and end sides
-     * of the toolbar's title. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#titleMargin}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -42473,11 +41650,8 @@ public final class R {
      */
     public static final int Toolbar_titleMargin=22;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the bottom side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#titleMarginBottom}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -42489,11 +41663,8 @@ public final class R {
      */
     public static final int Toolbar_titleMarginBottom=23;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the end side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#titleMarginEnd}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -42505,11 +41676,8 @@ public final class R {
      */
     public static final int Toolbar_titleMarginEnd=24;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the start side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#titleMarginStart}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -42521,11 +41689,8 @@ public final class R {
      */
     public static final int Toolbar_titleMarginStart=25;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the top side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#titleMarginTop}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -42537,9 +41702,8 @@ public final class R {
      */
     public static final int Toolbar_titleMarginTop=26;
     /**
-     * <p>
-     * @attr description
-     * {@deprecated Use titleMargin}
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#titleMargins}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -42549,7 +41713,6 @@ public final class R {
      *
      * @attr name com.companyname.newinventoryapp:titleMargins
      */
-    @Deprecated
     public static final int Toolbar_titleMargins=27;
     /**
      * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#titleTextAppearance}
@@ -42564,9 +41727,8 @@ public final class R {
      */
     public static final int Toolbar_titleTextAppearance=28;
     /**
-     * <p>
-     * @attr description
-     * A color to apply to the title string.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#titleTextColor}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -43192,9 +42354,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.companyname.newinventoryapp:paddingEnd}</code></td><td>Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.companyname.newinventoryapp:paddingStart}</code></td><td>Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
-     * <tr><td><code>{@link #View_theme com.companyname.newinventoryapp:theme}</code></td><td>Deprecated.</td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.companyname.newinventoryapp:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.companyname.newinventoryapp:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.companyname.newinventoryapp:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -43207,11 +42369,8 @@ public final class R {
       0x7f0303f1
     };
     /**
-     * <p>
-     * @attr description
-     * Specifies a theme override for a view. When a theme override is set, the
-     * view will be inflated using a {@link android.content.Context} themed with
-     * the specified resource.
+     * <p>This symbol is the offset where the {@link android.R.attr#theme}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -43222,14 +42381,8 @@ public final class R {
      */
     public static final int View_android_theme=0;
     /**
-     * <p>
-     * @attr description
-     * Boolean that controls whether a view can take focus.  By default the user can not
-     * move focus to a view; by setting this attribute to true the view is
-     * allowed to take focus.  This value does not impact the behavior of
-     * directly calling {@link android.view.View#requestFocus}, which will
-     * always request focus regardless of this view.  It only impacts where
-     * focus navigation will try to move focus.
+     * <p>This symbol is the offset where the {@link android.R.attr#focusable}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -43246,9 +42399,8 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>
-     * @attr description
-     * Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#paddingEnd}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -43260,9 +42412,8 @@ public final class R {
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>
-     * @attr description
-     * Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#paddingStart}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -43274,9 +42425,8 @@ public final class R {
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>
-     * @attr description
-     * Deprecated.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#theme}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -43295,7 +42445,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.companyname.newinventoryapp:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.companyname.newinventoryapp:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.companyname.newinventoryapp:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -43320,9 +42470,8 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the background.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#backgroundTint}
+     * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -43332,9 +42481,8 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the background tint.
+     * <p>This symbol is the offset where the {@link com.companyname.newinventoryapp.R.attr#backgroundTintMode}
+     * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -43420,11 +42568,8 @@ public final class R {
      */
     public static final int ViewStubCompat_android_id=0;
     /**
-     * <p>
-     * @attr description
-     * Supply an identifier for the layout resource to inflate when the ViewStub
-     * becomes visible or when forced to do so. The layout resource must be a
-     * valid reference to a layout.
+     * <p>This symbol is the offset where the {@link android.R.attr#layout}
+     * attribute's value can be found in the {@link #ViewStubCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -43435,9 +42580,8 @@ public final class R {
      */
     public static final int ViewStubCompat_android_layout=1;
     /**
-     * <p>
-     * @attr description
-     * Overrides the id of the inflated View with this value.
+     * <p>This symbol is the offset where the {@link android.R.attr#inflatedId}
+     * attribute's value can be found in the {@link #ViewStubCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme

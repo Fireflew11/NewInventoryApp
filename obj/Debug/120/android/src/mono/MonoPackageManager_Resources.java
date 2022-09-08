@@ -3,8 +3,23 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "NewInventoryApp.dll" comes first in this list. */
 		"NewInventoryApp.dll",
+		"Kerberos.NET.dll",
+		"Microsoft.Bcl.AsyncInterfaces.dll",
+		"Microsoft.Extensions.Logging.Abstractions.dll",
 		"MySql.Data.CF.dll",
+		"Oracle.ManagedDataAccess.dll",
 		"Plugin.Media.dll",
+		"System.Diagnostics.PerformanceCounter.dll",
+		"System.DirectoryServices.dll",
+		"System.DirectoryServices.Protocols.dll",
+		"System.Formats.Asn1.dll",
+		"System.IO.FileSystem.AccessControl.dll",
+		"System.Security.AccessControl.dll",
+		"System.Security.Cryptography.Pkcs.dll",
+		"System.Security.Permissions.dll",
+		"System.Security.Principal.Windows.dll",
+		"System.Text.Encodings.Web.dll",
+		"System.Text.Json.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",
@@ -58,6 +73,10 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Jetbrains.Annotations.dll",
 		"Xamarin.Kotlin.StdLib.Common.dll",
 		"Xamarin.Kotlin.StdLib.dll",
+		"Xamarin.Kotlin.StdLib.Jdk7.dll",
+		"Xamarin.Kotlin.StdLib.Jdk8.dll",
+		"Xamarin.KotlinX.Coroutines.Android.dll",
+		"Xamarin.KotlinX.Coroutines.Core.Jvm.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

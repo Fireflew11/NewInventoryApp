@@ -2787,12 +2787,12 @@ public final class R {
 		public static final int unlabeled = 0x7f0801db;
 		public static final int up = 0x7f0801dc;
 		public static final int view_offset_helper = 0x7f0801e0;
-		public static final int visible = 0x7f0801e5;
-		public static final int visible_removing_fragment_view_tag = 0x7f0801e6;
-		public static final int withinBounds = 0x7f0801e9;
-		public static final int wrap = 0x7f0801ea;
-		public static final int wrap_content = 0x7f0801eb;
-		public static final int zero_corner_chip = 0x7f0801ef;
+		public static final int visible = 0x7f0801e6;
+		public static final int visible_removing_fragment_view_tag = 0x7f0801e7;
+		public static final int withinBounds = 0x7f0801ea;
+		public static final int wrap = 0x7f0801eb;
+		public static final int wrap_content = 0x7f0801ec;
+		public static final int zero_corner_chip = 0x7f0801f0;
 	}
 	public static final class integer {
 		public static final int abc_config_activityDefaultDur = 0x7f090000;

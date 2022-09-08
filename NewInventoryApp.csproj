@@ -55,6 +55,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
@@ -64,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Activities\CompanyActivity.cs" />
     <Compile Include="Activities\NewShoeActivity.cs" />
+    <Compile Include="Classes\DbConnection.cs" />
     <Compile Include="Classes\Shoe.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -73,6 +75,15 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\Wallet\cwallet.sso" />
+    <AndroidResource Include="Resources\Wallet\ewallet.p12" />
+    <AndroidResource Include="Resources\Wallet\ewallet.pem" />
+    <AndroidResource Include="Resources\Wallet\keystore.jks" />
+    <AndroidResource Include="Resources\Wallet\ojdbc.properties" />
+    <AndroidResource Include="Resources\Wallet\README" />
+    <AndroidResource Include="Resources\Wallet\sqlnet.ora" />
+    <AndroidResource Include="Resources\Wallet\tnsnames.ora" />
+    <AndroidResource Include="Resources\Wallet\truststore.jks" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\colors.xml" />

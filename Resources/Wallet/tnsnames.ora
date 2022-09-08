@@ -1,0 +1,12 @@
+shoesdatabase_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.il-jerusalem-1.oraclecloud.com))(connect_data=(service_name=g5cf6f6973ee2fc_shoesdatabase_high.adb.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adb.il-jerusalem-1.oraclecloud.com, OU=Oracle ADB JERUSALEM, O=Oracle Corporation, L=Redwood City, ST=California, C=US")))
+
+shoesdatabase_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.il-jerusalem-1.oraclecloud.com))(connect_data=(service_name=g5cf6f6973ee2fc_shoesdatabase_low.adb.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adb.il-jerusalem-1.oraclecloud.com, OU=Oracle ADB JERUSALEM, O=Oracle Corporation, L=Redwood City, ST=California, C=US")))
+
+shoesdatabase_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.il-jerusalem-1.oraclecloud.com))(connect_data=(service_name=g5cf6f6973ee2fc_shoesdatabase_medium.adb.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adb.il-jerusalem-1.oraclecloud.com, OU=Oracle ADB JERUSALEM, O=Oracle Corporation, L=Redwood City, ST=California, C=US")))
+
+shoesdatabase_tp = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.il-jerusalem-1.oraclecloud.com))(connect_data=(service_name=g5cf6f6973ee2fc_shoesdatabase_tp.adb.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adb.il-jerusalem-1.oraclecloud.com, OU=Oracle ADB JERUSALEM, O=Oracle Corporation, L=Redwood City, ST=California, C=US")))
+
+shoesdatabase_tpurgent = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.il-jerusalem-1.oraclecloud.com))(connect_data=(service_name=g5cf6f6973ee2fc_shoesdatabase_tpurgent.adb.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adb.il-jerusalem-1.oraclecloud.com, OU=Oracle ADB JERUSALEM, O=Oracle Corporation, L=Redwood City, ST=California, C=US")))
+
+
+

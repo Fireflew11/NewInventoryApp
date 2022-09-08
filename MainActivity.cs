@@ -7,13 +7,15 @@ using Android.Widget;
 using Android.Content;
 using static Android.Manifest;
 using Android;
+using NewInventoryApp.Classes;
+using AlertDialog = Android.App.AlertDialog;
 
 namespace NewInventoryApp
 {
     [Activity(Label = "tusik", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity, View.IOnClickListener
     {
-        Button btnNewShoe;
+        Button btnNewShoe, btnConnectDb;
         EditText SearchCompany, SearchSize;
         readonly string[] permissionGroup =
        {
@@ -21,6 +23,7 @@ namespace NewInventoryApp
             Manifest.Permission.WriteExternalStorage,
             Manifest.Permission.Camera
         };
+
         public void OnClick(View v)
         {
 
@@ -38,6 +41,23 @@ namespace NewInventoryApp
             {
                 Intent newShowIntent = new Intent(this, typeof(Activities.NewShoeActivity));
                 StartActivity((newShowIntent));
+            }
+
+            if (v == btnConnectDb)
+            {
+                try
+                {
+                    DbConnection.ConnectDb();
+                }
+                catch (System.Exception)
+                {
+                    AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                    builder.SetTitle("db error");
+                    builder.Create().Show();
+
+                }
+                
+                
             }
 
 
@@ -58,6 +78,8 @@ namespace NewInventoryApp
             SearchCompany.SetOnClickListener(this);
             btnNewShoe = (Button)FindViewById(Resource.Id.BtnAddShoe);
             btnNewShoe.SetOnClickListener(this);
+            btnConnectDb = (Button)FindViewById(Resource.Id.BtnConnectDb);
+            btnConnectDb.SetOnClickListener(this);
 
             RequestPermissions(permissionGroup, 0);
 

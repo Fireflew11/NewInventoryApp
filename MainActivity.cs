@@ -49,11 +49,13 @@ namespace NewInventoryApp
                 {
                     DbConnection.ConnectDb();
                 }
-                catch (System.Exception)
+                catch (System.Exception ex)
                 {
                     AlertDialog.Builder builder = new AlertDialog.Builder(this);
                     builder.SetTitle("db error");
+                    builder.SetMessage(ex.Message);
                     builder.Create().Show();
+
 
                 }
                 

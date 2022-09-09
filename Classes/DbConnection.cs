@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Oracle.ManagedDataAccess.Client;
-
+using Android.Service.QuickAccessWallet;
 
 namespace NewInventoryApp.Classes
 {
@@ -21,12 +21,16 @@ namespace NewInventoryApp.Classes
             //Enter your ADB's user id, password, and net service name
             OracleConfiguration.SqlNetAuthenticationServices = "none";
 
-            string conString = "User Id=ADMIN;Password=DBAm123456789!;Data Source=shoesdatabase_high;Connection Timeout=30;";
+            string conString = "User Id=ADMIN;Password=DBAm123456789!;Data Source=shoesdatabase_high";
             OracleConfiguration.SqlNetAuthenticationServices = "none";
 
+
             //Enter directory where you unzipped your cloud credentials
-            OracleConfiguration.TnsAdmin = "@Wallet";
+            
+            
+            OracleConfiguration.TnsAdmin = "";
             OracleConfiguration.WalletLocation = OracleConfiguration.TnsAdmin;
+            
 
             using (con = new OracleConnection(conString))
             {
